@@ -1,0 +1,707 @@
+div.yyi-rinker-contents {
+    margin: 2em 0;
+    padding: 0;
+    border: solid 1px #dbdbdb;
+    background-color: #fff;
+    box-shadow: 2px 3px 8px -5px rgba(0,0,0,.25);
+    position: relative;
+    overflow: visible;
+}
+div.yyi-rinker-contents a {
+    border: none;
+}
+
+div.yyi-rinker-contents div.yyi-rinker-box{
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    box-sizing: border-box;
+    padding: 12px;
+}
+
+div.yyi-rinker-contents div.yyi-rinker-image {
+    padding: 0;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+}
+
+.yyi-rinker-img-s .yyi-rinker-image {
+    width: 75px;
+    min-width: 75px;
+}
+
+.yyi-rinker-img-m .yyi-rinker-image {
+    width: 175px;
+    min-width: 175px;
+}
+
+.yyi-rinker-img-l div.yyi-rinker-image{
+    width: 200px;
+    min-width: 200px;
+}
+
+.yyi-rinker-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 5px;
+}
+
+div.yyi-rinker-image img.yyi-rinker-main-img.hidden {
+    display: none;
+}
+
+.yyi-rinker-images-arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    display: block;
+    margin-top: -11px;
+    opacity: 0.6;
+    width: 22px;
+}
+
+.yyi-rinker-images-arrow-left{
+    left: -10px;
+}
+.yyi-rinker-images-arrow-right{
+    right: -10px;
+}
+
+.yyi-rinker-images-arrow-left.hidden {
+    display: none;
+}
+
+.yyi-rinker-images-arrow-right.hidden {
+    display: none;
+}
+
+/* for IE widthに合わせる*/
+
+div.yyi-rinker-contents.yyi-rinker-img-s div.yyi-rinker-info{
+    width: calc(100% - 75px);
+}
+
+div.yyi-rinker-contents div.yyi-rinker-info{
+    width: calc(100% - 175px);
+}
+
+div.yyi-rinker-contents.yyi-rinker-img-l div.yyi-rinker-info{
+    width: calc(100% - 200px);
+}
+
+div.yyi-rinker-contents div.yyi-rinker-title a {
+    color: #333;
+    text-decoration: none;
+}
+
+div.yyi-rinker-contents div.yyi-rinker-title p{
+    margin: 5px;
+}
+
+div.yyi-rinker-contents div.yyi-rinker-detail {
+    font-size: 0.8em;
+    color: #999;
+    padding-left: 15px;
+}
+
+div.yyi-rinker-contents div.yyi-rinker-detail a {
+   text-decoration: underline;
+}
+
+div.yyi-rinker-contents div.yyi-rinker-detail .price-box {
+    color: #aaa;
+}
+
+div.yyi-rinker-contents div.yyi-rinker-detail .free-text {
+    color: #aaa;
+}
+
+div.yyi-rinker-contents ul.yyi-rinker-links {
+    border: none;
+    list-style-type: none;
+    display: inline-flex;
+    display: -ms-inline-flexbox;
+    display: -webkit-inline-flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    padding: 0;
+    width: 100%;
+}
+
+div.yyi-rinker-contents ul.yyi-rinker-links li {
+    content: '';
+    position: static;
+    margin: 2px 5px;
+    padding: 0;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0 6px 12px -5px rgba(0, 0, 0, .30);
+    -ms-flex: 0 0 auto;
+}
+
+div.yyi-rinker-contents ul.yyi-rinker-links li:before {
+    content: '';
+    position: static;
+}
+
+div.yyi-rinker-contents ul.yyi-rinker-links li:hover {
+    box-shadow: 0 5px 8px -5px rgba(0, 0, 0, .30);
+}
+
+div.yyi-rinker-contents ul.yyi-rinker-links li.amazonlink {
+    background: #f6a306;
+}
+
+div.yyi-rinker-contents ul.yyi-rinker-links li a {
+    position: relative;
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 0.9em;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 18px;
+}
+
+div.yyi-rinker-contents ul.yyi-rinker-links li a:hover {
+    border: none;
+    opacity: 0.7;
+}
+
+div.yyi-rinker-contents ul.yyi-rinker-links li a:before {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    border: none;
+}
+
+div.yyi-rinker-contents ul.yyi-rinker-links li.amazonlink {
+    order: 20;
+}
+
+div.yyi-rinker-contents ul.yyi-rinker-links li.amazonlink a:before{
+    content: '';
+}
+
+div.yyi-rinker-contents ul.yyi-rinker-links li.amazonkindlelink {
+    background: #666;
+    order: 15;
+}
+
+div.yyi-rinker-contents ul.yyi-rinker-links li.amazonkindlelink a:before{
+    content: '';
+}
+
+
+div.yyi-rinker-contents ul.yyi-rinker-links li.rakutenlink {
+    background: #cf4944;
+    order: 30;
+}
+
+div.yyi-rinker-contents ul.yyi-rinker-links li.rakutenlink a:before{
+    content: '';
+}
+
+div.yyi-rinker-contents ul.yyi-rinker-links li.yahoolink {
+    background: #51a7e8;
+    order: 40;
+}
+
+div.yyi-rinker-contents ul.yyi-rinker-links li.yahoolink a:before{
+    content: '';
+}
+
+div.yyi-rinker-contents ul.yyi-rinker-links li.mercarilink {
+    background-color: #ff0211;
+    order: 50;
+}
+
+div.yyi-rinker-contents ul.yyi-rinker-links li.mercarilink a:before{
+    content: '';
+}
+
+div.yyi-rinker-contents ul.yyi-rinker-links li.freelink1 {
+    background: #4072B3;
+    order: 10;
+}
+
+div.yyi-rinker-contents ul.yyi-rinker-links li.freelink2 {
+    background: #4DC0B2;
+    order: 50;
+}
+
+div.yyi-rinker-contents ul.yyi-rinker-links li.freelink3 {
+    background: #6f63ad;
+    order: 15;
+}
+
+div.yyi-rinker-contents ul.yyi-rinker-links li.freelink4 {
+    background: #63ad87;
+    order: 55;
+}
+
+div.yyi-rinker-contents ul.yyi-rinker-links img,
+div.yyi-rinker-contents div.yyi-rinker-title img,
+div.yyi-rinker-contents div.yyi-rinker-image a + img{
+    display: none;
+}
+
+div.yyi-rinker-detail .credit-box {
+    font-size: 75%;
+}
+
+ul.yyi-rinker-links li::before {
+    background-color: transparent;
+}
+@media all and (max-width: 420px) {
+    .yyi-rinker-images {
+        margin: auto;
+    }
+}
+
+@media all and (max-width: 420px) and (min-width: 321px) {
+    body div.yyi-rinker-contents ul.yyi-rinker-links li a {
+        padding: 0 0 0 15px;
+    }
+
+    div.yyi-rinker-contents ul.yyi-rinker-links {
+        -webkit-flex-flow: column;
+        flex-direction: column;
+    }
+
+    .yyi-rinker-img-s .yyi-rinker-image {
+        width: 75px;
+        min-width: 75px;
+    }
+
+    .yyi-rinker-img-m .yyi-rinker-image {
+        width: 125px;
+        min-width: 125px;
+    }
+
+    .yyi-rinker-img-l div.yyi-rinker-image{
+        width: 150px;
+        min-width: 150px;
+    }
+
+    div.yyi-rinker-contents.yyi-rinker-img-s div.yyi-rinker-info{
+        width: calc(100% - 75px);
+    }
+
+    div.yyi-rinker-contents div.yyi-rinker-info {
+        width: calc(100% - 125px);
+    }
+
+    div.yyi-rinker-contents.yyi-rinker-img-l div.yyi-rinker-info{
+        width: calc(100% - 150px);
+    }
+}
+
+@media all and (max-width: 320px) {
+    div.yyi-rinker-contents ul.yyi-rinker-links li a {
+        padding: 0 0 0 7px;
+    }
+
+    div.yyi-rinker-contents ul.yyi-rinker-links {
+        -webkit-flex-flow: column;
+        flex-direction: column;
+    }
+
+    .yyi-rinker-img-s .yyi-rinker-image {
+        width: 75px;
+        min-width: 75px;
+    }
+
+    .yyi-rinker-img-m .yyi-rinker-image {
+        width: 100px;
+        min-width: 100px;
+    }
+
+    .yyi-rinker-img-l div.yyi-rinker-image{
+        width: 125px;
+        min-width: 125px;
+    }
+
+    div.yyi-rinker-contents.yyi-rinker-img-s div.yyi-rinker-info{
+        width: calc(100% - 75px);
+    }
+
+    div.yyi-rinker-contents div.yyi-rinker-info {
+        width: calc(100% - 100px);
+    }
+
+    div.yyi-rinker-contents.yyi-rinker-img-l div.yyi-rinker-info{
+        width: calc(100% - 125px);
+    }
+}
+
+body div.yyi-rinker-contents ul.yyi-rinker-links li {
+    list-style: none;
+}
+
+body div.yyi-rinker-contents ul.yyi-rinker-links li:before {
+    position: absolute;
+}
+
+div.yyi-rinker-contents p{
+    padding: 0;
+}
+
+div.yyi-rinker-contents img{
+    margin-bottom: 0;
+}
+
+/* for Gutengerg */
+
+div.yyi_rinker-gutenberg input.rinkerg-richtext{
+    width: 300px;
+}
+
+
+input.rinkerg-richtext {
+    width: 70%;
+}
+
+/**
+For count down
+ */
+
+div.yyi-rinker-contents div.yyi-rinker-detail .free-text .count-in{
+    color: #333;
+}
+
+/**
+For Gutenberg
+ */
+.editor-styles-wrapper div.yyi-rinker-contents .count-top p {
+    margin-top: 0;
+}
+
+div.yyi-rinker-contents.yyi-rinker-design-tate  div.yyi-rinker-box{
+    flex-direction: column;
+}
+
+div.yyi-rinker-contents.yyi-rinker-design-slim div.yyi-rinker-box .yyi-rinker-links {
+    flex-direction: column;
+}
+
+div.yyi-rinker-contents.yyi-rinker-design-slim div.yyi-rinker-info {
+    width: 100%;
+}
+
+div.yyi-rinker-contents.yyi-rinker-design-slim .yyi-rinker-title {
+    text-align: center;
+}
+
+div.yyi-rinker-contents.yyi-rinker-design-slim .yyi-rinker-links {
+    text-align: center;
+}
+div.yyi-rinker-contents.yyi-rinker-design-slim .yyi-rinker-image {
+
+    margin: auto;
+}
+
+div.yyi-rinker-contents.yyi-rinker-design-slim div.yyi-rinker-info ul.yyi-rinker-links li {
+    align-self: stretch;
+}
+div.yyi-rinker-contents.yyi-rinker-design-slim div.yyi-rinker-box div.yyi-rinker-info {
+    padding: 0;
+}
+div.yyi-rinker-contents.yyi-rinker-design-slim div.yyi-rinker-box {
+    flex-direction: column;
+    padding: 14px 5px 0;
+}
+
+.yyi-rinker-design-slim div.yyi-rinker-box div.yyi-rinker-info {
+    text-align: center;
+}
+
+.yyi-rinker-design-slim div.price-box span.price {
+    display: block;
+}
+
+div.yyi-rinker-contents.yyi-rinker-design-slim div.yyi-rinker-info div.yyi-rinker-title a{
+    font-size:16px;
+}
+
+div.yyi-rinker-contents.yyi-rinker-design-slim ul.yyi-rinker-links li.amazonkindlelink:before,  div.yyi-rinker-contents.yyi-rinker-design-slim ul.yyi-rinker-links li.amazonlink:before,  div.yyi-rinker-contents.yyi-rinker-design-slim ul.yyi-rinker-links li.rakutenlink:before,  div.yyi-rinker-contents.yyi-rinker-design-slim ul.yyi-rinker-links li.yahoolink:before {
+    font-size:12px;
+}
+
+div.yyi-rinker-contents.yyi-rinker-design-slim ul.yyi-rinker-links li a {
+    font-size: 13px;
+}
+
+/** ver1.9.2 以降追加 **/
+.yyi-rinker-contents .yyi-rinker-info {
+    padding-left: 10px;
+}
+.yyi-rinker-img-s .yyi-rinker-image .yyi-rinker-images img{
+    max-height: 75px;
+}
+.yyi-rinker-img-m .yyi-rinker-image .yyi-rinker-images img{
+    max-height: 175px;
+}
+.yyi-rinker-img-l .yyi-rinker-image .yyi-rinker-images img{
+    max-height: 200px;
+}
+div.yyi-rinker-contents div.yyi-rinker-image {
+    flex-direction: column;
+    align-items: center;
+}
+div.yyi-rinker-contents ul.yyi-rinker-thumbnails {
+    display: flex;
+    flex-direction: row;
+    flex-wrap : wrap;
+    list-style: none;
+    border:none;
+    padding: 0;
+    margin: 5px 0;
+}
+div.yyi-rinker-contents ul.yyi-rinker-thumbnails li{
+    cursor: pointer;
+    height: 32px;
+    text-align: center;
+    vertical-align: middle;
+    width: 32px;
+    border:none;
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+div.yyi-rinker-contents ul.yyi-rinker-thumbnails li img {
+    vertical-align: middle;
+}
+
+div.yyi-rinker-contents ul.yyi-rinker-thumbnails li {
+    border: 1px solid #fff;
+}
+div.yyi-rinker-contents ul.yyi-rinker-thumbnails li.thumb-active {
+    border: 1px solid #eee;
+}
+
+/* ここから　mini */
+div.yyi-rinker-contents.yyi-rinker-design-mini {
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+/* ボタン非表示 */
+.yyi-rinker-design-mini div.yyi-rinker-info ul.yyi-rinker-links,
+.yyi-rinker-design-mini div.yyi-rinker-info .brand,
+.yyi-rinker-design-mini div.yyi-rinker-info .price-box {
+    display: none;
+}
+
+div.yyi-rinker-contents.yyi-rinker-design-mini .credit-box{
+    text-align: right;
+}
+
+div.yyi-rinker-contents.yyi-rinker-design-mini div.yyi-rinker-info {
+    width:100%;
+}
+.yyi-rinker-design-mini div.yyi-rinker-info div.yyi-rinker-title {
+    line-height: 1.2;
+    min-height: 2.4em;
+    margin-bottom: 0;
+}
+.yyi-rinker-design-mini div.yyi-rinker-info div.yyi-rinker-title a {
+    font-size: 12px;
+    text-decoration: none;
+    text-decoration: underline;
+}
+div.yyi-rinker-contents.yyi-rinker-design-mini {
+    position: relative;
+    max-width: 100%;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 1px 6px rgb(0 0 0 / 12%);
+    background-color: #fff;
+}
+
+div.yyi-rinker-contents.yyi-rinker-design-mini div.yyi-rinker-box {
+    border: none;
+}
+
+.yyi-rinker-design-mini div.yyi-rinker-image {
+    width: 60px;
+    min-width: 60px;
+
+}
+.yyi-rinker-design-mini div.yyi-rinker-image img{
+    max-height: 3.6em;
+}
+.yyi-rinker-design-mini div.yyi-rinker-detail div.credit-box {
+    font-size: 10px;
+}
+.yyi-rinker-design-mini div.yyi-rinker-detail div.brand,
+.yyi-rinker-design-mini div.yyi-rinker-detail div.price-box {
+    font-size: 10px;
+}
+.yyi-rinker-design-mini div.yyi-rinker-info div.yyi-rinker-detail {
+    padding: 0;
+}
+.yyi-rinker-design-mini div.yyi-rinker-detail div:not(:last-child) {
+    padding-bottom: 0;
+}
+.yyi-rinker-design-mini div.yyi-rinker-box div.yyi-rinker-image a {
+    margin-bottom: 16px;
+}
+@media (min-width: 768px){
+    div.yyi-rinker-contents.yyi-rinker-design-mini div.yyi-rinker-box {
+        padding: 12px;
+    }
+    .yyi-rinker-design-mini div.yyi-rinker-box div.yyi-rinker-info {
+        justify-content: center;
+        padding-left: 24px;
+    }
+}
+@media (max-width: 767px){
+    div.yyi-rinker-contents.yyi-rinker-design-mini {
+        max-width:100%;
+    }
+    div.yyi-rinker-contents.yyi-rinker-design-mini div.yyi-rinker-box {
+        flex-direction: row;
+        padding: 12px;
+    }
+    .yyi-rinker-design-mini div.yyi-rinker-box div.yyi-rinker-info {
+        justify-content: center;
+        margin-bottom: 16px;
+        padding-left: 16px;
+        text-align: left;
+    }
+}
+
+div.yyi-rinker-contents .yyi-rinker-attention {
+    display: inline;
+    line-height: 30px;
+    position: absolute;
+    top: -10px;
+    left: -9px;
+    min-width: 60px;
+    padding: 0;
+    height: 30px;
+    text-align: center;
+    font-weight: 600;
+    color: #ffffff;
+    background: #fea724;
+    z-index: 10;
+}
+div.yyi-rinker-contents .yyi-rinker-attention span{
+    padding: 0 15px;
+}
+.yyi-rinker-attention-before, .yyi-rinker-attention-after {
+    display: inline;
+    position: absolute;
+    content: '';
+}
+
+.yyi-rinker-attention-before {
+    bottom: -8px;
+    left: 0.1px;
+    width: 0;
+    height: 0;
+    border-top: 9px solid;
+    border-top-color: inherit;
+    border-left: 9px solid transparent;
+    z-index: 1;
+}
+
+.yyi-rinker-attention-after {
+    top: 0;
+    right: -14.5px;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid;
+    border-left-color: inherit;
+}
+
+div.yyi-rinker-contents .yyi-rinker-attention.attention_desing_circle{
+    display: flex;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 60px;
+    height: 60px;
+    min-width: auto;
+    min-height: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #fea724;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+div.yyi-rinker-contents.yyi-rinker-design-mini .yyi-rinker-attention.attention_desing_circle{
+    top: -14px;
+    left: -14px;
+    width: 36px;
+    height: 36px;
+    font-size: 12px;
+}
+
+div.yyi-rinker-contents .yyi-rinker-attention.attention_desing_circle{
+}
+
+div.yyi-rinker-contents .yyi-rinker-attention.attention_desing_circle span {
+    padding: 0;
+}
+
+div.yyi-rinker-contents .yyi-rinker-attention.attention_desing_circle .yyi-rinker-attention-after,
+div.yyi-rinker-contents .yyi-rinker-attention.attention_desing_circle .yyi-rinker-attention-before{
+    display: none;
+}
+
+div.yyi-rinker-contents .yyi-rinker-attention.attention_desing_right_ribbon {
+    width: 89px;
+    height: 91px;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    left: auto;
+    overflow: hidden;
+}
+
+div.yyi-rinker-contents .yyi-rinker-attention.attention_desing_right_ribbon span {
+    display: inline-block;
+    width: 146px;
+    position: absolute;
+    padding: 4px 0;
+    left: -13px;
+    top: 12px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 24px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+div.yyi-rinker-contents .yyi-rinker-attention.attention_desing_right_ribbon {
+    background: none;
+}
+.yyi-rinker-attention.attention_desing_right_ribbon .yyi-rinker-attention-after,
+.yyi-rinker-attention.attention_desing_right_ribbon .yyi-rinker-attention-before{
+    display:none;
+}
+
+div.yyi-rinker-use-right_ribbon div.yyi-rinker-title {
+    margin-right: 2rem;
+}

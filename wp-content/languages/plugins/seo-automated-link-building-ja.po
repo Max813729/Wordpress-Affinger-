@@ -1,0 +1,422 @@
+# Translation of Plugins - Internal Links Manager - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - Internal Links Manager - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-05-23 08:46:47+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Internal Links Manager - Stable (latest release)\n"
+
+#: src/Plugin.php:576
+msgid "Do not track link clicks when logged in."
+msgstr "ログイン時にリンクのクリックを追跡しない。"
+
+#: src/Links_List.php:91 src/Plugin.php:522
+msgid "Priority"
+msgstr "優先順位"
+
+#: src/templates/statistic.php:23
+msgid "Days"
+msgstr "日"
+
+#: src/templates/statistic.php:24
+msgid "Overall"
+msgstr "全体"
+
+#: src/class-wp-list-table.php:169
+msgid "Compact view"
+msgstr "コンパクト表示"
+
+#: src/class-wp-list-table.php:170
+msgid "Extended view"
+msgstr "拡張表示"
+
+#: src/Plugin.php:600
+msgid "Only add missing items (compared by ID)"
+msgstr "不足している項目のみを追加 (ID で比較)"
+
+#: src/Plugin.php:602
+msgid "Add all items (new ID will be generated)"
+msgstr "すべての項目を追加 (新しい ID が生成されます)"
+
+#: src/Plugin.php:477
+msgid "Links per page"
+msgstr "ページごとのリンク数"
+
+#: src/Statistic_List.php:67
+msgid "Delete all"
+msgstr "すべて削除"
+
+#: src/Plugin.php:572
+msgid "Excluded html elements"
+msgstr "除外されたhtml要素"
+
+#: src/Plugin.php:532
+msgid "Partial replacement"
+msgstr "部分入れ替え"
+
+#: src/Plugin.php:573
+msgid ""
+"#example-id\n"
+".example-class"
+msgstr ""
+"#example-id\n"
+".example-class"
+
+#: src/Plugin.php:533
+msgid "Allow partial replacement of words. (e.g. success in successful)"
+msgstr "単語の部分的な置換を許可する。(例: 「成功」を「成功例」の中で置換)"
+
+#: src/Plugin.php:604
+msgid "Export all links"
+msgstr "すべてのリンクをエクスポート"
+
+#: src/Plugin.php:404 src/Plugin.php:405
+msgid "Import + Export"
+msgstr "エクスポートとインポート"
+
+#: src/Links_List.php:101 src/Plugin.php:599
+msgid "Export"
+msgstr "エクスポート"
+
+#: src/Plugin.php:598
+msgid "Import"
+msgstr "インポート"
+
+#: src/Plugin.php:228
+msgid "Drop files here to import"
+msgstr "ここにファイルをドロップしてインポート"
+
+#. Plugin Name of the plugin
+#: seo-automated-link-building.php
+msgid "Internal Links Manager"
+msgstr "Internal Links Manager"
+
+#: src/Plugin.php:525
+msgid "Unlimited"
+msgstr "無制限"
+
+#: src/Plugin.php:186
+msgid "Words to replace..."
+msgstr "置き換える単語..."
+
+#: src/Links_List.php:89 src/Plugin.php:510
+msgid "Page"
+msgstr "固定ページ"
+
+#: src/Plugin.php:512
+msgid "Use custom url"
+msgstr "カスタム URL を使用"
+
+#: src/Plugin.php:515
+msgid "Use website page"
+msgstr "固定ページを使用"
+
+#: src/Plugin.php:183
+msgid "Please provide a page"
+msgstr "固定ページを入力してください"
+
+#: src/Plugin.php:245
+msgid "Clicks"
+msgstr "クリック"
+
+#: src/Plugin.php:247 src/Statistic_List.php:60
+msgid "Date"
+msgstr "日付"
+
+#: src/Plugin.php:246
+msgid "MM/DD/YYYY"
+msgstr "MM/DD/YYYY"
+
+#: src/Plugin.php:358 src/Plugin.php:395 src/Plugin.php:396
+#: src/templates/statistic.php:21
+msgid "Statistic"
+msgstr "統計情報"
+
+#: src/Statistic_List.php:58
+msgid "Destination Url"
+msgstr "リンク先 URL"
+
+#: src/Statistic_List.php:59
+msgid "Source Url"
+msgstr "ソース URL"
+
+#: src/Statistic_List.php:101
+msgid "No Statistic available."
+msgstr "統計情報がありません。"
+
+#: src/Links_List.php:142
+msgid "Edit"
+msgstr "編集"
+
+#: src/Links_List.php:100
+msgid "Deactivate"
+msgstr "無効化"
+
+#: src/Links_List.php:99
+msgid "Activate"
+msgstr "有効化"
+
+#: src/Plugin.php:461
+msgid "Active"
+msgstr "有効"
+
+#: src/Plugin.php:460
+msgid "All"
+msgstr "すべて"
+
+#: src/Plugin.php:462
+msgid "Deactivated"
+msgstr "無効化済み"
+
+#: src/Links_List.php:90
+msgid "Status"
+msgstr "ステータス"
+
+#: src/Plugin.php:569
+msgid "Post types"
+msgstr "投稿タイプ"
+
+#: src/Plugin.php:570
+msgid "Choose from"
+msgstr "選択してください"
+
+#: src/Plugin.php:565
+msgid "Only these pages should be changed. One url per line. Optional."
+msgstr "これらのページのみを変更する必要があります。1行に1つの URL。オプション。"
+
+#: src/Plugin.php:182
+msgid "Please provide an URL"
+msgstr "URL を入力してください"
+
+#: src/Plugin.php:524
+msgid "Number of links"
+msgstr "リンク数"
+
+#: src/Plugin.php:509
+msgid "The title for your internal structure"
+msgstr "内部構造のタイトル"
+
+#: src/Plugin.php:508
+msgid "Internal title"
+msgstr "内部タイトル"
+
+#: src/Plugin.php:181
+msgid "Please provide an internal title"
+msgstr "内部でのタイトルを入力してください"
+
+#: src/Plugin.php:527
+msgid "Let searchengines follow this link"
+msgstr "検索エンジンにこのリンクを辿らせる"
+
+#: src/Plugin.php:184
+msgid "Please provide keywords"
+msgstr "キーワードを入力してください"
+
+#: src/Plugin.php:511 src/Plugin.php:514
+msgid "Which page would you like to link to?"
+msgstr "どの固定ページにリンクしますか ?"
+
+#: src/Plugin.php:518
+msgid "Settings (optional)"
+msgstr "設定 (オプション)"
+
+#: src/Plugin.php:521
+msgid "Don't use a link-title (not recommended)"
+msgstr "リンクタイトルを使用しない (非推奨)"
+
+#: src/Plugin.php:567
+msgid "Blacklist"
+msgstr "ブラックリスト"
+
+#: src/Plugin.php:564
+msgid "Whitelist"
+msgstr "ホワイトリスト"
+
+#: src/Plugin.php:357 src/Plugin.php:413 src/Plugin.php:414 src/Plugin.php:563
+msgid "Settings"
+msgstr "設定"
+
+#: src/Plugin.php:531
+msgid "Open in new tab"
+msgstr "新しいタブで開く"
+
+#: src/Plugin.php:530
+msgid "Open in same tab"
+msgstr "同じタブで開く"
+
+#: src/Plugin.php:529
+msgid "Link target"
+msgstr "リンク先"
+
+#: src/Plugin.php:519
+msgid "Link title"
+msgstr "リンクタイトル"
+
+#: src/class-wp-list-table.php:1192
+msgid "Select All"
+msgstr "すべて選択"
+
+#: src/class-wp-list-table.php:959
+msgid "Next page"
+msgstr "次のページ"
+
+#: src/class-wp-list-table.php:970
+msgid "Last page"
+msgstr "最後のページ"
+
+#: src/class-wp-list-table.php:936 src/class-wp-list-table.php:940
+msgid "Current Page"
+msgstr "現在のページ"
+
+#: src/class-wp-list-table.php:929
+msgid "Previous page"
+msgstr "前のページ"
+
+#. translators: %s: Number of items.
+#. translators: Number of items.
+#: src/class-wp-list-table.php:876 src/class-wp-list-table.php:1483
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "%s個の項目"
+
+#: src/Plugin.php:355 src/Plugin.php:386 src/Plugin.php:387 src/Plugin.php:495
+msgid "Add New Link"
+msgstr "新規リンクを追加"
+
+#: src/Plugin.php:436
+msgid "Edit Link"
+msgstr "リンクを編集"
+
+#: src/class-wp-list-table.php:918
+msgid "First page"
+msgstr "最初の固定ページ"
+
+#. translators: 1: Current page, 2: Total pages.
+#: src/class-wp-list-table.php:948
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr "%1$s / %2$s"
+
+#: src/class-wp-list-table.php:787
+msgid "No pending comments"
+msgstr "承認待ちのコメントはありません"
+
+#: src/class-wp-list-table.php:764
+msgid "No approved comments"
+msgstr "承認済みのコメントはありません"
+
+#: src/class-wp-list-table.php:642
+msgid "All dates"
+msgstr "すべての日付"
+
+#: src/class-wp-list-table.php:509
+msgid "Apply"
+msgstr "適用"
+
+#: src/class-wp-list-table.php:486
+msgid "Select bulk action"
+msgstr "一括操作を選択"
+
+#: src/class-wp-list-table.php:335
+msgid "No items found."
+msgstr "項目は見つかりませんでした。"
+
+#: src/Links_List.php:182 src/Statistic_List.php:111
+msgid "Search"
+msgstr "検索"
+
+#: src/Links_List.php:176
+msgid "No links available."
+msgstr "リンクはありません。"
+
+#: src/Links_List.php:98 src/Links_List.php:144
+msgid "Delete"
+msgstr "削除"
+
+#: src/Links_List.php:89
+msgid "Url"
+msgstr "URL"
+
+#: src/Plugin.php:536 src/Plugin.php:579 src/templates/settings.php:81
+msgid "Save"
+msgstr "保存"
+
+#. Description of the plugin
+#: seo-automated-link-building.php
+msgid "Build internal links easily."
+msgstr "内部リンクを簡単に構築できます。"
+
+#. Author URI of the plugin
+#: seo-automated-link-building.php
+msgid "https://www.webraketen.io"
+msgstr "https://www.webraketen.io"
+
+#: src/Plugin.php:356 src/Plugin.php:376 src/Plugin.php:377 src/Plugin.php:458
+msgid "All Links"
+msgstr "すべてのリンク"
+
+#: src/Links_List.php:87 src/Plugin.php:249 src/Statistic_List.php:56
+msgid "Title"
+msgstr "タイトル"
+
+#: src/Plugin.php:513
+msgid "URL"
+msgstr "URL"
+
+#: src/Plugin.php:459
+msgid "Add New"
+msgstr "新規追加"
+
+#. Author of the plugin
+#: seo-automated-link-building.php
+msgid "webraketen"
+msgstr "webraketen"
+
+#: src/Links_List.php:88 src/Plugin.php:516
+msgid "Keywords"
+msgstr "キーワード"
+
+#. translators: %s: Number of comments.
+#: src/class-wp-list-table.php:726
+msgid "%s pending comment"
+msgid_plural "%s pending comments"
+msgstr[0] "%s件の承認待ちコメント"
+
+#. translators: %s: Number of comments.
+#: src/class-wp-list-table.php:714
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] "%s件のコメント"
+
+#. translators: %s: Number of comments.
+#: src/class-wp-list-table.php:720
+msgid "%s approved comment"
+msgid_plural "%s approved comments"
+msgstr[0] "%s件の承認済みコメント"
+
+#. translators: 1: Month name, 2: 4-digit year.
+#: src/class-wp-list-table.php:657
+msgid "%1$s %2$d"
+msgstr "%2$d年%1$s"
+
+#: src/class-wp-list-table.php:488
+msgid "Bulk actions"
+msgstr "一括操作"
+
+#: src/class-wp-list-table.php:640
+msgid "Filter by date"
+msgstr "日付で絞り込む"
+
+#: src/class-wp-list-table.php:734 src/class-wp-list-table.php:764
+#: src/class-wp-list-table.php:787
+msgid "No comments"
+msgstr "コメントはありません"
+
+#: src/class-wp-list-table.php:572 src/class-wp-list-table.php:1458
+msgid "Show more details"
+msgstr "詳細を追加表示"

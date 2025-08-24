@@ -1,0 +1,46 @@
+# Translation of Plugins - IndexNow Plugin - Development (trunk) in Japanese
+# This file is distributed under the same license as the Plugins - IndexNow Plugin - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-10-25 10:46:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - IndexNow Plugin - Development (trunk)\n"
+
+#: admin/class-indexnow-url-submission-admin.php:138
+msgid "Settings"
+msgstr "設定"
+
+#: admin/class-indexnow-url-submission-admin.php:108
+msgid "IndexNow Plugin"
+msgstr "IndexNow プラグイン"
+
+#. Author URI of the plugin
+#: indexnow-url-submission.php
+msgid "https://www.bing.com/indexnow"
+msgstr "https://www.bing.com/indexnow"
+
+#. Author of the plugin
+#: indexnow-url-submission.php
+msgid "Microsoft Bing"
+msgstr "Microsoft Bing"
+
+#. Description of the plugin
+#: indexnow-url-submission.php
+msgid "A small plugin to allow Url submissions to IndexNow."
+msgstr "IndexNow への URL 送信を可能にするちょっとしたプラグイン。"
+
+#. Plugin URI of the plugin
+#: indexnow-url-submission.php
+msgid "https://www.bing.com/webmaster"
+msgstr "https://www.bing.com/webmaster"
+
+#. Plugin Name of the plugin
+#: indexnow-url-submission.php
+#: admin/class-indexnow-url-submission-admin.php:109
+msgid "IndexNow"
+msgstr "IndexNow"

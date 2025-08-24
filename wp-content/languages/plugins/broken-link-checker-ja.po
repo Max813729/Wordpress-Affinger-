@@ -1,0 +1,2325 @@
+# Translation of Plugins - Broken Link Checker - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - Broken Link Checker - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-12-13 14:14:44+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Broken Link Checker - Stable (latest release)\n"
+
+#: legacy/core/core.php:408
+msgid "Broken Links (Old)"
+msgstr "リンク切れ (旧)"
+
+#: core/views/class-admin-page.php:132
+msgid "Membership"
+msgstr "メンバーシップ"
+
+#: core/views/class-admin-page.php:131
+msgid "Free Plugins"
+msgstr "無料プラグイン"
+
+#: core/views/class-admin-page.php:124 core/views/class-admin-page.php:138
+msgid "Privacy Policy"
+msgstr "プライバシーポリシー"
+
+#: core/views/class-admin-page.php:123 core/views/class-admin-page.php:137
+msgid "Terms of Service"
+msgstr "利用規約"
+
+#: core/views/class-admin-page.php:122
+msgid "Community"
+msgstr "コミュニティ"
+
+#: core/views/class-admin-page.php:120 core/views/class-admin-page.php:134
+msgid "Support"
+msgstr "サポート"
+
+#: core/views/class-admin-page.php:119 core/views/class-admin-page.php:133
+msgid "Roadmap"
+msgstr "ロードマップ"
+
+#: core/views/class-admin-page.php:118
+msgid "Plugins"
+msgstr "プラグイン"
+
+#: core/views/class-admin-page.php:117 core/views/class-admin-page.php:136
+msgid "The Hub"
+msgstr "The Hub"
+
+#. translators: %s - icon
+#: core/views/class-admin-page.php:96
+msgid "Made with %s by WPMU DEV"
+msgstr "WPMU DEV によって %s で作成"
+
+#: core/views/class-admin-page.php:67
+msgid "View Documentation"
+msgstr "ドキュメントを表示"
+
+#: core/utils/class-utilities.php:956
+msgctxt "date time sep"
+msgid " "
+msgstr " "
+
+#. translators: 1. The Seconds of the datetime.
+#: core/utils/class-utilities.php:895
+msgid "%d s "
+msgid_plural "%d s "
+msgstr[0] "%d 秒 "
+
+#. translators: 1. The Minutes of the datetime.
+#: core/utils/class-utilities.php:884
+msgid "%d min "
+msgid_plural "%d min "
+msgstr[0] "%d 分 "
+
+#. translators: 1. The Hours of the datetime.
+#: core/utils/class-utilities.php:872
+msgid "%d h "
+msgid_plural "%d h "
+msgstr[0] "%d 時 "
+
+#: core/models/class-http-request.php:93
+msgid "Missing url."
+msgstr "URL がありません。"
+
+#: app/webhooks/user-review/class-controller.php:84
+msgid "No user found for given input data."
+msgstr "入力データに対応するユーザーが見つかりません。"
+
+#: app/webhooks/user-review/class-controller.php:76
+#: app/webhooks/user-review/class-controller.php:85
+msgid "Invalid action"
+msgstr "無効な操作"
+
+#: app/webhooks/user-review/class-controller.php:75
+msgid "It seems there is some missing input"
+msgstr "入力漏れがあります"
+
+#: app/webhooks/user-review/class-controller.php:59
+msgid "Review Broken Link Checker plugin"
+msgstr "Broken Link Checker のレビュー"
+
+#: app/webhooks/scan-complete/class-controller.php:66
+msgid "Scan results"
+msgstr "スキャン結果"
+
+#: app/webhooks/recipient-activation/class-controller.php:56
+msgid "Activate broken links recipient"
+msgstr "リンク切れ受信者の有効化"
+
+#. translators: 1: Recipient name 2: Opening link tag 3; Closing link tag
+#: app/virtual-posts/recipient-activation/class-view.php:102
+msgid "Hi %1$s. You should stop receiving broken links reports for this site. You can visit site from %2$shere%3$s."
+msgstr "こんにちは、%1$sさん。このサイトのリンク切れレポートを受信しないようにしてください。%2$sこちら%3$sからサイトにアクセスできます。"
+
+#: app/virtual-posts/recipient-activation/class-view.php:95
+msgid "Your email has been successfully removed from broken links recipients list."
+msgstr "あなたのメールアドレスがリンク切れ受信者リストから削除されました。"
+
+#: app/virtual-posts/recipient-activation/class-view.php:81
+msgid "If you do not wish to receive these reports in your email, you can contact site admins."
+msgstr "これらのレポートを受け取りたくない場合は、サイト管理者に連絡してください。"
+
+#. translators: 1: Opening link tag 2; Closing link tag
+#: app/virtual-posts/recipient-activation/class-view.php:73
+msgid "If you do not wish to receive these reports in your email, you can contact site admins or click %1$shere to cancel email reports instantly%2$s."
+msgstr "これらのレポートをメールで受け取りたくない場合は、サイト管理者に連絡するか、%1$sここをクリックして即座にレポートをキャンセルしてください%2$s。"
+
+#. translators: 1: Recipient name 2: Opening link tag 3; Closing link tag
+#: app/virtual-posts/recipient-activation/class-view.php:49
+msgid "Hi %1$s. You have become a recipient of site's broken links reports. You can continue to site from %2$shere%3$s."
+msgstr "こんにちは、%1$sさん。あなたはサイトのリンク切れレポートの受信者になりました。%2$sこちら%3$sからサイトを継続できます。"
+
+#: app/virtual-posts/recipient-activation/class-view.php:43
+msgid "You have been added in broken links reports recipients."
+msgstr "リンク切れ報告の受信者に追加されました。"
+
+#: app/rest-endpoints/settings/includes/class-schema.php:117
+msgid "Response instructions."
+msgstr "応答の指示。"
+
+#: app/rest-endpoints/settings/includes/class-schema.php:90
+msgid "User role label"
+msgstr "ユーザー権限グループラベル"
+
+#: app/rest-endpoints/settings/includes/class-schema.php:86
+msgid "User role name"
+msgstr "ユーザー権限グループ名"
+
+#: app/rest-endpoints/settings/includes/class-schema.php:78
+msgid "Use legacy BLC"
+msgstr "以前の Broken Link Checker を使用"
+
+#: app/rest-endpoints/settings/includes/class-schema.php:73
+msgid "Activation modal shown or not."
+msgstr "アクティベーションモーダルが表示されるかどうか。"
+
+#: app/rest-endpoints/settings/includes/class-schema.php:69
+msgid "All BLC settings."
+msgstr "Broken Link Checker のすべての設定。"
+
+#: app/rest-endpoints/settings/class-controller.php:590
+msgid "Action forbidden."
+msgstr "禁止されたアクション。"
+
+#: app/rest-endpoints/settings/class-controller.php:552
+msgid "You cannot view settings."
+msgstr "設定を見ることができません。"
+
+#: app/rest-endpoints/settings/class-controller.php:463
+msgid "Schedule days were not set"
+msgstr "スケジュールの曜日が設定されていません"
+
+#: app/rest-endpoints/settings/class-controller.php:455
+msgid "Schedule frequency was not set"
+msgstr "スケジュールの頻度が設定されていません"
+
+#: app/rest-endpoints/settings/class-controller.php:262
+msgid "Settings saved"
+msgstr "設定を保存しました"
+
+#. translators: 1: The Hub's signup url.
+#: app/rest-endpoints/settings/class-controller.php:248
+msgid "Dashboard plugin is not installed. You can connect your site for free directly from <a href=\"%s\">Hub<a>."
+msgstr "ダッシュボードプラグインがインストールされていません。<a href=\"%s\">Hub<a>から無料で接続できます。"
+
+#: app/rest-endpoints/settings/class-controller.php:230
+msgid "Dashboard plugin could not be activated. You can reload page and try again or contact support."
+msgstr "ダッシュボードのプラグインを有効にできませんでした。ページをリロードして再試行するか、サポートにお問い合わせください。"
+
+#: app/rest-endpoints/settings/class-controller.php:210
+msgid "Dashboard plugin has been activated.  You should be redirected to sign-in page shortly"
+msgstr "ダッシュボードプラグインが有効化されました。  まもなくサインインページにリダイレクトします"
+
+#: app/rest-endpoints/settings/class-controller.php:187
+msgid "Dashboard plugin has been activated."
+msgstr "ダッシュボードプラグインが有効化されました。"
+
+#: app/rest-endpoints/settings/class-controller.php:168
+msgid "Dashboard plugin is already active. Please wait while refreshing page."
+msgstr "ダッシュボードプラグインはすでに有効化されています。ページが更新されるまでお待ちください。"
+
+#: app/rest-endpoints/settings/class-controller.php:127
+msgid "Schedule event not created. Please refresh page and try once more"
+msgstr "スケジュールイベントは作成されませんでした。ページを更新してもう一度お試しください"
+
+#: app/rest-endpoints/scan/class-controller.php:203
+msgid "Scan response data/results."
+msgstr "応答データ / 結果をスキャンする。"
+
+#: app/rest-endpoints/scan/class-controller.php:188
+msgid "The scan status."
+msgstr "スキャンのステータス。"
+
+#: app/rest-endpoints/scan/class-controller.php:183
+msgid "If true scan has started successfully, else it has not."
+msgstr "True の場合、スキャンは正常に開始されました。"
+
+#: app/rest-endpoints/scan/class-controller.php:154
+msgid "You are not allowed to start a new scan."
+msgstr "新しいスキャンをスタートする権限がありません。"
+
+#: app/rest-endpoints/avatars/class-controller.php:162
+#: app/rest-endpoints/scan/class-controller.php:208
+#: app/rest-endpoints/settings/includes/class-schema.php:104
+msgid "Response status code."
+msgstr "応答のステータスコード。"
+
+#: app/rest-endpoints/avatars/class-controller.php:157
+#: app/rest-endpoints/scan/class-controller.php:198
+#: app/rest-endpoints/settings/includes/class-schema.php:99
+msgid "Response message."
+msgstr "応答メッセージ。"
+
+#: app/rest-endpoints/avatars/class-controller.php:152
+msgid "Auto-confirmed when email belongs to user."
+msgstr "メールがユーザーのものである場合、自動承認されます。"
+
+#: app/rest-endpoints/avatars/class-controller.php:147
+msgid "Avatar by email."
+msgstr "メールによるアバター。"
+
+#: app/rest-endpoints/avatars/class-controller.php:118
+msgid "You can not fetch avatars."
+msgstr "アバターを取得できません。"
+
+#: app/rest-endpoints/avatars/class-controller.php:92
+msgid "Invalid email address"
+msgstr "無効なメールアドレス"
+
+#: app/rest-endpoints/avatars/class-controller.php:87
+msgid "Avatar url"
+msgstr "アバター URL"
+
+#: app/hub-endpoints/edit-link/class-controller.php:37
+#: app/hub-endpoints/nofollow-link/class-controller.php:36
+#: app/hub-endpoints/unlink-link/class-controller.php:36
+#: core/controllers/class-hub-endpoint.php:95
+msgid "Something went wrong with this HTTP request"
+msgstr "この HTTP リクエストで問題が発生しました"
+
+#: app/http-requests/sync-scan-results/class-controller.php:350
+msgid "Results are missing. Aborting importing data."
+msgstr "結果がありません。データのインポートを中止します。"
+
+#: app/http-requests/sync-scan-results/class-controller.php:349
+msgid "The start time is missing. Aborting importing data."
+msgstr "開始時刻がありません。データのインポートを中止します。"
+
+#: app/http-requests/sync-scan-results/class-controller.php:348
+msgid "Something went wrong while storing new data to DB. More likely there is nothing to update"
+msgstr "新しいデータを DB に保存する際に問題が発生しました。更新対象がない可能性があります"
+
+#: app/http-requests/sync-scan-results/class-controller.php:347
+msgid "Scan is currently in progress. Please try again in a few minutes."
+msgstr "スキャンは現在進行中です。数分後にもう一度お試しください。"
+
+#: app/http-requests/sync-scan-results/class-controller.php:258
+msgid "Data successfully updated."
+msgstr "データは正常に更新されました。"
+
+#: app/http-requests/sync-scan-results/class-controller.php:251
+msgid "Scan completed successfully."
+msgstr "スキャンが完了しました。"
+
+#: app/http-requests/scan/class-controller.php:244
+msgid "Scan is currently in progress. Please try again in 15 minutes."
+msgstr "スキャンは現在進行中です。15分後にもう一度お試しください。"
+
+#: app/http-requests/scan/class-controller.php:243
+#: app/http-requests/sync-scan-results/class-controller.php:346
+msgid "Something went wrong with request."
+msgstr "リクエストで問題が発生しました。"
+
+#: app/http-requests/scan/class-controller.php:188
+#: app/http-requests/sync-scan-results/class-controller.php:291
+msgid "Can not make request."
+msgstr "リクエストできません。"
+
+#: app/http-requests/scan/class-controller.php:174
+#: app/http-requests/sync-scan-results/class-controller.php:277
+msgid "Scan could not be started because it seems you are on localhost. Broken Links Checker API can not reach sites on local hosts"
+msgstr "スキャンを開始できませんでした。 Broken Links Checker API はローカルホストのサイトにアクセスできません"
+
+#: app/http-requests/scan/class-controller.php:156
+msgid "Scan for Broken Links is in progress. Please wait a few minutes until scan completes."
+msgstr "リンク切れのスキャンが進行中です。スキャンが完了するまでしばらくお待ちください。"
+
+#: app/emails/scan-report/class-view.php:170
+msgid "Source URL"
+msgstr "ソース URL"
+
+#: app/emails/scan-report/class-view.php:103
+msgid "Unknown"
+msgstr "不明"
+
+#: app/emails/scan-report/class-model.php:61
+msgid "BLC Report"
+msgstr "Broken Links Checker レポート"
+
+#: app/emails/scan-report/class-controller.php:180
+#: app/virtual-posts/recipient-activation/class-controller.php:29
+msgid "Broken links reports"
+msgstr "リンク切れの報告"
+
+#. translators: 1: opening <a> tag 2: closing </a> tag
+#: app/emails/scan-report/class-controller.php:133
+msgid "Are you enjoying the new Broken Link Checker? Share your valuable feedback on wordpress.org to help us further enhance and support our plugin. Give us feedback %shere%s."
+msgstr "新しい Broken Link Checker を楽しんでいますか？ プラグインのさらなる強化とサポートに役立つよう、 wordpress.org で貴重なフィードバックをお寄せください。 %s こちら %s からフィードバックをお寄せください。"
+
+#: app/emails/scan-report/class-controller.php:98
+msgid "View Report"
+msgstr "レポートを表示"
+
+#: app/emails/scan-report/class-controller.php:98
+msgid "View Full Report"
+msgstr "すべてのレポートを表示"
+
+#: app/emails/scan-report/class-controller.php:96
+msgid "The list below shows a maximum of 20 broken links. Click the View Full Report button to see the full list."
+msgstr "以下のリストには最大20個のリンク切れを表示しています。全リストを表示するには、「すべてのレポートを表示」ボタンをクリックしてください。"
+
+#: app/emails/scan-report/class-controller.php:95
+msgid "Broken link report"
+msgstr "リンク切れの報告"
+
+#: app/emails/scan-report/class-controller.php:89
+msgid "Unique URLs"
+msgstr "ユニークなURL"
+
+#: app/emails/scan-report/class-controller.php:86
+msgid "Total Links"
+msgstr "総リンク数"
+
+#: app/emails/scan-report/class-controller.php:77
+msgid "Here are your latest broken link test results."
+msgstr "最新のリンク切れテスト結果。"
+
+#: app/emails/scan-report/class-controller.php:76
+msgid "Summary"
+msgstr "要約"
+
+#: app/emails/scan-report/class-controller.php:72
+msgid "Here's your latest broken link summary generated on {{SCANDATE}}."
+msgstr "{{SCANDATE}} で生成された最新のリンク切れの概要です。"
+
+#: app/emails/scan-report/class-controller.php:69
+msgid "Broken Link Report for"
+msgstr "リンク切れレポート"
+
+#: app/emails/recipient-activation/class-model.php:106
+#: app/emails/scan-report/class-view.php:229
+msgid "Follow us"
+msgstr "フォローする"
+
+#: app/emails/recipient-activation/class-model.php:47
+msgid "Broken Link Notification"
+msgstr "リンク切れ通知"
+
+#: app/emails/recipient-activation/class-controller.php:96
+#: app/emails/scan-report/class-controller.php:110
+msgid "Unsubscribe"
+msgstr "購読停止"
+
+#: app/emails/recipient-activation/class-controller.php:94
+#: app/emails/scan-report/class-controller.php:108
+msgid "INCSUB PO BOX 163, ALBERT PARK, VICTORIA.3206 AUSTRALIA"
+msgstr "INCSUB PO BOX 163, ALBERT PARK, VICTORIA.3206 AUSTRALIA"
+
+#: app/emails/recipient-activation/class-controller.php:93
+#: app/emails/scan-report/class-controller.php:107
+msgid "Build A Better WordPress Business"
+msgstr "より良い WordPress ビジネスの構築"
+
+#: app/emails/recipient-activation/class-controller.php:92
+#: app/emails/scan-report/class-controller.php:106
+msgid "Link to WPMU DEV Home page"
+msgstr "WPMU DEV のホームページへのリンク"
+
+#: app/emails/recipient-activation/class-controller.php:85
+msgid "Confirm Subscription"
+msgstr "購読を確認"
+
+#: app/emails/recipient-activation/class-controller.php:81
+#: app/emails/scan-report/class-controller.php:70
+msgid "Hi {{USERNAME}}"
+msgstr "こんにちは {{USERNAME}}"
+
+#: app/emails/recipient-activation/class-controller.php:55
+msgid "Broken links reports activation"
+msgstr "リンク切れ報告の有効化"
+
+#: app/broken-links-actions/processors/class-main.php:432
+msgid "Unmapped action"
+msgstr "マッピングされていないアクション"
+
+#: app/broken-links-actions/handlers/class-full-site-handler.php:268
+msgid "Missing Full Site Target Table"
+msgstr "フルサイトターゲットテーブルがありません"
+
+#: app/broken-links-actions/class-router.php:306
+msgid "Invalid sub-site id"
+msgstr "無効なサブサイト ID"
+
+#. translators: %1$s: The schema's key name.
+#: app/broken-links-actions/class-router.php:287
+msgid "Links param `%1$s` potentially malicious"
+msgstr "リンクパラメータ `%1$s` は悪意がある可能性があります"
+
+#. translators: %1$s: The keyname of the schema that will be used to sanitize.
+#: app/broken-links-actions/class-router.php:267
+msgid "Links params do not follow schema. Key `%1$s` missing"
+msgstr "リンクパラメータがスキーマに従っていません。キー `%1$s` が見つかりません"
+
+#: app/broken-links-actions/class-router.php:246
+msgid "Invalid input json string"
+msgstr "無効な入力 json 文字列"
+
+#: app/broken-links-actions/class-router.php:231
+msgid "Missing input conversion params"
+msgstr "入力変換パラメータがありません"
+
+#: app/broken-links-actions/class-router.php:181
+msgid "Aborting as there are no links"
+msgstr "リンクがないため中止します"
+
+#: app/broken-links-actions/class-router.php:139
+msgid "Empty link"
+msgstr "空のリンク"
+
+#: app/broken-links-actions/class-router.php:92
+msgid "Something went wrong"
+msgstr "問題が発生しました"
+
+#. translators: %1$s: Open a tag  %2$s: Close a tag.
+#: app/broken-links-actions/class-router.php:49
+msgid "BLC plugin is set to Local Engine and can not perform any Cloud Engine action. Please make sure plugin is set to %1$sCloud Engine%2$s"
+msgstr "Broken Link Checker がローカルエンジンに設定されており、クラウドエンジンのアクションを実行できません。プラグインが %1$s Cloud Engine %2$s に設定されていることを確認してください"
+
+#: app/broken-links-actions/class-link.php:269
+msgid "Missing origins"
+msgstr "オリジナルが見つかりません"
+
+#: app/admin-pages/local-submenu/class-view.php:87
+#: app/admin-pages/local-submenu/class-view.php:88
+msgid "Activate Cloud-based Link Checker"
+msgstr "クラウド版の Link Checker を有効化"
+
+#: app/admin-pages/local-submenu/class-controller.php:80
+msgid "Local [old]"
+msgstr "ローカル版 [旧]"
+
+#: app/admin-pages/local-submenu/class-controller.php:79
+#: app/admin-pages/local-submenu/class-view.php:81
+msgid "Local Broken Link Checker"
+msgstr "ローカル版 Broken Link Checker"
+
+#: app/admin-pages/cloud-submenu/class-controller.php:68
+msgid "Cloud [new]"
+msgstr "クラウド版 [新]"
+
+#: app/admin-notices/multisite/class-view.php:51
+#: app/admin-notices/multisite/class-view.php:63
+msgid "Cloud Engine supports Multisite’s main site only and doesn’t support subsites. Subsites will continue using Local BLC"
+msgstr "クラウドエンジンはマルチサイトのメインサイトのみをサポートし、サブサイトはサポートしません。サブサイトは引き続きローカル版 Broken Link Checker を使用します"
+
+#. translators: %1$s The dashboard url
+#: app/admin-notices/local/class-view.php:52
+msgid "Cloud-based Broken Link Checker is currently active on your site. <a href=\"%1$s\">Activate the old version</a> to go back to using Local BLC."
+msgstr "クラウド版の Broken Link Checker が有効になっています。ローカル版の Broken Link Checker の使用に戻るには、<a href=\"%1$s\">旧バージョンを有効化</a>してください。"
+
+#. translators: %1$s The dashboard url
+#: app/admin-notices/legacy/class-view.php:43
+msgid "We have completely rebuilt BLC with a new cloud-based engine. It’s now 20x faster, more accurate, and works perfectly with any site. Plus, no page limits, no ads, and it’s still 100%% free! Check out Broken Link Checker's <a href=\"%1$s\">new dashboard</a>."
+msgstr "新しいクラウドベースのエンジンで Broken Link Checker を完全に再構築しました。20倍速く、より正確で、あらゆるサイトで完璧に機能します。さらに、ページ制限も広告もなく、100%% 無料です ! Broken Link Checker の<a href=\"%1$s\">新しいダッシュボード</a>をご覧ください。"
+
+#: app/admin-notices/features/class-view.php:41
+msgid "Now you can edit links and unlink broken links directly from the new Cloud version with ease."
+msgstr "新しいクラウド版から直接簡単にリンクの編集やリンク切れの解除ができるようになりました。"
+
+#: app/admin-notices/features/class-view.php:40 assets/dist/welcome.js:1
+msgid "Introducing Edit Link and Unlink features in Broken Link Checker!"
+msgstr "Broken Link Checker のリンク編集機能とリンク解除機能をご紹介します。"
+
+#: app/admin-modals/legacy/class-controller.php:216
+#: app/admin-modals/local/class-controller.php:180
+#: app/admin-pages/cloud-page/class-controller.php:267
+msgid "Something went wrong here."
+msgstr "ここで問題が発生しました。"
+
+#: app/action-links/plugin/class-controller.php:79
+#: core/views/class-admin-page.php:121 core/views/class-admin-page.php:135
+msgid "Docs"
+msgstr "ドキュメント"
+
+#: app/action-links/plugin/class-controller.php:77
+msgid "Local"
+msgstr "ローカル版"
+
+#: app/action-links/plugin/class-controller.php:75
+msgid "Cloud"
+msgstr "クラウド版"
+
+#. Description of the plugin
+msgid "Checks your blog for broken links and notifies you on the dashboard if any are found."
+msgstr "ブログのリンク切れをチェックし、リンク切れが見つかった場合はダッシュボードで通知します。"
+
+#. Author URI of the plugin
+msgid "https://wpmudev.com/"
+msgstr "https://wpmudev.com/"
+
+#: legacy/core/core.php:1060
+msgid "It's used on over 80,000 sites just like yours."
+msgstr "8万以上のサイトで利用されています。"
+
+#: legacy/core/core.php:1056
+msgid "Install the free <a href=\"%s\" class=\"thickbox open-plugin-details-modal\">External Links plugin</a> to control if external links open in a new tab, and their nofollow, noopener and UGC options."
+msgstr "無料の <a href=\"%s\" class=\"thickbox open-plugin-details-modal\">External Links プラグイン</a>をインストールしませんか。リンクを新しいタブで開いたり、nofollow や noopener や UGC オプションをコントロールしたりできます。"
+
+#: legacy/core/core.php:1051
+msgid "Configure <a target=\"_blank\" href=\"%s\">External Links</a> settings."
+msgstr "<a target=\"_blank\" href=\"%s\">External Links</a> の設定を構成する。"
+
+#: legacy/core/core.php:1044
+msgctxt "settings page"
+msgid "Control external links"
+msgstr "外部リンクの制御"
+
+#: legacy/includes/admin/links-page-js.php:654
+msgid "Are you sure you want to unlink and remove this link from all posts?"
+msgstr "このリンクを解除してすべての投稿から消去しますか ?"
+
+#: legacy/modules/checkers/http.php:467
+msgid "Using WP HTTP"
+msgstr "WP HTTP を使用"
+
+#: legacy/core/core.php:1590
+msgid "Log file clear schedule"
+msgstr "ログファイル消去スケジュール"
+
+#: legacy/core/core.php:1239
+msgid "Disable post modified date change when link is edited"
+msgstr "リンク編集時に投稿の更新日を変えない"
+
+#: legacy/core/core.php:1234
+msgid "Post Modified Date"
+msgstr "投稿の更新日"
+
+#: legacy/core/core.php:1227
+msgid "Use your own %1$sapi key%2$s for checking youtube links."
+msgstr "YouTube リンクをチェックするには自分の%1$s api key %2$sを使ってください。"
+
+#: legacy/core/core.php:1215
+msgid "YouTube API Key"
+msgstr "YouTube API キー"
+
+#. Author of the plugin
+msgid "WPMU DEV"
+msgstr "WPMU DEV"
+
+#: legacy/includes/link-query.php:47
+msgctxt "filter heading"
+msgid "Warnings"
+msgstr "警告"
+
+#: legacy/includes/any-post.php:833
+msgid "%1$d \"%2$s\" deleted."
+msgid_plural "%1$d \"%2$s\" deleted."
+msgstr[0] "%1$d個の \"%2$s\" を削除しました。"
+
+#: legacy/core/core.php:1813
+msgid "Enter the keys of acf fields you want to check (one per line). If a field contains HTML code, prefix its name with <code>html:</code>. For example, <code>html:field_586a3eaa4091b</code>."
+msgstr "チェックしたい acf フィールドの名前を入れてください。一行に1個ずつです。もし html コードを許容するフィールドなら、前に <code>html:</code> を付けてください。例えば <code>html:field_586a3eaa4091b</code> のように。"
+
+#: legacy/core/init.php:235 legacy/init.php:252
+msgid "Every 10 minutes"
+msgstr "10分毎"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/broken-link-checker/"
+msgstr "https://ja.wordpress.org/plugins/broken-link-checker/"
+
+#: legacy/modules/parsers/acf_field.php:120
+#: legacy/modules/parsers/metadata.php:141
+msgid "Custom field"
+msgstr "カスタムフィールド"
+
+#: legacy/modules/parsers/image.php:193
+msgid "Image"
+msgstr "画像"
+
+#: legacy/modules/extras/youtube.php:261
+msgid "Unknown YouTube API response received."
+msgstr "不明な YouTube API レスポンスを受信しました。"
+
+#: legacy/modules/extras/youtube.php:216
+msgid "Playlist OK"
+msgstr "プレイリストは大丈夫です"
+
+#: legacy/modules/extras/youtube.php:207
+msgid "Video Restricted"
+msgstr "ビデオが制限されています"
+
+#: legacy/modules/extras/youtube.php:201
+msgid "Video status : %1$s%2$s"
+msgstr "動画ステータス : %1$s%2$s"
+
+#: legacy/modules/extras/youtube.php:191
+msgctxt "link status"
+msgid "Empty Playlist"
+msgstr "プレイリストが空です"
+
+#: legacy/modules/extras/youtube.php:190
+msgid "This playlist has no entries or all entries have been deleted."
+msgstr "このプレイリストはエントリがないか、すべてのエントリが削除されています。"
+
+#: legacy/modules/extras/youtube.php:183
+msgid "Playlist Restricted"
+msgstr "プレイリストが制限されています"
+
+#: legacy/modules/extras/youtube.php:173 legacy/modules/extras/youtube.php:176
+msgid "Playlist Not Found"
+msgstr "プレイリストが見つかりません"
+
+#: legacy/modules/extras/youtube.php:151 legacy/modules/extras/youtube.php:154
+msgid "Video Not Found"
+msgstr "ビデオが見つかりません"
+
+#: legacy/modules/extras/youtube.php:140
+msgid "Video OK"
+msgstr "動画は大丈夫です"
+
+#: legacy/modules/extras/youtube-playlist-embed.php:25
+msgid "Embedded YouTube playlist"
+msgstr "埋め込まれた YouTube プレイリスト"
+
+#: legacy/modules/extras/youtube-playlist-embed.php:24
+msgid "YouTube Playlist"
+msgstr "YouTube プレイリスト"
+
+#: legacy/modules/extras/youtube-embed.php:25
+#: legacy/modules/extras/youtube-iframe.php:26
+msgid "Embedded YouTube video"
+msgstr "埋め込まれた YouTube 動画"
+
+#: legacy/modules/extras/youtube-embed.php:24
+#: legacy/modules/extras/youtube-iframe.php:25
+msgid "YouTube Video"
+msgstr "YouTube 動画"
+
+#: legacy/modules/extras/vimeo-embed.php:25
+msgid "Embedded Vimeo video"
+msgstr "埋め込まれた Vimeo 動画"
+
+#: legacy/modules/extras/vimeo-embed.php:24
+msgid "Vimeo Video"
+msgstr "Vimeo 動画"
+
+#: legacy/modules/extras/rapidshare.php:189
+msgid "RapidShare API error: %s"
+msgstr "RapidShare API エラー: %s"
+
+#: legacy/modules/extras/rapidshare.php:183
+msgid "RapidShare : %s"
+msgstr "RapidShare : %s"
+
+#: legacy/modules/extras/rapidshare.php:172
+msgid "File Locked"
+msgstr "ファイルがロックされています"
+
+#: legacy/modules/extras/rapidshare.php:165
+msgid "File Blocked"
+msgstr "ファイルがブロックされています"
+
+#: legacy/modules/extras/rapidshare.php:158
+msgid "RS Server Down"
+msgstr "RapidShare サーバーが見つかりません"
+
+#: legacy/modules/extras/rapidshare.php:51
+msgid "Using RapidShare API"
+msgstr "RapidShare API を使う"
+
+#: legacy/modules/extras/mediafire.php:109
+msgid "Permission Denied"
+msgstr "権限がありません"
+
+#: legacy/modules/extras/mediafire.php:97
+#: legacy/modules/extras/mediafire.php:103
+#: legacy/modules/extras/rapidshare.php:139
+msgid "Not Found"
+msgstr "見つかりません"
+
+#: legacy/modules/extras/googlevideo-embed.php:25
+msgid "Embedded GoogleVideo video"
+msgstr "埋め込まれた GoogleVideo 動画"
+
+#: legacy/modules/extras/googlevideo-embed.php:24
+msgid "GoogleVideo Video"
+msgstr "GoogleVideo 動画"
+
+#: legacy/modules/extras/embed-parser-base.php:199
+msgid "Embedded videos can't be edited using Broken Link Checker. Please edit or replace the video in question manually."
+msgstr "埋め込みビデオは Broken Link Checker を使って編集することはできません。手動で問題のビデオを編集または置換してください。"
+
+#: legacy/modules/extras/dailymotion-embed.php:24
+msgid "Embedded DailyMotion video"
+msgstr "埋め込まれた DailyMotion 動画"
+
+#: legacy/modules/extras/dailymotion-embed.php:23
+msgid "DailyMotion Video"
+msgstr "DailyMotion 動画"
+
+#: legacy/modules/containers/dummy.php:34
+#: legacy/modules/containers/dummy.php:45
+msgid "I don't know how to edit a '%1$s' [%2$d]."
+msgstr "不明なエラーのため、'%1$s' [%2$d]を編集することができません。"
+
+#: legacy/modules/containers/acf_field.php:258
+#: legacy/modules/containers/custom_field.php:272
+msgid "View \"%s\""
+msgstr "\"%s\" を見る"
+
+#: legacy/modules/containers/acf_field.php:234
+#: legacy/modules/containers/custom_field.php:238
+msgid "Edit this post"
+msgstr "この記事を編集"
+
+#: legacy/modules/containers/acf_field.php:132
+#: legacy/modules/containers/custom_field.php:137
+msgid "Failed to delete the meta field '%1$s' on %2$s [%3$d]"
+msgstr "メタフィールド '%1$s' (%2$s [%3$d]) を削除できませんでした。"
+
+#: legacy/modules/containers/acf_field.php:102
+#: legacy/modules/containers/custom_field.php:107
+msgid "Failed to update the meta field '%1$s' on %2$s [%3$d]"
+msgstr "メタフィールド '%1$s' (%2$s [%3$d]) を更新できませんでした。"
+
+#: legacy/modules/containers/comment.php:385
+msgid "%d comment moved to the Trash."
+msgid_plural "%d comments moved to the Trash."
+msgstr[0] "%d個のコメントをゴミ箱へ移動しました。"
+
+#: legacy/modules/containers/comment.php:366
+msgid "%d comment has been deleted."
+msgid_plural "%d comments have been deleted."
+msgstr[0] "%d個のコメントを削除しました。"
+
+#: legacy/modules/containers/comment.php:189
+msgid "Comment"
+msgstr "コメント"
+
+#: legacy/modules/containers/comment.php:172
+msgid "View comment"
+msgstr "コメントを見る"
+
+#: legacy/modules/containers/comment.php:168
+msgctxt "verb"
+msgid "Trash"
+msgstr "ゴミ箱"
+
+#: legacy/modules/containers/comment.php:168
+msgid "Move this comment to the trash"
+msgstr "このコメントをゴミ箱に移動しました。"
+
+#: legacy/modules/containers/comment.php:166
+msgid "Delete Permanently"
+msgstr "完全に削除"
+
+#: legacy/modules/containers/comment.php:159
+#: legacy/modules/containers/comment.php:201
+msgid "Edit comment"
+msgstr "コメントを編集"
+
+#: legacy/modules/containers/comment.php:95
+msgid "Can't move comment %d to the trash"
+msgstr "コメント %d をゴミ箱へ移動できません。"
+
+#: legacy/modules/containers/comment.php:74
+msgid "Failed to delete comment %d"
+msgstr "コメント %d を削除できませんでした。"
+
+#: legacy/modules/containers/comment.php:53
+msgid "Updating comment %d failed"
+msgstr "コメント %d の更新に失敗しました。"
+
+#: legacy/modules/containers/blogroll.php:298
+msgid "%d blogroll link deleted."
+msgid_plural "%d blogroll links deleted."
+msgstr[0] "%d個のブログロールのリンクを削除しました。"
+
+#: legacy/modules/containers/blogroll.php:128
+msgid "Failed to delete blogroll link \"%1$s\" (%2$d)"
+msgstr "ブログロールのリンク \"%1$s\" (%2$d) を削除できませんでした"
+
+#: legacy/modules/containers/blogroll.php:97
+msgid "Updating bookmark %d failed"
+msgstr "ブックマーク %d の更新に失敗しました"
+
+#: legacy/modules/containers/blogroll.php:47
+msgid ""
+"You are about to delete this link '%s'\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"リンク '%s' を削除しようとしています。\n"
+"「OK」で削除、「キャンセル」で中止します。"
+
+#: legacy/modules/containers/blogroll.php:27
+#: legacy/modules/containers/blogroll.php:46
+msgid "Edit this bookmark"
+msgstr "このブックマークを編集"
+
+#: legacy/modules/containers/blogroll.php:21
+msgid "Bookmark"
+msgstr "ブックマーク"
+
+#: legacy/modules/checkers/http.php:460
+msgid "Request timed out."
+msgstr "要求がタイムアウトしました。"
+
+#: legacy/modules/checkers/http.php:380
+msgid "Most likely the connection timed out or the domain doesn't exist."
+msgstr "ドメインが存在しないかサーバーが応答していない可能性があります。"
+
+#: legacy/modules/checkers/http.php:362 legacy/modules/checkers/http.php:451
+msgid "(No response)"
+msgstr "(応答なし)"
+
+#: legacy/modules/checkers/http.php:360 legacy/modules/checkers/http.php:449
+msgid "HTTP code : %d"
+msgstr "HTTP コード: %d"
+
+#: legacy/modules/checkers/http.php:306
+msgid "Connection Failed"
+msgstr "接続に失敗しました"
+
+#: legacy/modules/checkers/http.php:290
+msgid "Server Not Found"
+msgstr "サーバーが見つかりません"
+
+#: legacy/includes/utility-class.php:276
+msgid "%d month ago"
+msgid_plural "%d months ago"
+msgstr[0] "%dヶ月前"
+
+#: legacy/includes/utility-class.php:275
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%dか月"
+
+#: legacy/includes/utility-class.php:272
+msgid "%d day ago"
+msgid_plural "%d days ago"
+msgstr[0] "%d日前"
+
+#: legacy/includes/utility-class.php:271
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d日"
+
+#: legacy/includes/utility-class.php:268
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "%d時間前"
+
+#: legacy/includes/utility-class.php:267
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d時間"
+
+#: legacy/includes/utility-class.php:264
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "%d分前"
+
+#: legacy/includes/utility-class.php:263
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d分"
+
+#: legacy/includes/utility-class.php:260
+msgid "%d second ago"
+msgid_plural "%d seconds ago"
+msgstr[0] "%d秒前"
+
+#: legacy/includes/utility-class.php:259
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d秒"
+
+#: legacy/includes/parsers.php:132
+msgid "Unlinking is not implemented in the '%s' parser"
+msgstr "'%s' パーサーではリンク解除は実装されていません"
+
+#: legacy/includes/parsers.php:117
+msgid "Editing is not implemented in the '%s' parser"
+msgstr "'%s' パーサーでは編集は実装されていません"
+
+#: legacy/includes/links.php:1058 legacy/modules/extras/rapidshare.php:145
+#: legacy/modules/extras/rapidshare.php:151
+#: legacy/modules/extras/rapidshare.php:178
+#: legacy/modules/extras/youtube.php:141 legacy/modules/extras/youtube.php:217
+msgctxt "link status"
+msgid "OK"
+msgstr "OK"
+
+#: legacy/includes/links.php:1055
+msgid "False positive"
+msgstr "判定誤り"
+
+#: legacy/includes/links.php:1052
+msgid "Not checked"
+msgstr "未チェック"
+
+#: legacy/includes/links.php:1029 legacy/modules/checkers/http.php:313
+#: legacy/modules/checkers/http.php:317 legacy/modules/extras/mediafire.php:115
+#: legacy/modules/extras/youtube.php:135 legacy/modules/extras/youtube.php:230
+msgid "Unknown Error"
+msgstr "不明なエラー"
+
+#: legacy/includes/links.php:1016
+msgctxt "link status"
+msgid "Unknown"
+msgstr "不明"
+
+#: legacy/includes/links.php:902 legacy/includes/links.php:939
+msgid "Couldn't delete the link's database record"
+msgstr "リンクのデータベースレコードを削除できませんでした。"
+
+#: legacy/includes/links.php:848
+msgid "This link is not a redirect"
+msgstr "このリンクはリダイレクトされていません。"
+
+#: legacy/includes/links.php:781
+msgid "Failed to create a DB entry for the new URL."
+msgstr "新しい URL の DB エントリを作成できませんでした。"
+
+#: legacy/includes/links.php:755
+msgid "This link can not be edited because it is not used anywhere on this site."
+msgstr "このサイトで使用されていないためこのリンクを編集することはできません。"
+
+#: legacy/includes/links.php:738 legacy/includes/links.php:841
+#: legacy/includes/links.php:875
+msgid "Link is not valid"
+msgstr "リンクが有効ではありません。"
+
+#: legacy/includes/links.php:505
+msgid "Link is valid."
+msgstr "リンクは有効です。"
+
+#: legacy/includes/links.php:503
+msgid "Link is broken."
+msgstr "リンクエラーです。"
+
+#: legacy/includes/links.php:271
+msgid "The plugin doesn't know how to check this type of link."
+msgstr "未知の種類のリンクです。"
+
+#: legacy/includes/links.php:225
+msgid "The plugin script was terminated while trying to check the link."
+msgstr "リンクの確認中にプラグインのスクリプトが終了しました。"
+
+#: legacy/includes/link-query.php:83 legacy/includes/link-query.php:131
+msgid "No links found for your query"
+msgstr "リンクは見つかりませんでした"
+
+#: legacy/includes/link-query.php:82
+msgid "Search Results"
+msgstr "検索結果"
+
+#: legacy/includes/link-query.php:68
+msgid "No dismissed links found"
+msgstr "無視したリンクはありません"
+
+#: legacy/includes/link-query.php:67
+msgid "Dismissed Links"
+msgstr "無視したリンク"
+
+#: legacy/includes/link-query.php:66
+msgid "Dismissed"
+msgstr "無視"
+
+#: legacy/includes/link-query.php:58
+msgid "No redirects found"
+msgstr "リダイレクトはありません"
+
+#: legacy/includes/link-query.php:57
+msgid "Redirected Links"
+msgstr "リダイレクトされたリンク"
+
+#: legacy/includes/link-query.php:56
+msgid "Redirects"
+msgstr "リダイレクト"
+
+#: legacy/includes/link-query.php:48
+msgid "No warnings found"
+msgstr "警告はありません"
+
+#: legacy/includes/link-query.php:46
+msgctxt "filter name"
+msgid "Warnings"
+msgstr "警告"
+
+#: legacy/includes/link-query.php:38
+msgid "No broken links found"
+msgstr "リンクエラーは見つかりませんでした"
+
+#: legacy/includes/link-query.php:36
+msgid "Broken"
+msgstr "リンクエラー"
+
+#: legacy/includes/link-query.php:27
+msgid "No links found (yet)"
+msgstr "リンクは(まだ)見つかっていません"
+
+#: legacy/includes/link-query.php:26
+msgid "Detected Links"
+msgstr "検出したリンク"
+
+#: legacy/includes/link-query.php:25
+msgid "All"
+msgstr "すべて"
+
+#: legacy/includes/instances.php:118 legacy/includes/instances.php:174
+msgid "Parser '%s' not found."
+msgstr "パーサー '%s' が見つかりません。"
+
+#: legacy/includes/instances.php:109 legacy/includes/instances.php:165
+msgid "Container %1$s[%2$d] not found"
+msgstr "コンテナ %1$s[%2$d] が見つかりません。"
+
+#: legacy/includes/extra-strings.php:20
+msgctxt "module name"
+msgid "Pages"
+msgstr "固定ページ"
+
+#: legacy/includes/extra-strings.php:19
+msgctxt "module name"
+msgid "Posts"
+msgstr "投稿"
+
+#: legacy/includes/extra-strings.php:18
+msgctxt "module name"
+msgid "YouTube API"
+msgstr "YouTube API"
+
+#: legacy/includes/extra-strings.php:17
+msgctxt "module name"
+msgid "Smart YouTube httpv:// URLs"
+msgstr "Smart YouTube httpv:// URLs"
+
+#: legacy/includes/extra-strings.php:16
+msgctxt "module name"
+msgid "RapidShare API"
+msgstr "RapidShare API"
+
+#: legacy/includes/extra-strings.php:15
+msgctxt "module name"
+msgid "Plaintext URLs"
+msgstr "プレーンテキストの URL"
+
+#: legacy/includes/extra-strings.php:14
+msgctxt "module name"
+msgid "MediaFire API"
+msgstr "MediaFire API"
+
+#: legacy/includes/extra-strings.php:13
+msgctxt "module name"
+msgid "HTML links"
+msgstr "HTML リンク"
+
+#: legacy/includes/extra-strings.php:12
+msgctxt "module name"
+msgid "HTML images"
+msgstr "HTML 画像"
+
+#: legacy/includes/extra-strings.php:11
+msgctxt "module name"
+msgid "Embedded YouTube videos (old embed code)"
+msgstr "埋め込まれた YouTube 動画 (古い embed コード)"
+
+#: legacy/includes/extra-strings.php:10
+msgctxt "module name"
+msgid "Embedded YouTube videos"
+msgstr "埋め込まれた YouTube の動画"
+
+#: legacy/includes/extra-strings.php:9
+msgctxt "module name"
+msgid "Embedded YouTube playlists (old embed code)"
+msgstr "埋め込まれた YouTube プレイリスト (古い embed コード)"
+
+#: legacy/includes/extra-strings.php:8
+msgctxt "module name"
+msgid "Embedded Vimeo videos"
+msgstr "埋め込まれた Vimeo の動画"
+
+#: legacy/includes/extra-strings.php:7
+msgctxt "module name"
+msgid "Embedded GoogleVideo videos"
+msgstr "埋め込まれた GoogleVideo 動画"
+
+#: legacy/includes/extra-strings.php:6
+msgctxt "module name"
+msgid "Embedded DailyMotion videos"
+msgstr "埋め込まれた DailyMotion の動画"
+
+#: legacy/includes/extra-strings.php:5
+msgctxt "module name"
+msgid "Custom fields"
+msgstr "カスタムフィールド"
+
+#: legacy/includes/extra-strings.php:4
+msgctxt "module name"
+msgid "Comments"
+msgstr "コメント"
+
+#: legacy/includes/extra-strings.php:3
+msgctxt "module name"
+msgid "Blogroll items"
+msgstr "ブログロール"
+
+#: legacy/includes/extra-strings.php:2
+msgctxt "module name"
+msgid "Basic HTTP"
+msgstr "基本的な HTTP"
+
+#: legacy/includes/containers.php:932 legacy/includes/containers.php:950
+msgid "Container type '%s' not recognized"
+msgstr "コンテナの型 '%s' が認識されません。"
+
+#: legacy/includes/containers.php:123
+msgid "%1$d '%2$s' has been deleted"
+msgid_plural "%1$d '%2$s' have been deleted"
+msgstr[0] "%1$d個の '%2$s' を削除しました"
+
+#: legacy/includes/any-post.php:856
+msgid "%1$d \"%2$s\" moved to the Trash."
+msgid_plural "%1$d \"%2$s\" moved to the Trash."
+msgstr[0] "%1$d個の \"%2$s\" をゴミ箱へ移動しました。"
+
+#: legacy/includes/any-post.php:854
+msgid "%d page moved to the Trash."
+msgid_plural "%d pages moved to the Trash."
+msgstr[0] "%d個のページをゴミ箱へ移動しました。"
+
+#: legacy/includes/any-post.php:852
+msgid "%d post moved to the Trash."
+msgid_plural "%d posts moved to the Trash."
+msgstr[0] "%d個の投稿をゴミ箱へ移動しました。"
+
+#: legacy/includes/any-post.php:831
+msgid "%d page deleted."
+msgid_plural "%d pages deleted."
+msgstr[0] "%d個の固定ページを削除しました。"
+
+#: legacy/includes/any-post.php:829
+msgid "%d post deleted."
+msgid_plural "%d posts deleted."
+msgstr[0] "%d個の投稿を削除しました。"
+
+#: legacy/includes/any-post.php:722 legacy/modules/containers/acf_field.php:353
+#: legacy/modules/containers/custom_field.php:379
+msgid "Failed to move post \"%1$s\" (%2$d) to the trash"
+msgstr "投稿 \"%1$s\" (%2$d) をゴミ箱へ移動できませんでした"
+
+#: legacy/includes/any-post.php:702 legacy/modules/containers/acf_field.php:341
+#: legacy/modules/containers/custom_field.php:360
+msgid "Can't move post \"%1$s\" (%2$d) to the trash because the trash feature is disabled"
+msgstr "ゴミ箱機能が無効のため投稿 \"%1$s\" (%2$d) を移動できませんでした。"
+
+#: legacy/includes/any-post.php:683 legacy/modules/containers/acf_field.php:327
+#: legacy/modules/containers/custom_field.php:341
+msgid "Failed to delete post \"%1$s\" (%2$d)"
+msgstr "投稿 \"%1$s\" (%2$d) を削除できませんでした"
+
+#: legacy/includes/any-post.php:622
+msgid "Updating post %d failed"
+msgstr "投稿 %d を更新できませんでした"
+
+#: legacy/includes/any-post.php:608 legacy/modules/containers/blogroll.php:83
+#: legacy/modules/containers/comment.php:43
+msgid "Nothing to update"
+msgstr "更新対象がありません"
+
+#: legacy/includes/any-post.php:544 legacy/modules/containers/acf_field.php:248
+#: legacy/modules/containers/custom_field.php:252
+msgid "Edit this item"
+msgstr "この項目を編集"
+
+#: legacy/includes/any-post.php:525 legacy/modules/containers/acf_field.php:258
+#: legacy/modules/containers/comment.php:172
+#: legacy/modules/containers/custom_field.php:272
+msgid "View"
+msgstr "見る"
+
+#: legacy/includes/any-post.php:524
+msgid "View &#8220;%s&#8221;"
+msgstr "&#8220;%s&#8221; を見る"
+
+#: legacy/includes/any-post.php:517
+msgid "Preview"
+msgstr "プレビュー"
+
+#: legacy/includes/any-post.php:516
+msgid "Preview &#8220;%s&#8221;"
+msgstr "&#8220;%s&#8221; をプレビュー"
+
+#: legacy/includes/any-post.php:503 legacy/modules/containers/acf_field.php:254
+#: legacy/modules/containers/blogroll.php:47
+#: legacy/modules/containers/custom_field.php:267
+msgid "Delete"
+msgstr "削除"
+
+#: legacy/includes/any-post.php:501 legacy/modules/containers/acf_field.php:254
+#: legacy/modules/containers/custom_field.php:265
+msgid "Delete this item permanently"
+msgstr "この項目を完全に削除する"
+
+#: legacy/includes/any-post.php:496 legacy/modules/containers/acf_field.php:252
+#: legacy/modules/containers/custom_field.php:260
+msgid "Trash"
+msgstr "ゴミ箱"
+
+#: legacy/includes/any-post.php:494 legacy/modules/containers/acf_field.php:252
+#: legacy/modules/containers/custom_field.php:258
+msgid "Move this item to the Trash"
+msgstr "この項目をゴミ箱に移動"
+
+#: legacy/includes/any-post.php:486 legacy/modules/containers/acf_field.php:248
+#: legacy/modules/containers/blogroll.php:46
+#: legacy/modules/containers/comment.php:159
+#: legacy/modules/containers/custom_field.php:252
+msgid "Edit"
+msgstr "編集"
+
+#: legacy/includes/admin/table-printer.php:917
+msgid "Use this URL"
+msgstr "この URL を使う"
+
+#: legacy/includes/admin/table-printer.php:897
+msgctxt "inline link editor"
+msgid "Suggestions"
+msgstr "提案"
+
+#: legacy/includes/admin/table-printer.php:892
+msgctxt "inline link editor"
+msgid "URL"
+msgstr "URL"
+
+#: legacy/includes/admin/table-printer.php:887
+msgctxt "inline link editor"
+msgid "Text"
+msgstr "テキスト"
+
+#: legacy/includes/admin/table-printer.php:884
+msgctxt "inline editor title"
+msgid "Edit Link"
+msgstr "リンクを編集"
+
+#: legacy/includes/admin/table-printer.php:807
+msgid "[An orphaned link! This is a bug.]"
+msgstr "[孤立したリンク! これはバグです。]"
+
+#: legacy/includes/admin/table-printer.php:780
+msgid "Update URL"
+msgstr "URL を編集"
+
+#: legacy/includes/admin/table-printer.php:746
+msgid "Replace this redirect with a direct link"
+msgstr "このリダイレクトを直リンクで置き換える"
+
+#: legacy/includes/admin/table-printer.php:733
+msgid "Undismiss"
+msgstr "リンク無視を解除"
+
+#: legacy/includes/admin/table-printer.php:732
+msgid "Undismiss this link"
+msgstr "リンクの無視を解除する"
+
+#: legacy/includes/admin/table-printer.php:726
+msgid "Hide this link and do not report it again unless its status changes"
+msgstr "このリンクを非表示にし、ステータスが変わるまで報告しない"
+
+#: legacy/includes/admin/table-printer.php:718
+msgid "Remove this link from the list of broken links and mark it as valid"
+msgstr "このリンクをリンクエラーのリストから削除して正常とマークする"
+
+#: legacy/includes/admin/table-printer.php:712
+msgid "Remove this link from all posts"
+msgstr "すべての投稿からこのリンクを削除"
+
+#: legacy/includes/admin/table-printer.php:710
+msgid "Edit this link"
+msgstr "このリンクを編集"
+
+#: legacy/includes/admin/table-printer.php:689
+msgctxt "link in the \"Status\" column"
+msgid "Details"
+msgstr "詳細"
+
+#: legacy/includes/admin/table-printer.php:677
+msgid "Broken for"
+msgstr "エラー"
+
+#: legacy/includes/admin/table-printer.php:662
+msgctxt "checked how long ago"
+msgid "Checked"
+msgstr "最終チェック:"
+
+#: legacy/includes/admin/table-printer.php:644
+#: legacy/includes/admin/table-printer.php:688
+msgid "Show more info about this link"
+msgstr "リンクの情報をもっと見る"
+
+#: legacy/includes/admin/table-printer.php:617
+msgid "Log"
+msgstr "ログ"
+
+#: legacy/includes/admin/table-printer.php:606
+msgid "This link has been broken for %s."
+msgstr "リンクエラー期間: %s"
+
+#: legacy/includes/admin/table-printer.php:598
+msgid "This link has failed %d time."
+msgid_plural "This link has failed %d times."
+msgstr[0] "リンク失敗回数: %d"
+
+#: legacy/includes/admin/table-printer.php:587
+msgid "Instance count"
+msgstr "インスタンス数"
+
+#: legacy/includes/admin/table-printer.php:580
+msgid "Redirect count"
+msgstr "リダイレクト回数"
+
+#: legacy/includes/admin/table-printer.php:573
+msgid "Final URL"
+msgstr "リダイレクト先 URL"
+
+#: legacy/includes/admin/table-printer.php:569
+msgid "%2.3f seconds"
+msgstr "%2.3f 秒"
+
+#: legacy/includes/admin/table-printer.php:566
+msgid "Response time"
+msgstr "応答時間"
+
+#: legacy/core/core.php:1596 legacy/includes/admin/table-printer.php:548
+msgid "Never"
+msgstr "未実施"
+
+#: legacy/includes/admin/table-printer.php:543
+msgid "Link last checked"
+msgstr "最後のリンクチェック"
+
+#: legacy/includes/admin/table-printer.php:536
+msgid "Post published on"
+msgstr "投稿を公開:"
+
+#: legacy/includes/admin/table-printer.php:378
+#: legacy/includes/admin/table-printer.php:905
+msgid "Update"
+msgstr "更新"
+
+#: legacy/includes/admin/table-printer.php:369
+msgid "Regular expression"
+msgstr "正規表現"
+
+#: legacy/includes/admin/table-printer.php:365
+msgid "Case sensitive"
+msgstr "大文字と小文字を区別する"
+
+#: legacy/includes/admin/table-printer.php:357
+msgid "Replace with"
+msgstr "置き換え"
+
+#: legacy/includes/admin/table-printer.php:353
+msgid "Find"
+msgstr "検索"
+
+#: legacy/includes/admin/table-printer.php:351
+msgid "Bulk Edit URLs"
+msgstr "URL を一括編集"
+
+#: legacy/includes/admin/table-printer.php:328
+msgid "Displaying %1$s&#8211;%2$s of <span class=\"current-link-count\">%3$s</span>"
+msgstr "%1$s&#8211;%2$s 件目を表示中 (全 <span class=\"current-link-count\">%3$s</span> 件)"
+
+#: legacy/includes/admin/table-printer.php:319
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: legacy/includes/admin/table-printer.php:318
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: legacy/includes/admin/table-printer.php:302
+msgid "Delete sources"
+msgstr "ソースを削除"
+
+#: legacy/includes/admin/table-printer.php:300
+msgid "Move sources to Trash"
+msgstr "ゴミ箱に移動"
+
+#: legacy/includes/admin/table-printer.php:295
+msgid "Mark as not broken"
+msgstr "リンクエラーでない"
+
+#: legacy/includes/admin/table-printer.php:294
+msgid "Fix redirects"
+msgstr "リダイレクトを修正"
+
+#: legacy/includes/admin/table-printer.php:291
+msgid "Bulk Actions"
+msgstr "一括操作"
+
+#: legacy/includes/admin/table-printer.php:240
+msgid "Redirect URL"
+msgstr "リダイレクト URL"
+
+#: legacy/includes/admin/table-printer.php:233
+msgid "Link Text"
+msgstr "リンクテキスト"
+
+#: legacy/includes/admin/table-printer.php:227
+msgid "Source"
+msgstr "ソース"
+
+#: legacy/includes/admin/table-printer.php:197
+msgid "Detailed View"
+msgstr "詳細表示"
+
+#: legacy/includes/admin/table-printer.php:192
+msgid "Compact View"
+msgstr "一覧表示"
+
+#: legacy/includes/admin/search-form.php:113
+#: legacy/includes/admin/table-printer.php:375
+#: legacy/includes/admin/table-printer.php:779
+#: legacy/includes/admin/table-printer.php:904
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: legacy/includes/admin/search-form.php:112
+msgid "Search Links"
+msgstr "リンク検索"
+
+#: legacy/includes/admin/search-form.php:74
+msgid "Links used in"
+msgstr "リンクチェック対象"
+
+#: legacy/includes/admin/search-form.php:70
+msgid "Any"
+msgstr "任意"
+
+#: legacy/includes/admin/search-form.php:68
+#: legacy/includes/admin/search-form.php:85
+msgid "Link type"
+msgstr "リンクの種類"
+
+#: legacy/includes/admin/search-form.php:51
+msgid "Link status"
+msgstr "リンクのステータス"
+
+#: legacy/includes/admin/search-form.php:48
+#: legacy/includes/admin/table-printer.php:559
+msgid "HTTP code"
+msgstr "HTTP コード"
+
+#: legacy/includes/admin/search-form.php:45
+#: legacy/includes/admin/table-printer.php:220
+msgid "URL"
+msgstr "URL"
+
+#: legacy/includes/admin/search-form.php:42
+msgid "Link text"
+msgstr "リンクテキスト"
+
+#: legacy/includes/admin/search-form.php:32 legacy/includes/link-query.php:81
+msgid "Search"
+msgstr "検索"
+
+#: legacy/includes/admin/search-form.php:26
+msgid "Delete This Filter"
+msgstr "このフィルタを削除"
+
+#: legacy/includes/admin/search-form.php:16
+msgid "Save This Search As a Filter"
+msgstr "この検索をフィルターとして保存"
+
+#: legacy/includes/admin/options-page-js.php:54
+msgid "Hide debug info"
+msgstr "デバッグ情報を隠す"
+
+#: legacy/includes/admin/links-page-js.php:943
+msgid "Select one or more links to edit."
+msgstr "編集するリンクをひとつ以上選んでください。"
+
+#: legacy/includes/admin/links-page-js.php:936
+msgid "Enter a search string first."
+msgstr "まず検索文字列を入力してください。"
+
+#: legacy/includes/admin/links-page-js.php:806
+msgid ""
+"Are you sure you want to remove the selected links? This action can't be undone.\n"
+"'Cancel' to stop, 'OK' to remove"
+msgstr ""
+"選択したリンクを削除してよろしいですか? この操作は元に戻すことはできません。\n"
+"「OK」で削除、「キャンセル」で中止します。"
+
+#: legacy/includes/admin/links-page-js.php:792
+msgid ""
+"Are you sure you want to delete all posts, bookmarks or other items that contain any of the selected links? This action can't be undone.\n"
+"'Cancel' to stop, 'OK' to delete"
+msgstr ""
+"選んだリンクのどれかが含まれている投稿、ブックマーク、および他の項目をすべて削除してよろしいですか? この操作は元に戻すことはできません。\n"
+"「OK」で削除、「キャンセル」で中止します。"
+
+#: legacy/includes/admin/links-page-js.php:768
+msgid ""
+"You are about to delete the current filter.\n"
+"'Cancel' to stop, 'OK' to delete"
+msgstr ""
+"現在のフィルタを削除しようとしています。 \n"
+"「OK」で削除、「キャンセル」で中止します。"
+
+#: legacy/includes/admin/links-page-js.php:756
+msgid "Enter a name for the new custom filter"
+msgstr "新しいカスタムフィルタの名前を入力"
+
+#: legacy/includes/admin/links-page-js.php:708
+msgid "The following error(s) occured :"
+msgstr "エラーが発生しました："
+
+#: legacy/includes/admin/links-page-js.php:705
+msgid "The plugin failed to remove the link."
+msgstr "プラグインはリンクを解除できませんでした。"
+
+#: legacy/includes/admin/links-page-js.php:700
+msgid "However, %d instances couldn't be removed."
+msgstr "しかし、%d個のインスタンスはリンク解除できませんでした。"
+
+#: legacy/includes/admin/links-page-js.php:694
+msgid "%d instances of the link were successfully unlinked."
+msgstr "%d個のリンクのインスタンスが正常にリンク解除されました。"
+
+#: legacy/includes/admin/links-page-js.php:615
+msgid "Error: Link URL must not be empty."
+msgstr "エラー：リンク URL は空ではいけません。"
+
+#: legacy/includes/admin/links-page-js.php:543
+msgid "The following error(s) occurred :"
+msgstr "以下のエラーが発生しました："
+
+#: legacy/includes/admin/links-page-js.php:540
+msgid "The link could not be modified."
+msgstr "リンクを変更できませんでした。"
+
+#: legacy/includes/admin/links-page-js.php:534
+msgid "However, %d instances couldn't be edited and still point to the old URL."
+msgstr "しかし、 %d個のインスタンスは変更できず昔の URL のままです。"
+
+#: legacy/includes/admin/links-page-js.php:528
+msgid "%d instances of the link were successfully modified."
+msgstr "%d個のリンクのインスタンスが正常に変更されました。"
+
+#: legacy/includes/admin/links-page-js.php:431
+msgctxt "link suggestions"
+msgid "Archived page from %s (via the Wayback Machine)"
+msgstr "%s にアーカイブされたページ (Wayback Machine による)"
+
+#: legacy/includes/admin/links-page-js.php:430
+msgctxt "link suggestions"
+msgid "No suggestions available."
+msgstr "提案はありません。"
+
+#: legacy/includes/admin/links-page-js.php:429
+msgctxt "link suggestions"
+msgid "Searching..."
+msgstr "検索中..."
+
+#: legacy/includes/admin/links-page-js.php:371
+msgctxt "link text"
+msgid "(Multiple links)"
+msgstr "(複数リンク)"
+
+#: legacy/includes/admin/links-page-js.php:370
+msgctxt "link text"
+msgid "(None)"
+msgstr "(なし)"
+
+#: legacy/includes/admin/links-page-js.php:64
+#: legacy/includes/admin/links-page-js.php:659
+msgid "Wait..."
+msgstr "処理中..."
+
+#: legacy/includes/admin/db-upgrade.php:100
+msgid "Failed to delete old DB tables. Database error : %s"
+msgstr "古い DB テーブルの削除に失敗しました。データベースエラー :  %s"
+
+#: legacy/core/init.php:321 legacy/init.php:354
+msgid "Broken Link Checker installation failed. Try deactivating and then reactivating the plugin."
+msgstr "Broken Link Checker のインストールに失敗しました。プラグインを停止してから改めて有効にしてください。"
+
+#: legacy/core/init.php:248 legacy/init.php:265
+msgid "Twice a Month"
+msgstr "月2回"
+
+#: legacy/core/init.php:242 legacy/init.php:259
+msgid "Once Weekly"
+msgstr "週1回"
+
+#: legacy/core/core.php:4321
+msgid "Broken Link Checker has detected %d new broken link in your posts."
+msgid_plural "Broken Link Checker has detected %d new broken links in your posts."
+msgstr[0] "Broken Link Checker は投稿について新たに%d個のリンクエラーを検出しました。"
+
+#: legacy/core/core.php:4263
+msgid "You can see all broken links here:"
+msgstr "すべてのリンクエラーを見ることができます:"
+
+#: legacy/core/core.php:4249
+msgid "Source : %s"
+msgstr "ソース : %s"
+
+#: legacy/core/core.php:4248
+msgid "Link URL : <a href=\"%1$s\">%2$s</a>"
+msgstr "リンクのURL : <a href=\"%1$s\">%2$s</a>"
+
+#: legacy/core/core.php:4247
+msgid "Link text : %s"
+msgstr "リンクテキスト: %s"
+
+#: legacy/core/core.php:4237
+msgid "Here's a list of the new broken links: "
+msgstr "新しいリンクエラーのリスト:"
+
+#: legacy/core/core.php:4228
+msgid "Here's a list of the first %d broken links:"
+msgid_plural "Here's a list of the first %d broken links:"
+msgstr[0] "最初の%d個のリンクエラーのリスト:"
+
+#: legacy/core/core.php:4196
+msgid "Broken Link Checker has detected %d new broken link on your site."
+msgid_plural "Broken Link Checker has detected %d new broken links on your site."
+msgstr[0] "Broken Link Checker はサイトで新たに%d個のリンクエラーを検出しました。"
+
+#: legacy/core/core.php:4191 legacy/core/core.php:4316
+msgid "[%s] Broken links detected"
+msgstr "[%s] リンクエラーを検出しました"
+
+#: legacy/core/core.php:4056
+msgid "If this value is zero even after several page reloads you have probably encountered a bug."
+msgstr "ページを何度か再読み込みしてもこの値が0の場合、バグの可能性があります。"
+
+#: legacy/core/core.php:4037
+msgid "Database character set"
+msgstr "データベース文字セット "
+
+#: legacy/core/core.php:4019
+msgid "Redirects may be detected as broken links when open_basedir is on."
+msgstr "open_basedir が有効な場合リダイレクトがリンクエラーとして検出されることがあります。"
+
+#: legacy/core/core.php:4018
+msgid "On ( %s )"
+msgstr "ON ( %s )"
+
+#: legacy/core/core.php:4010 legacy/core/core.php:4024
+msgid "Off"
+msgstr "OFF"
+
+#: legacy/core/core.php:4005
+msgid "Redirects may be detected as broken links when safe_mode is on."
+msgstr "セーフモードが有効な場合リダイレクトがリンクエラーとして検出されることがあります。"
+
+#: legacy/core/core.php:4004
+msgid "On"
+msgstr "ON"
+
+#: legacy/core/core.php:3994
+msgid "You must have either CURL or Snoopy installed for the plugin to work!"
+msgstr "プラグインが動作するには CURL か Snoopy がインストールされていなければなりません !"
+
+#: legacy/core/core.php:3981
+msgid "Installed"
+msgstr "インストール済み"
+
+#: legacy/core/core.php:3975
+msgid "CURL version"
+msgstr "CURL バージョン"
+
+#: legacy/core/core.php:3972 legacy/core/core.php:3988
+#: legacy/core/core.php:3993
+msgid "Not installed"
+msgstr "インストールされていません"
+
+#: legacy/core/core.php:3961
+msgid "You have an old version of CURL. Redirect detection may not work properly."
+msgstr "CURL のバージョンが古いため、リダイレクト検出が正しく動作しないかもしれません。"
+
+#: legacy/core/core.php:3948
+msgid "MySQL version"
+msgstr "MySQL バージョン"
+
+#: legacy/core/core.php:3942
+msgid "PHP version"
+msgstr "PHP バージョン"
+
+#. Plugin Name of the plugin
+#: app/admin-pages/cloud-page/class-controller.php:84
+#: app/admin-pages/cloud-submenu/class-controller.php:67
+#: app/emails/recipient-activation/class-controller.php:88
+#: app/emails/scan-report/class-controller.php:101 legacy/core/core.php:3922
+msgid "Broken Link Checker"
+msgstr "Broken Link Checker"
+
+#: legacy/core/core.php:3868
+msgid "Failed to load link details (%s)"
+msgstr "リンクの詳細 (%s) の読み込みに失敗しました"
+
+#: legacy/core/core.php:3854
+msgid "Error : link ID not specified"
+msgstr "エラー: リンク ID が指定されていません"
+
+#: legacy/core/core.php:3841
+msgid "You don't have sufficient privileges to access this information!"
+msgstr "この情報にアクセスする権限がありません !"
+
+#: legacy/core/core.php:3669
+msgid "An unexpected error occured!"
+msgstr "予期しないエラーが発生しました !"
+
+#: legacy/core/core.php:3586
+msgid "An unexpected error occurred!"
+msgstr "予期しないエラーが発生しました !"
+
+#: legacy/core/core.php:3552 legacy/core/core.php:3566
+msgid "Oops, the new URL is invalid!"
+msgstr "新しい URL が無効です !"
+
+#: legacy/core/core.php:3526
+msgid "Error : link_id or new_url not specified"
+msgstr "エラー: link_id または new_url が指定されていません"
+
+#: legacy/core/core.php:3461 legacy/core/core.php:3502
+#: legacy/core/core.php:3690 legacy/core/core.php:3712
+#: legacy/core/core.php:3792
+msgid "Error : link_id not specified"
+msgstr "エラー: link_id が指定されていません"
+
+#: legacy/core/core.php:3458 legacy/core/core.php:3499
+msgid "Oops, couldn't modify the link!"
+msgstr "リンクを変更できませんでした !"
+
+#: legacy/core/core.php:3438 legacy/core/core.php:3485
+#: legacy/core/core.php:3539 legacy/core/core.php:3656
+#: legacy/core/core.php:3725 legacy/core/core.php:3805
+msgid "Oops, I can't find the link %d"
+msgstr "リンク %d を見つけることができません。"
+
+#: legacy/core/core.php:3373
+msgctxt "current load"
+msgid "Unknown"
+msgstr "不明"
+
+#: legacy/core/core.php:3347
+msgid "No links detected."
+msgstr "リンクは見つかりませんでした。"
+
+#: legacy/core/core.php:3345
+msgid "Searching your blog for links..."
+msgstr "ブログ内のリンクを検索中..."
+
+#: legacy/core/core.php:3338
+msgid "Detected %1$s in %2$s."
+msgstr "%2$s 中 %1$s を検出しました。"
+
+#: legacy/core/core.php:3332
+msgid "Detected %1$s in %2$s and still searching..."
+msgstr "%2$s 中 %1$s を検出し、検索中..."
+
+#: legacy/core/core.php:3326
+msgctxt "for the \"Detected X unique URLs in Y links\" message"
+msgid "%d link"
+msgid_plural "%d links"
+msgstr[0] "%d個のリンク"
+
+#: legacy/core/core.php:3322
+msgctxt "for the \"Detected X unique URLs in Y links\" message"
+msgid "%d unique URL"
+msgid_plural "%d unique URLs"
+msgstr[0] "%d個のユニーク URL"
+
+#: legacy/core/core.php:3316
+msgid "No URLs in the work queue."
+msgstr "作業キューに URL はありません。"
+
+#: legacy/core/core.php:3312
+msgid "%d URL in the work queue"
+msgid_plural "%d URLs in the work queue"
+msgstr[0] "%d個の URL が作業キューにあります"
+
+#: legacy/core/core.php:3305
+msgid "No broken links found."
+msgstr "リンクエラーはありません。"
+
+#: legacy/core/core.php:3299
+msgid "Found %d broken link"
+msgid_plural "Found %d broken links"
+msgstr[0] "%d個のリンクエラーを発見しました"
+
+#: legacy/core/core.php:3298
+msgid "View broken links"
+msgstr "リンクエラーを表示"
+
+#: legacy/core/core.php:2835 legacy/core/core.php:3430
+#: legacy/core/core.php:3477 legacy/core/core.php:3516
+#: legacy/core/core.php:3642 legacy/core/core.php:3702
+#: legacy/core/core.php:3782
+msgid "You're not allowed to do that!"
+msgstr "それを行うことは許可されていません !"
+
+#: legacy/core/core.php:2815
+msgid "Color-code status codes"
+msgstr "ステータスコードを色分けする"
+
+#: legacy/core/core.php:2806
+msgid "Highlight links broken for at least %s days"
+msgstr "発見してから%s日過ぎたリンクエラーをハイライト表示する"
+
+#: legacy/core/core.php:2791
+msgid "Misc"
+msgstr "その他"
+
+#: legacy/core/core.php:2787 legacy/includes/admin/table-printer.php:175
+msgid "Apply"
+msgstr "適用"
+
+#: legacy/core/core.php:2786
+msgid "links"
+msgstr "リンク"
+
+#: legacy/core/core.php:2779
+msgid "Show on screen"
+msgstr "画面に表示する"
+
+#: legacy/core/core.php:2760
+msgid "Table columns"
+msgstr "表の列"
+
+#: legacy/core/core.php:2735
+msgctxt "a link from the admin notice under Tools - Broken links - Warnings"
+msgid "Change warning settings"
+msgstr "警告の設定を変更する"
+
+#: legacy/core/core.php:2729
+msgctxt "admin notice under Tools - Broken links - Warnings"
+msgid "Hide notice"
+msgstr "通知を隠す"
+
+#: legacy/core/core.php:2724
+msgid "The \"Warnings\" page lists problems that are probably temporary or suspected to be false positives.<br> Warnings that persist for a long time will usually be reclassified as broken links."
+msgstr "警告ページは、一時的なものや誤検出と考えられる問題のリストを表示します。<br>長い期間続く警告は、通常はリンク切れとして再定義されます。"
+
+#: legacy/core/core.php:2654
+msgid "%d link dismissed"
+msgid_plural "%d links dismissed"
+msgstr[0] "%d個のリンクを無視しました"
+
+#: legacy/core/core.php:2590
+msgid "%d link marked as not broken"
+msgid_plural "%d links marked as not broken"
+msgstr[0] "%d個のリンクを「リンクエラーでない」としました"
+
+#: legacy/core/core.php:2579 legacy/core/core.php:2643
+msgid "Couldn't modify link %d"
+msgstr "リンク %d を変更できませんでした"
+
+#: legacy/core/core.php:2571 legacy/core/core.php:3446
+msgid "This link was manually marked as working by the user."
+msgstr "このリンクは正しいと手動でマークされました。"
+
+#: legacy/core/core.php:2521
+msgid "%d link scheduled for rechecking"
+msgid_plural "%d links scheduled for rechecking"
+msgstr[0] "%d個のリンクを再確認します"
+
+#: legacy/core/core.php:2482
+msgid "Didn't find anything to delete!"
+msgstr "削除するものが見つかりませんでした !"
+
+#: legacy/core/core.php:2460
+msgid "%d item was skipped because it can't be moved to the Trash. You need to delete it manually."
+msgid_plural "%d items were skipped because they can't be moved to the Trash. You need to delete them manually."
+msgstr[0] "ゴミ箱に移動できないため%d個の項目をスキップしました。手動で削除してください。"
+
+#: legacy/core/core.php:2345
+msgid "Failed to remove %d link"
+msgid_plural "Failed to remove %d links"
+msgstr[0] "%d個のリンクを削除できませんでした"
+
+#: legacy/core/core.php:2334
+msgid "%d link removed"
+msgid_plural "%d links removed"
+msgstr[0] "%d個のリンクを削除しました"
+
+#: legacy/core/core.php:2241
+msgid "Failed to update %d link."
+msgid_plural "Failed to update %d links."
+msgstr[0] "%d個のリンクを更新できませんでした。"
+
+#: legacy/core/core.php:2230
+msgid "%d link updated."
+msgid_plural "%d links updated."
+msgstr[0] "%d個のリンクを更新しました。"
+
+#: legacy/core/core.php:2143
+msgid "None of the selected links are redirects!"
+msgstr "選択したリンクはリダイレクトではありません。"
+
+#: legacy/core/core.php:2132
+msgid "Failed to fix %d redirect"
+msgid_plural "Failed to fix %d redirects"
+msgstr[0] "%d個のリダイレクトの修正に失敗しました。"
+
+#: legacy/core/core.php:2121
+msgid "Replaced %d redirect with a direct link"
+msgid_plural "Replaced %d redirects with direct links"
+msgstr[0] "%d個のリダイレクトを直接のリンクに置換しました。"
+
+#: legacy/core/core.php:2071
+msgid "Filter deleted"
+msgstr "フィルタを削除しました。"
+
+#: legacy/core/core.php:2064
+msgid "Filter ID not specified."
+msgstr "フィルタ ID が指定されていません。"
+
+#: legacy/core/core.php:2037
+msgid "Filter \"%s\" created"
+msgstr "フィルタ \"%s\" を作成しました。"
+
+#: legacy/core/core.php:2027
+msgid "Invalid search query."
+msgstr "無効な検索クエリ。"
+
+#: legacy/core/core.php:2023
+msgid "You must enter a filter name!"
+msgstr "フィルター名を入力する必要があります !"
+
+#: legacy/core/core.php:1952 legacy/core/core.php:2042
+#: legacy/core/core.php:2074
+msgid "Database error : %s"
+msgstr "データベース エラー: %s"
+
+#: legacy/core/core.php:1798
+msgid "Enter the names of custom fields you want to check (one per line). If a field contains HTML code, prefix its name with <code>html:</code>. For example, <code>html:field_name</code>."
+msgstr "チェックしたいカスタムフィールドの名前を入れてください。一行に1個ずつです。もし html コードを許容するフィールドなら、前に <code>html:</code> を付けてください。例えば <code>html:field_name</code> のように。"
+
+#: legacy/core/core.php:1690
+msgid "Configure"
+msgstr "設定"
+
+#: legacy/core/core.php:1639
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: legacy/core/core.php:1626
+msgid "The \"Nuclear Option\". Click this button to make the plugin empty its link database and recheck the entire site from scratch."
+msgstr "これは「影響の大きいオプション」です。リンクデータベースを空にしてサイト全体を最初から再確認するには、このボタンをクリックします。"
+
+#: legacy/core/core.php:1621
+msgid "Re-check all pages"
+msgstr "すべてのページを再確認"
+
+#: legacy/core/core.php:1618
+msgid "Forced recheck"
+msgstr "再確認"
+
+#: legacy/core/core.php:1580
+msgctxt "log file location"
+msgid "Custom"
+msgstr "カスタム"
+
+#: legacy/core/core.php:1564
+msgctxt "log file location"
+msgid "Default"
+msgstr "デフォルト"
+
+#: legacy/core/core.php:1555
+msgid "Log file location"
+msgstr "ログファイルの場所"
+
+#: legacy/core/core.php:1548
+msgid "Enable logging"
+msgstr "ログを取る"
+
+#: legacy/core/core.php:1542
+msgid "Logging"
+msgstr "ログの保存"
+
+#: legacy/core/core.php:1522
+msgid "Target resource usage"
+msgstr "リソース使用率の目標値"
+
+#: legacy/core/core.php:1514
+msgid "Load limiting only works on Linux-like systems where <code>/proc/loadavg</code> is present and accessible."
+msgstr "負荷制限は <code>/proc/loadavg</code> が利用可能な Linux などのシステムでのみ動作します。"
+
+#: legacy/core/core.php:1512
+msgid "Not available"
+msgstr "利用できません"
+
+#: legacy/core/core.php:1503
+msgid "Link checking will be suspended if the average <a href=\"%s\">server load</a> rises above this number. Leave this field blank to disable load limiting."
+msgstr ""
+"平均の<a href=\"%s\">サーバー負荷</a>が設定値を超えるとリンクチェックを中断します。\n"
+"負荷制限を無効にするにはこの項目を空にしてください。"
+
+#: legacy/core/core.php:1498
+msgid "Current load : %s"
+msgstr "現在の負荷 : %s"
+
+#: legacy/core/core.php:1483
+msgid "Server load limit"
+msgstr "サーバー負荷の制限"
+
+#: legacy/core/core.php:1474
+msgid "The plugin works by periodically launching a background job that parses your posts for links, checks the discovered URLs, and performs other time-consuming tasks. Here you can set for how long, at most, the link monitor may run each time before stopping."
+msgstr ""
+"このプラグインはバックグラウンドジョブを定期的に実行することで動作します。\n"
+"このジョブは投稿からリンクを探索、URL をチェック、また他の時間のかかるタスクを行います。\n"
+"ここでは、リンクモニタが停止する前に実行することができる時間を設定することができます。"
+
+#: legacy/core/core.php:1456
+msgid "Max. execution time"
+msgstr "最大実行時間"
+
+#: legacy/core/core.php:1438
+msgctxt "settings page"
+msgid "Show link actions"
+msgstr "リンクに表示する操作"
+
+#: legacy/core/core.php:1422
+msgctxt "dashboard widget visibility"
+msgid "Nobody (disables the widget)"
+msgstr "誰にも表示しない (ウィジェットを無効化)"
+
+#: legacy/core/core.php:1421
+msgctxt "dashboard widget visibility"
+msgid "Editor and above"
+msgstr "編集者以上"
+
+#: legacy/core/core.php:1420
+msgctxt "dashboard widget visibility"
+msgid "Administrator"
+msgstr "管理者"
+
+#: legacy/core/core.php:1415
+msgid "Show the dashboard widget for"
+msgstr "ダッシュボードのウィジェットを表示"
+
+#: legacy/core/core.php:1407
+msgid "Run hourly in the background"
+msgstr "バックグラウンドで1時間ごとに実行する"
+
+#: legacy/core/core.php:1394
+msgid "Run continuously while the Dashboard is open"
+msgstr "ダッシュボード表示中に継続して実行する"
+
+#: legacy/core/core.php:1381
+msgid "Link monitor"
+msgstr "リンクモニター"
+
+#: legacy/core/core.php:1374
+msgid "Links that take longer than this to load will be marked as broken."
+msgstr "これよりも読み込みに時間がかかったリンクはリンクエラーとする"
+
+#: legacy/core/core.php:1365 legacy/core/core.php:1462
+#: legacy/core/core.php:4031
+msgid "%s seconds"
+msgstr "%s秒"
+
+#: legacy/core/core.php:1359 legacy/includes/links.php:1033
+msgid "Timeout"
+msgstr "タイムアウト"
+
+#: legacy/core/core.php:1339
+msgid "Check links using"
+msgstr "リンクのチェック手段"
+
+#: legacy/core/core.php:1319
+msgid "Don't check links where the URL contains any of these words (one per line) :"
+msgstr "これらの単語を含む URL のリンクをチェックしない (1行にひとつ) :"
+
+#: legacy/core/core.php:1318
+msgid "Exclusion list"
+msgstr "除外リスト"
+
+#: legacy/core/core.php:1311
+msgid "Error : All link parsers missing!"
+msgstr "エラー: すべてのリンクパーサーがなくなっています !"
+
+#: legacy/core/core.php:1305
+msgid "Link types"
+msgstr "リンクの種類"
+
+#: legacy/core/core.php:1271
+msgid "Post statuses"
+msgstr "投稿のステータス"
+
+#: legacy/core/core.php:1254
+msgid "Look for links in"
+msgstr "含まれるリンクを探す"
+
+#: legacy/core/core.php:1208
+msgid "Turning off this option will make the plugin report all problems as broken links."
+msgstr "この設定をオフにするとプラグインはすべての問題をリンクエラーとして報告します。"
+
+#: legacy/core/core.php:1204
+msgid "Show uncertain or minor problems as \"warnings\" instead of \"broken\""
+msgstr "不確実または軽微な問題を「リンクエラー」ではなく「警告」として表示"
+
+#: legacy/core/core.php:1199
+msgctxt "settings page"
+msgid "Warnings"
+msgstr "警告"
+
+#: legacy/core/core.php:1193
+msgid "Suggest alternatives to broken links"
+msgstr "リンク切れに代わるものを提案する"
+
+#: legacy/core/core.php:1187
+msgctxt "settings page"
+msgid "Suggestions"
+msgstr "提案"
+
+#: legacy/core/core.php:1176
+msgctxt "\"Link tweaks\" settings"
+msgid "These settings only apply to the content of posts, not comments or custom fields."
+msgstr "これらの設定は投稿の内容のみに適用され、コメントやカスタムフィールドには適用されません。"
+
+#: legacy/core/core.php:1170
+msgid "Stop search engines from following broken links"
+msgstr "検索エンジンにリンクエラーをたどらせない (nofollow 属性をつける)"
+
+#: legacy/core/core.php:1151
+msgid "Example : Lorem ipsum <span %s>removed link</span>, dolor sit amet."
+msgstr "例: Lorem ipsum <span %s>削除したリンク</span>, dolor sit amet."
+
+#: legacy/core/core.php:1124
+msgid "Apply custom formatting to removed links"
+msgstr "削除したリンクにカスタム CSS を適用する"
+
+#: legacy/core/core.php:1109 legacy/core/core.php:1154
+msgid "Click \"Save Changes\" to update example output."
+msgstr "例の表示を更新するには「変更を保存」をクリックしてください。"
+
+#: legacy/core/core.php:1106
+msgid "Example : Lorem ipsum <a %s>broken link</a>, dolor sit amet."
+msgstr "例: Lorem ipsum <a %s>リンク切れ</a>, dolor sit amet."
+
+#: legacy/core/core.php:1085 legacy/core/core.php:1129
+msgid "Edit CSS"
+msgstr "CSS を編集"
+
+#: legacy/core/core.php:1080
+msgid "Apply custom formatting to broken links"
+msgstr "リンクエラーにカスタム CSS を適用する"
+
+#: legacy/core/core.php:1068
+msgid "Link tweaks"
+msgstr "リンクの調整"
+
+#: legacy/core/core.php:1036
+msgid "Leave empty to use the e-mail address specified in Settings &rarr; General."
+msgstr "設定 &rarr; 一般 で指定したメールアドレスを使うには空にしてください。"
+
+#: legacy/core/core.php:1024
+msgid "Notification e-mail address"
+msgstr "通知メールアドレス"
+
+#: legacy/core/core.php:1017
+msgid "Send authors e-mail notifications about broken links in their posts"
+msgstr "投稿内のリンクエラーについて作成者へメール通知を送る"
+
+#: legacy/core/core.php:1003
+msgid "Send me e-mail notifications about newly detected broken links"
+msgstr "新たに検出されたリンクエラーについてメール通知を受け取る"
+
+#: legacy/core/core.php:991
+msgid "E-mail notifications"
+msgstr "メールで通知"
+
+#: legacy/core/core.php:984
+msgid "Existing links will be checked this often. New links will usually be checked ASAP."
+msgstr "既存のリンクは定期的にチェックされます。新しいリンクはできるだけ早くチェックされます。"
+
+#: legacy/core/core.php:975
+msgid "Every %s hours"
+msgstr "%s時間ごと"
+
+#: legacy/core/core.php:970
+msgid "Check each link"
+msgstr "各リンクをチェック"
+
+#: legacy/core/core.php:942 legacy/includes/admin/options-page-js.php:56
+msgid "Show debug info"
+msgstr "デバッグ情報を表示"
+
+#: app/emails/scan-report/class-view.php:167 legacy/core/core.php:939
+#: legacy/includes/admin/table-printer.php:215
+msgid "Status"
+msgstr "ステータス"
+
+#: legacy/core/core.php:884
+msgid "Advanced"
+msgstr "高度な設定"
+
+#: legacy/core/core.php:883
+msgid "Protocols & APIs"
+msgstr "プロトコル & API"
+
+#: legacy/core/core.php:882
+msgid "Which Links To Check"
+msgstr "チェックするリンクの種類"
+
+#: legacy/core/core.php:881
+msgid "Look For Links In"
+msgstr "含まれるリンクを探す"
+
+#: legacy/core/core.php:880
+msgid "General"
+msgstr "一般"
+
+#: legacy/core/core.php:857
+msgid "Complete site recheck started."
+msgstr "サイト全体の再確認を開始しました。"
+
+#: legacy/core/core.php:850
+msgid "Settings saved."
+msgstr "設定を保存しました。"
+
+#: legacy/core/core.php:555 legacy/includes/admin/table-printer.php:747
+msgctxt "link action; replace one redirect with a direct link"
+msgid "Fix redirect"
+msgstr "リダイレクトを修正"
+
+#: legacy/core/core.php:554 legacy/includes/admin/table-printer.php:293
+#: legacy/includes/admin/table-printer.php:739
+msgid "Recheck"
+msgstr "再確認"
+
+#: app/admin-notices/multisite/class-view.php:64 legacy/core/core.php:553
+#: legacy/includes/admin/table-printer.php:296
+#: legacy/includes/admin/table-printer.php:727
+msgid "Dismiss"
+msgstr "無視"
+
+#: legacy/core/core.php:552 legacy/includes/admin/links-page-js.php:111
+#: legacy/includes/admin/table-printer.php:719
+msgid "Not broken"
+msgstr "リンクエラーでない"
+
+#: legacy/core/core.php:551 legacy/includes/admin/links-page-js.php:716
+#: legacy/includes/admin/table-printer.php:297
+#: legacy/includes/admin/table-printer.php:713
+msgid "Unlink"
+msgstr "リンク解除"
+
+#: legacy/core/core.php:550 legacy/includes/admin/table-printer.php:292
+#: legacy/includes/admin/table-printer.php:710
+msgid "Edit URL"
+msgstr "URL を編集"
+
+#: app/admin-pages/local-submenu/class-view.php:67 legacy/core/core.php:514
+msgid "Settings"
+msgstr "設定"
+
+#: app/action-links/plugin/class-controller.php:99
+#: app/admin-pages/local-submenu/class-view.php:66
+#: app/emails/scan-report/class-controller.php:80
+#: app/emails/scan-report/class-view.php:164 legacy/core/core.php:431
+#: legacy/core/core.php:432 legacy/includes/link-query.php:37
+msgid "Broken Links"
+msgstr "リンクエラー"
+
+#: app/admin-pages/cloud-page/class-controller.php:85
+msgid "Link Checker"
+msgstr "Link Checker"
+
+#: legacy/core/core.php:313
+msgid "Automatically expand the widget if broken links have been detected"
+msgstr "リンクエラーを検出したときウィジェットを自動的に展開する"
+
+#: legacy/core/core.php:269 legacy/includes/admin/options-page-js.php:18
+msgid "[ Network error ]"
+msgstr "[ネットワークエラー]"
+
+#: legacy/core/core.php:245 legacy/includes/admin/links-page-js.php:45
+msgid "Loading..."
+msgstr "読み込み中..."

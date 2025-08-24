@@ -1,0 +1,41 @@
+# Translation of Plugins - Fixed Widget and Sticky Elements for WordPress - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - Fixed Widget and Sticky Elements for WordPress - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-07-06 12:07:58+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Fixed Widget and Sticky Elements for WordPress - Stable (latest release)\n"
+
+#: q2w3-fixed-widget.php:453 q2w3-fixed-widget.php:454
+#: q2w3-fixed-widget.php:479 q2w3-fixed-widget.php:480
+msgid "px"
+msgstr "px"
+
+#: q2w3-fixed-widget.php:417
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: q2w3-fixed-widget.php:383
+msgid "General Options"
+msgstr "一般設定"
+
+#: q2w3-fixed-widget.php:263
+msgid "Fixed widget"
+msgstr "Fixed widget"
+
+#: q2w3-fixed-widget.php:394
+msgid "Settings saved."
+msgstr "設定が保存されました。"
+
+#: q2w3-fixed-widget.php:480
+msgid "Margin Bottom"
+msgstr "下マージン: "
+
+#: q2w3-fixed-widget.php:479
+msgid "Margin Top"
+msgstr "上マージン: "

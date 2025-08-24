@@ -1,0 +1,2792 @@
+# Translation of Plugins - Really Simple SSL &#8211; Simple and Lightweight Security - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - Really Simple SSL &#8211; Simple and Lightweight Security - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-10-16 12:29:16+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Really Simple SSL &#8211; Simple and Lightweight Security - Stable (latest release)\n"
+
+#: settings/config/fields/firewall.php:31
+#: settings/config/fields/firewall.php:71
+#: settings/config/fields/firewall.php:236
+#: settings/config/fields/limit-login-attempts.php:182
+#: settings/config/fields/limit-login-attempts.php:306
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/src/Settings/GeoBlockList/TrustIpAddressModal.js:86
+#: settings/src/Settings/LimitLoginAttempts/AddIpAddressModal.js:81
+msgid "IP Address"
+msgstr "IP アドレス"
+
+#: settings/config/disable-fields-filter.php:66
+msgid "Email not verified yet. Verify your email address to get the most out of Really Simple SSL"
+msgstr "メールはまだ認証されていません。お使いのメールを認証して Really Simple SSL を最大限に活用しましょう"
+
+#: settings/config/fields/two-fa.php:109
+msgid "User role"
+msgstr "ユーザーの権限"
+
+#: settings/config/fields/two-fa.php:88 settings/config/menu.php:339
+#: settings/config/menu.php:411 settings/config/menu.php:431
+msgid "Users"
+msgstr "ユーザー"
+
+#: settings/config/fields/two-fa.php:35
+msgid "Enable two-step verification"
+msgstr "2段階認証を使用"
+
+#: settings/config/fields/two-fa.php:18
+msgid "Two-step verification is the first feature we regard as login protection. Want to know more about this feature, and what is to come?"
+msgstr "2段階認証はログイン保護として私たちが初めて追加した機能です。この機能の詳細や今後何を実装するか知りたいですか ?"
+
+#: settings/config/fields/two-fa.php:17
+msgid "About Login Protection"
+msgstr "ログイン保護について"
+
+#: settings/config/fields/two-fa.php:13
+msgid "Enable login protection"
+msgstr "ログイン保護を使用"
+
+#: settings/config/fields/limit-login-attempts.php:298
+msgid "User"
+msgstr "ユーザー"
+
+#: settings/config/fields/firewall.php:185
+#: settings/config/fields/firewall.php:230
+#: settings/config/fields/limit-login-attempts.php:234
+#: settings/config/fields/limit-login-attempts.php:286
+msgid "Country"
+msgstr "国"
+
+#: settings/config/fields/limit-login-attempts.php:29
+msgid "Login attempts"
+msgstr "ログイン試行"
+
+#: settings/config/fields/general.php:93
+msgid "Verify your email address to get the most out of Really Simple SSL."
+msgstr "メールを認証して Really Simple SSL を最大限に活用しましょう"
+
+#: mailer/class-mail.php:205 settings/config/fields/general.php:91
+msgid "Email verification"
+msgstr "メール認証"
+
+#: mailer/class-mail.php:120
+msgid "Click the button below to confirm your email address, or copy the following URL: %s"
+msgstr "以下のボタンをクリックしメールを確認するか、次の URL をコピーします: %s"
+
+#: mailer/class-mail.php:117
+msgid "Verify email"
+msgstr "メールを認証する"
+
+#: mailer/class-mail.php:115
+msgid "Please verify your email"
+msgstr "メールを認証してください"
+
+#: mailer/class-mail.php:114
+msgid "Really Simple SSL - Verify your email address"
+msgstr "Really Simple SSL - メールの認証"
+
+#: class-multisite.php:257 class-multisite.php:258 settings/settings.php:179
+#: settings/settings.php:180
+msgid "SSL & Security"
+msgstr "SSL とセキュリティ"
+
+#: class-admin.php:2380
+msgid "Email address successfully verified"
+msgstr "メール認証に成功しました"
+
+#: class-admin.php:2372
+msgid "Email verification has not been completed yet. Check your email and click the link"
+msgstr "メール認証はまだ完了してません。お使いのメールを確認しリンクをクリックします"
+
+#: settings/config/fields/hardening-extended.php:46
+msgid "Restrict creation of administrator roles"
+msgstr "管理者の権限作成を制限"
+
+#: settings/config/fields/hardening-extended.php:44
+msgid "Many vulnerabilities are exploited by injecting a user with administrator capabilities outside of the native WordPress creation process. Under advanced hardening you can prevent this from happening."
+msgstr "多くの脆弱性は、WordPress の正式な作成処理以外から管理者権限を持つユーザーを追加することで悪用されます。これは高度な堅牢化で防ぐことができます。"
+
+#: settings/config/fields/hardening-extended.php:43
+msgid "Unauthorized administrators"
+msgstr "正式ではない管理者"
+
+#: settings/config/fields/hardening-extended.php:38
+#: settings/config/fields/hardening-extended.php:39
+msgid "This setting will block attempts to assign administrator roles outside the native user creation process by WordPress. This might include other plugins that create, edit or assign roles to users. If you need to create an administrator in a third-party plugin, temporarily disable this setting while you make the changes."
+msgstr "この設定は、WordPress にある正当なユーザー作成処理以外で管理者の権限を割り当てようとすることを阻止します。これはユーザーの作成、編集、または権限を割り当てる他のプラグインを含む可能性があります。第三者製のプラグインから管理者を作成する際は、その間この設定を一時的に無効にしてください。"
+
+#: security/wordpress/vulnerabilities.php:1571
+msgid "You have %s low-risk vulnerability"
+msgid_plural "You have %s low-risk vulnerabilities"
+msgstr[0] "%s個の低リスクの脆弱性あり"
+
+#: security/wordpress/vulnerabilities.php:1568
+msgid "You have %s medium-risk vulnerability"
+msgid_plural "You have %s medium-risk vulnerabilities"
+msgstr[0] "%s個の中リスクの脆弱性あり"
+
+#: security/wordpress/vulnerabilities.php:1565
+msgid "You have %s high-risk vulnerability"
+msgid_plural "You have %s high-risk vulnerabilities"
+msgstr[0] "%s個の高リスクの脆弱性あり"
+
+#: security/wordpress/vulnerabilities.php:1562
+msgid "You have %s critical vulnerability"
+msgid_plural "You have %s critical vulnerabilities"
+msgstr[0] "%s個の重大な脆弱性あり"
+
+#: security/wordpress/vulnerabilities.php:346
+msgid "Please take appropriate action."
+msgstr "対策してください。"
+
+#: security/notices.php:221
+msgid "Really Simple SSL has a new feature! Introducing Vulnerability Detection, enable it now."
+msgstr "Really Simple SSL の新機能 ! 脆弱性の検出を有効化しましょう。"
+
+#: security/wordpress/vulnerabilities.php:304
+msgid "View vulnerabilities"
+msgstr "脆弱性を表示"
+
+#: security/wordpress/vulnerabilities.php:299
+msgid "Please check the vulnerabilities overview for more information and take appropriate action."
+msgstr "詳細から脆弱性の概要を確認し、適切に対策しましょう。"
+
+#: security/wordpress/vulnerabilities.php:298
+msgid "%s vulnerability has been detected."
+msgid_plural "%s vulnerabilities have been detected."
+msgstr[0] "%s個の脆弱性が検出されました。"
+
+#: security/wordpress/vulnerabilities.php:290
+msgid "Vulnerabilities detected"
+msgstr "脆弱性の検出あり"
+
+#: security/wordpress/vulnerabilities.php:270
+#: security/wordpress/vulnerabilities.php:278
+msgid "No known vulnerabilities detected"
+msgstr "既知の脆弱性の検出なし"
+
+#: settings/config/fields/encryption.php:80
+msgid "Only enable this if you experience mixed content in the admin environment of your WordPress website."
+msgstr "この WordPress サイトの管理環境に混在コンテンツが起きている場合にのみ有効化してください。"
+
+#: settings/config/fields/encryption.php:65
+msgid "Only enable if the default mixed content fixer does not fix your front-end mixed content."
+msgstr "通常の混在コンテンツ修正機能で、フロントエンドの混在コンテンツが修正されない場合のみ有効にしてください。"
+
+#: settings/config/menu.php:221
+msgid "You can choose to automate the most common actions for a vulnerability. Each action is set to a minimum risk level, similar to the notifications. Please read the instructions to learn more about the process."
+msgstr "脆弱性に対して、最も一般的な自動操作を選択できます。それぞれの操作は、通知と同様、最低限のリスク許容値が設定されています。処理の詳細については説明をご覧ください。"
+
+#: settings/config/menu.php:220
+msgid "Measures"
+msgstr "対策"
+
+#: settings/config/menu.php:200
+msgid "This is the vulnerability overview. Here you will find current known vulnerabilities on your system. You can find more information and helpful, actionable insights for every vulnerability under details."
+msgstr "脆弱性の概要です。現在、利用中のシステム内に見つかっている脆弱性です。それぞれの脆弱性の詳細から、詳細情報と有用で実行可能なヒントを確認できます。"
+
+#: settings/config/menu.php:214
+msgid "These notifications are set to the minimum risk level that triggers a notification. For example, the default site-wide notification triggers on high-risk and critical vulnerabilities."
+msgstr "通知は、通知を実行するための最低限のリスク許容値が設定されています。例えば、サイト全体の通知の初期設定は、リスク高、また重大な脆弱性の発見時となります。"
+
+#: settings/config/menu.php:193
+msgid "Here you can configure vulnerability detection, notifications and measures. To learn more about the features displayed, please use the instructions linked in the top-right corner."
+msgstr "脆弱性の検出、通知、対策を設定できます。機能の詳細は、右上の説明のリンクからお読みください。"
+
+#: settings/config/fields/vulnerability-detection.php:237
+msgid "I have read and understood the risks to intervene with these measures."
+msgstr "これらの対策に干渉する際の危険性について、私は読んで理解しました。"
+
+#: settings/config/fields/firewall.php:44
+#: settings/config/fields/firewall.php:244
+#: settings/config/fields/limit-login-attempts.php:149
+#: settings/config/fields/limit-login-attempts.php:195
+#: settings/config/fields/limit-login-attempts.php:292
+#: settings/config/fields/vulnerability-detection.php:167
+msgid "Date"
+msgstr "日時"
+
+#: settings/config/fields/vulnerability-detection.php:174
+#: settings/config/fields/vulnerability-detection.php:217
+msgid "Risk"
+msgstr "リスク"
+
+#: settings/config/fields/vulnerability-detection.php:159
+msgid "Component"
+msgstr "構成要素"
+
+#: settings/config/fields/vulnerability-detection.php:147
+msgid "Vulnerabilities Overview"
+msgstr "脆弱性の概要"
+
+#: settings/config/fields/vulnerability-detection.php:130
+msgid "Test notifications can be used to test email delivery and shows how vulnerabilities will be reported on your WordPress installation."
+msgstr "テストメールの配信にテスト通知が使われ、この WordPress インストール上の脆弱性がどのように報告されるか表示します。"
+
+#: settings/config/fields/vulnerability-detection.php:129
+#: settings/config/fields/vulnerability-detection.php:132
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/src/Settings/RiskConfiguration/NotificationTester.js:39
+msgid "Test notifications"
+msgstr "通知テスト"
+
+#: settings/config/fields/vulnerability-detection.php:109
+msgid "This will send emails about vulnerabilities directly from your server. Make sure you can receive emails by the testing a preview below. If this feature is disabled, please enable notifications under general settings."
+msgstr "サーバーから直接、脆弱性についてのメールを送信します。以下のテストにより、メールを受信可能であることを確認してください。この機能が無効になっていれば、設定の全般から通知を有効化してください"
+
+#: settings/config/fields/vulnerability-detection.php:108
+#: settings/config/menu.php:35 settings/config/menu.php:330
+msgid "Email"
+msgstr "メール"
+
+#: settings/config/fields/vulnerability-detection.php:106
+msgid "Critical (default)"
+msgstr "重大 (初期設定)"
+
+#: settings/config/fields/vulnerability-detection.php:103
+#: settings/config/fields/vulnerability-detection.php:196
+msgid "Low-risk"
+msgstr "低リスク"
+
+#: settings/config/fields/vulnerability-detection.php:86
+msgid "Site-wide, admin notification"
+msgstr "サイト全体、管理者通知"
+
+#: settings/config/fields/vulnerability-detection.php:83
+msgid "High-risk (default)"
+msgstr "高リスク (初期設定)"
+
+#: settings/config/fields/vulnerability-detection.php:81
+msgid "Low-risk "
+msgstr "低リスク "
+
+#: settings/config/fields/vulnerability-detection.php:64
+msgid "Really Simple SSL dashboard"
+msgstr "Really Simple SSL ダッシュボード"
+
+#: settings/config/fields/vulnerability-detection.php:62
+#: settings/config/fields/vulnerability-detection.php:84
+#: settings/config/fields/vulnerability-detection.php:199
+msgid "Critical"
+msgstr "重大"
+
+#: settings/config/fields/vulnerability-detection.php:61
+#: settings/config/fields/vulnerability-detection.php:105
+#: settings/config/fields/vulnerability-detection.php:198
+msgid "High-risk"
+msgstr "高リスク"
+
+#: settings/config/fields/vulnerability-detection.php:60
+#: settings/config/fields/vulnerability-detection.php:82
+#: settings/config/fields/vulnerability-detection.php:104
+#: settings/config/fields/vulnerability-detection.php:197
+msgid "Medium-risk"
+msgstr "中リスク"
+
+#: settings/config/fields/vulnerability-detection.php:59
+msgid "Low-risk (default)"
+msgstr "低リスク (初期設定)"
+
+#: settings/config/fields/vulnerability-detection.php:58
+#: settings/config/fields/vulnerability-detection.php:80
+#: settings/config/fields/vulnerability-detection.php:102
+#: settings/config/fields/vulnerability-detection.php:195
+msgid "None"
+msgstr "なし"
+
+#: settings/config/fields/vulnerability-detection.php:41
+msgid "Feedback in plugin overview"
+msgstr "プラグイン概要から通知"
+
+#: settings/config/fields/vulnerability-detection.php:38
+msgid "If there's a vulnerability, you will also get feedback on the themes and plugin overview."
+msgstr "脆弱性があれば、テーマやプラグインの概要からも通知できます。"
+
+#: settings/config/fields/vulnerability-detection.php:22
+msgid "Really Simple SSL collects information about plugins, themes, and core vulnerabilities from our database powered by WPVulnerability. Anonymized data about these vulnerable components will be sent to Really Simple SSL for statistical analysis to improve open-source contributions. For more information, please read our privacy statement."
+msgstr "Really Simple SSL は、WPVulnerability 提供のデータベースから、プラグイン、テーマ、またコアの脆弱性に関する情報を取得します。こうした脆弱性のある構成要素のデータは匿名化され、オープンソースのプログラムを改善する統計分析を行うため、Really Simple SSL に送信されます。詳細は、私たちの個人情報保護方針をご覧ください。"
+
+#: settings/config/fields/vulnerability-detection.php:21
+msgid "About Vulnerabilities"
+msgstr "脆弱性について"
+
+#: settings/config/fields/vulnerability-detection.php:14
+msgid "This feature depends on multiple standard background processes. If a process fails or is unavailable on your system, detection might not work. We run frequent tests for this purpose. We will notify you accordingly if there are any issues."
+msgstr "この機能は、複数の標準的なバックグラウンドプロセスに依存しています。このシステムでプロセスが失敗したり、利用できない際には検出できないことがあります。この目的で検査を頻繁に実行します。なんらかの問題があれば通知します。"
+
+#: security/wordpress/vulnerabilities.php:1548
+msgid "Get more information from the Really Simple SSL dashboard on %s"
+msgstr "%s の Really Simple SSL ダッシュボードから詳細をご覧ください"
+
+#: security/wordpress/vulnerabilities.php:1547
+msgid "Based on your settings, Really Simple SSL will take appropriate action, or you will need to solve it manually."
+msgstr "設定によって Really Simple SSL が適切な対策を実行しているか、または手動で解決する必要があります。"
+
+#: security/wordpress/vulnerabilities.php:1542
+msgid "Multiple %s vulnerabilities have been found."
+msgstr "複数の%sの脆弱性が見つかりました。"
+
+#: security/wordpress/vulnerabilities.php:1542
+msgid "A %s vulnerability is found in %s."
+msgstr "%sの脆弱性が %s に見つかりました。"
+
+#: security/wordpress/vulnerabilities.php:1509
+msgid "This is a vulnerability alert from Really Simple SSL for %s. "
+msgstr "%s 上の Really Simple SSL による脆弱性の警報です。 "
+
+#: security/wordpress/vulnerabilities.php:1508
+msgid "%s: %s vulnerability found"
+msgid_plural "%s: %s vulnerabilities found"
+msgstr[0] "%s: %s個の脆弱性を発見"
+
+#: security/wordpress/vulnerabilities.php:1507
+msgid "Vulnerability Alert: %s"
+msgstr "脆弱性の警報: %s"
+
+#: security/wordpress/vulnerabilities.php:1161
+msgid "Vulnerability: %s"
+msgstr "脆弱性: %s"
+
+#: security/wordpress/vulnerabilities.php:705
+#: security/wordpress/vulnerabilities.php:1178
+msgid "Quarantined"
+msgstr "隔離済み"
+
+#: security/wordpress/vulnerabilities.php:621
+msgid "Components will be quarantined if the update process fails."
+msgstr "更新処理に失敗したた、構成要素は隔離されます。"
+
+#: security/wordpress/vulnerabilities.php:619
+msgid "Quarantine"
+msgstr "隔離"
+
+#: security/wordpress/vulnerabilities.php:615
+msgid "Will run a frequent update process on vulnerable components."
+msgstr "脆弱性のある構成要素の更新処理を頻繁に実行する。"
+
+#: security/wordpress/vulnerabilities.php:613
+msgid "Force update"
+msgstr "強制的に更新"
+
+#: security/wordpress/vulnerabilities.php:598 settings/config/menu.php:182
+#: settings/build/43.7284bbc570a57053a399.js:1
+#: settings/src/Dashboard/Vulnerabilities/VulnerabilitiesHeader.js:15
+msgid "Vulnerabilities"
+msgstr "脆弱性"
+
+#: security/wordpress/vulnerabilities.php:397
+msgid "Dashboard - Test Notification"
+msgstr "ダッシュボード - 通知テスト"
+
+#: security/wordpress/vulnerabilities.php:376
+#: security/wordpress/vulnerabilities.php:398
+msgid "This is a test notification from Really Simple SSL. You can safely dismiss this message."
+msgstr "この通知テストは Really Simple SSL が発信しています。無視しても問題ありません。"
+
+#: security/wordpress/vulnerabilities.php:375
+msgid "Site wide - Test Notification"
+msgstr "サイト全体 - テスト通知"
+
+#: security/hardening.php:16 security/wordpress/vulnerabilities.php:54
+msgid "critical"
+msgstr "重大"
+
+#: security/hardening.php:15 security/wordpress/vulnerabilities.php:53
+msgid "high-risk"
+msgstr "高リスク"
+
+#: security/hardening.php:14 security/wordpress/vulnerabilities.php:52
+msgid "medium-risk"
+msgstr "中リスク"
+
+#: security/hardening.php:13 security/wordpress/vulnerabilities.php:51
+msgid "low-risk"
+msgstr "低リスク"
+
+#: security/cron.php:98
+msgid "Every three hours"
+msgstr "3時間ごと"
+
+#: mailer/class-mail.php:140
+msgid "Email could not be sent. No message or subject set."
+msgstr "メールを送信できませんでした。題名か本文が設定されていません。"
+
+#: mailer/class-mail.php:38
+msgid "Why did I receive this email?"
+msgstr "なぜこのメールを受信していますか？"
+
+#: class-admin.php:2160
+msgid "The 301 redirect with .htaccess to HTTPS is now enabled."
+msgstr "HTTPS への、.htaccess による301転送が有効です。"
+
+#: onboarding/class-onboarding.php:198
+#: settings/build/778.1cc24e8aa09719269ad5.js:1
+#: settings/src/Settings/Settings.js:153
+msgid "Save and continue"
+msgstr "保存して続ける"
+
+#: settings/config/fields/encryption.php:27
+msgid "Settings update: .htaccess redirect"
+msgstr "設定の更新: .htaccess 転送"
+
+#: onboarding/class-onboarding.php:197
+msgid "Add your email address below."
+msgstr "以下にメールアドレスを追加してください。"
+
+#: onboarding/class-onboarding.php:197
+msgid "We use email notification to explain important updates in plugin settings."
+msgstr "プラグインの設定の重要な更新をお知らせするためにメール通知を使用します。"
+
+#: onboarding/class-onboarding.php:196
+msgid "Get notified!"
+msgstr "通知の受信 !"
+
+#: class-admin.php:2358
+msgid "Our vulnerability reporting is in beta. Signup for the beta to discover the new features!"
+msgstr "脆弱性報告はベータ版です。新機能を試すにはベータ版に登録してください !"
+
+#: settings/config/fields/firewall.php:103
+#: settings/config/fields/firewall.php:106
+#: settings/config/fields/security-headers.php:14 settings/config/menu.php:355
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/src/Settings/DataTable/DataTableWrapper.js:167
+#: settings/src/Settings/DynamicDataTable/DynamicDataTable.js:168
+#: settings/src/Settings/EventLog/EventLogDataTable.js:232
+#: settings/src/Settings/GeoBlockList/BlockListDatatable.js:343
+#: settings/src/Settings/GeoBlockList/GeoDatatable.js:506
+#: settings/src/Settings/GeoBlockList/WhiteListDatatable.js:402
+#: settings/src/Settings/LearningMode/LearningMode.js:340
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:451
+#: settings/src/Settings/LimitLoginAttempts/IpAddressDatatable.js:319
+#: settings/src/Settings/LimitLoginAttempts/UserDatatable.js:281
+#: settings/src/Settings/PermissionsPolicy.js:205
+#: settings/src/Settings/RiskConfiguration/VulnerabilitiesOverview.js:128
+#: settings/src/Settings/RolesDropDown.js:94
+#: settings/src/Settings/TwoFA/TwoFaDataTable.js:290
+#: settings/src/Settings/TwoFA/TwoFaRolesDropDown.js:112
+msgid "Disabled"
+msgstr "無効化しました"
+
+#: settings/config/fields/hardening-extended.php:126
+msgid "Users trying to enter via /wp-admin or /wp-login.php will be redirected to this URL."
+msgstr "/wp-admin や /wp-login.php にアクセスしたユーザーは、この URL に転送されます。"
+
+#: settings/config/fields/hardening-extended.php:109
+msgid "Custom login URL"
+msgstr "独自のログイン URL"
+
+#: settings/config/fields/hardening-extended.php:108
+msgid "Example: If you want to change your login page from /wp-admin/ to /control/ answer: control"
+msgstr "例: ログインページを /wp-admin/ から /control/ に変更したいなら: control"
+
+#: settings/config/fields/hardening-extended.php:107
+msgid "Enter a custom login URL. This allows you to log in via this custom URL instead of /wp-admin or /wp-login.php"
+msgstr "独自のログイン URL を入力します。/wp-admin や /wp-login.php ではない指定の URL からログインするようにできます。"
+
+#: settings/config/fields/hardening-extended.php:96
+msgid "Your login URL has changed to {login_url} to prevent common bot attacks on standard login URLs. Learn more about this feature, common questions and measures to prevent any issues."
+msgstr "ログインURLが {login_url} に変更され、標準のログイン URL に対するボット攻撃を防ぎます。この機能、よくある質問、問題を防ぐための詳細はこちら。"
+
+#: settings/config/fields/hardening-extended.php:95
+msgid "You have changed your login URL"
+msgstr "ログイン URL を変更しました"
+
+#: settings/config/fields/hardening-extended.php:93
+msgid "Enable Custom login URL"
+msgstr "独自のログイン URL を使用"
+
+#: settings/config/fields/hardening-extended.php:92
+msgid "Allows you to enter a custom login URL."
+msgstr "独自のログイン URL の使用を許可します。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:222
+msgid "Please adjust the CAA records via your DNS provider to allow Let’s Encrypt SSL certificates"
+msgstr "Let's Encrypt SSL 証明書を許可するように、DNS プロバイダー経由で CAA レコードを調整してください。"
+
+#: mailer/class-mail.php:31
+msgid "This email is part of the Really Simple SSL Notification System"
+msgstr "このメールは Really Simple SSL の通知システムによるものです"
+
+#: mailer/class-mail.php:36
+msgid "This email was sent to"
+msgstr "このメールの送信先"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1600
+msgid "This is a multisite configuration with subdomains. You should generate a wildcard certificate on the root domain."
+msgstr "サブドメインを持つマルチサイトとして構成されています。ルートのドメインにワイルドカード証明書を生成する必要があります。"
+
+#: settings/config/fields/encryption.php:28
+msgid "The .htaccess redirect has been enabled on your site. If the server configuration is non-standard, this might cause issues. Please check if all pages on your site are functioning properly."
+msgstr "このサイトで .htaccess による転送が有効化されています。標準的でないサーバー構成では問題が発生することがあります。すべてのページが適切に機能しているかご確認ください。"
+
+#: settings/config/disable-fields-filter.php:19
+msgid "Enable .htaccess only if you know how to regain access in case of issues."
+msgstr ".htaccess の有効化は、問題発生時にブログへのアクセスを回復する方法を理解している場合にのみ行ってください。"
+
+#: settings/config/disable-fields-filter.php:15
+msgid "On Apache you can use a .htaccess redirect, which is usually faster, but may cause issues on some configurations. Read the instructions in the sidebar first."
+msgstr "Apacheでは、.htaccess による転送を行い通常より高速ですが、一部の構成では問題が発生することあります。最初にサイドバーの説明を読んでください。"
+
+#: settings/config/fields/hardening-extended.php:17
+msgid "From now on, the debug.log won’t be publicly accessible whenever wp-debugging is enabled. The debug log will be stored in a randomly named folder in /wp-content/. This prevents possible leakage of sensitive debugging information."
+msgstr "今後、wp-debugging を有効化しても、debug.log が広く公開されなくなります。デバッグのログは、/wp-content/ 内のランダムな名前のフォルダ内に保存されます。機密性のあるデバッグ情報の漏洩を防止できます。"
+
+#: settings/config/fields/hardening-extended.php:16
+msgid "Settings update: Debug.log file relocated"
+msgstr "設定の更新: Debug.log ファイルを再配置"
+
+#: settings/config/fields/hardening-extended.php:14
+msgid "A debug.log is publicly accessibile and has a standard location. This will change the location to a randomly named folder in /wp-content/"
+msgstr "debug.log は公開状態で、標準状態の場所に配置されています。このオプションにより /wp-content/ 内のランダムな名前のフォルダに場所を変更します。"
+
+#: settings/config/fields/hardening-extended.php:69
+#: settings/config/fields/hardening-extended.php:70
+msgid "This will permanently change your database prefixes and you can NOT rollback this feature. Please make sure you have a back-up."
+msgstr "データベースの接頭辞が永久に変更されます。以前のものへ戻すことはできません。必ずバックアップをとってください。"
+
+#: settings/config/fields/hardening-extended.php:66
+msgid "Security through obscurity. Your site is no longer using the default wp_ prefix for database tables. The process has been designed to only complete and replace the tables after all wp_ tables are successfully renamed. In the unlikely event that this does lead to database issues on your site, please navigate to our troubleshooting article."
+msgstr "難しくすることによる安全性。このサイトでは、データベース用のテーブルに使う標準の接頭辞 wp_  をやめました。この処理は、すべてのテーブルの wp_ が正常に改名できた時にのみテーブルを置換するようになっています。万が一、これが原因でデータベースに問題が起きたら、トラブルシューティングの記事をお読みください。"
+
+#: settings/config/fields/hardening-extended.php:65
+msgid "Settings update: Database prefix changed"
+msgstr "設定の更新 :データベースの接頭辞が変更されました"
+
+#: settings/config/fields/hardening-extended.php:55
+msgid "This will limit or fully disable HTTP requests that are not needed, but could be used with malicious intent."
+msgstr "必要ないけど悪意を持って使用できる HTTP リクエストを制限、または完全に無効化します。"
+
+#: settings/config/fields/hardening-basic.php:108
+msgid "If the username 'admin' currently exists, you can rename it here. Please note that you can no longer use this username, and should use the new username or an email address"
+msgstr "ユーザー名 admin が存在していれば、ここから名前を変更できます。このユーザー名はもう使用できなくなるので、新しいユーザー名またはメールアドレスを使用してください。"
+
+#: settings/config/fields/hardening-basic.php:104
+msgid "As a security precaution, the username ‘admin’ has been changed on %s. From now on, you can login with '%s' or an email address."
+msgstr "安全対策として、%s 上のユーザ名 admin は変更されました。今後、%s、またはメールアドレスでログインしてください。"
+
+#: settings/config/fields/hardening-basic.php:103
+msgid "Settings update: Username 'admin' renamed"
+msgstr "設定の更新: ユーザー名 admin は改名されました"
+
+#: settings/config/fields/hardening-basic.php:101
+msgid "Block the username 'admin'"
+msgstr "ユーザー名 admin を禁止"
+
+#: settings/config/fields/hardening-basic.php:60
+msgid "Prevent login feedback"
+msgstr "ログインの応答を隠す"
+
+#: settings/config/fields/hardening-basic.php:59
+msgid "By default, WordPress shows if a username or email address exists when a login fails. This will change it to generic feedback."
+msgstr "標準状態では、WordPress は、ログイン失敗時にユーザー名やメールアドレスが登録されているかを表示します。これを一般的なメッセージに変更します。"
+
+#: settings/config/fields/general.php:50
+msgid "Dismiss all notifications"
+msgstr "すべての通知を無視する"
+
+#: settings/config/fields/general.php:101
+msgid "Get notified of important changes, updates and settings. Recommended when using security features."
+msgstr "重要な更変更や更新、また設定を通知します。安全性に関する機能を使用する場合に推奨します。"
+
+#: settings/config/fields/general.php:100
+msgid "Notifications by email"
+msgstr "メールで通知"
+
+#: settings/config/disable-fields-filter.php:19
+#: settings/config/fields/encryption.php:24
+msgid "Redirects your site to https with a SEO friendly 301 redirect if it is requested over http."
+msgstr "サイトに http でアクセスされたら、SEO  に適した 301転送で https に転送します。"
+
+#: settings/config/fields/encryption.php:19
+msgid "301 .htaccess redirect (read instructions first)"
+msgstr "301 .htaccess 転送 (先に解説をお読みください)"
+
+#: settings/config/fields/encryption.php:13
+msgid "Changing redirect methods should be done with caution. Please make sure you have read our instructions beforehand at the right-hand side."
+msgstr "転送方法の変更には注意が必要です。事前に右側の解説を確認してください。"
+
+#: mailer/class-mail.php:35
+msgid "Learn more about our features!"
+msgstr "機能の詳細をもっとご覧ください！"
+
+#: mailer/class-mail.php:213 upgrade/upgrade-to-pro.php:372
+#: upgrade/upgrade-to-pro.php:373
+msgid "An error occurred:"
+msgstr "エラー発生:"
+
+#: mailer/class-mail.php:211
+msgid "Email could not be sent."
+msgstr "メールを送信できませんでした。"
+
+#: mailer/class-mail.php:206
+msgid "Email sent! Please check your mail"
+msgstr "メール送信 ! メールが届いたかご確認ください"
+
+#: mailer/class-mail.php:68
+msgid "Email notifications are only sent for important updates, security notices or when certain features are enabled."
+msgstr "メールによる通知は、重要な更新、安全性のお知らせ、また特定の機能が有効になった場合にのみ送信されます。"
+
+#: mailer/class-mail.php:67
+msgid "About notifications"
+msgstr "通知について"
+
+#: mailer/class-mail.php:32
+msgid "Notification by Really Simple SSL"
+msgstr "Really Simple SSL からの通知"
+
+#: mailer/class-mail.php:64
+msgid "This email is confirmation that any security notices are likely to reach your inbox."
+msgstr "このメールは、安全性に関するお知らせがこの受信箱に届くかの確認用です。"
+
+#: mailer/class-mail.php:63
+msgid "Really Simple SSL - Notification Test"
+msgstr "Really Simple SSL - 通知テスト"
+
+#: mailer/class-mail.php:60 mailer/class-mail.php:99 mailer/class-mail.php:144
+msgid "Email address not valid"
+msgstr "メールアドレスが無効"
+
+#: class-admin.php:2345
+msgid "Please check if your REST API is loading correctly. Your site currently is using the slower Ajax fallback method to load the settings."
+msgstr "REST API が正しく読み込まれているかを確認してください。このサイトは現在、設定を読み込むために、より遅い Ajax に代替する方法を行っています。"
+
+#: mailer/class-mail.php:41
+msgid "You have enabled a feature on %s. We think it's important to let you know a little bit more about this feature so you can use it without worries."
+msgstr "%s の機能を有効にしました。この機能を安心して使うためにもう少し説明することが重要だと考えています。"
+
+#: lets-encrypt/config/notices.php:144
+msgid "You are using the Really Simple SSL Shell Exec add on, but your current version needs to be updated."
+msgstr "Really Simple SSL Shell Exec 拡張機能を使用中ですが、このバージョンはアップデートが必要です。"
+
+#: settings/config/fields/security-headers.php:15
+msgid "(recommended)"
+msgstr "(推奨)"
+
+#: class-admin.php:2013
+msgid "SSL is now activated. Follow the three steps in this article to check if your website is secure."
+msgstr "SSL が有効になりました。この記事の3手順によって、このウェブサイトが安全かを確認しましょう。"
+
+#: security/wordpress/file-editing.php:28
+msgid "The DISALLOW_FILE_EDIT constant is defined and set to false. You can remove it from your wp-config.php."
+msgstr "定数 DISALLOW_FILE_EDIT が false に設定されています。wp-config.php からこれを削除できます。"
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:113
+msgid "Login credentials incorrect. Please check your login credentials for cPanel."
+msgstr "ログイン情報が正しくありません。cPanel のログイン情報を確認してください。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:870
+msgid "Failed retrieving account."
+msgstr "アカウントの取得に失敗しました。"
+
+#: security/notices.php:176
+msgid "Rename admin user enabled: Please choose a new username of at least 3 characters, which is not in use yet."
+msgstr "ユーザー admin の改名を有効化: 新しいユーザー名は、3文字以上でまだ使用されていないものにしてください。"
+
+#: upgrade/upgrade-to-pro.php:450
+msgid "Could not rename folder!"
+msgstr "フォルダー名をできませんでした !"
+
+#: settings/config/fields/hardening-basic.php:118
+msgid "Choose new username to replace 'admin'"
+msgstr "admin から改名するユーザー名を入力"
+
+#: settings/config/menu.php:104
+msgid "Recommended Security Headers"
+msgstr "推奨するセキュリティヘッダー"
+
+#: settings/config/fields/general.php:89
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/src/Settings/Support.js:45
+msgid "Send"
+msgstr "送信"
+
+#: class-admin.php:595 settings/build/43.7284bbc570a57053a399.js:1
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/src/Dashboard/TaskElement.js:58
+#: settings/src/Dashboard/TaskElement.js:62
+#: settings/src/Settings/MixedContentScan/MixedContentScan.js:80
+msgid "View"
+msgstr "表示"
+
+#: settings/config/fields/firewall.php:164
+#: settings/config/fields/limit-login-attempts.php:122
+#: settings/config/fields/limit-login-attempts.php:167
+#: settings/config/fields/limit-login-attempts.php:213
+#: settings/config/menu.php:512 settings/config/menu.php:583
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/src/Settings/LearningMode/LearningMode.js:141
+msgid "Blocked"
+msgstr "ブロック済み"
+
+#: settings/config/menu.php:520 settings/config/menu.php:591
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/src/Settings/LearningMode/LearningMode.js:140
+msgid "Allowed"
+msgstr "許可済み"
+
+#: settings/config/menu.php:492 settings/config/menu.php:634
+#: settings/config/menu.php:671 settings/build/381.9b8465294454b49768a3.js:1
+#: settings/src/Settings/DataTable/DataTableWrapper.js:151
+#: settings/src/Settings/EventLog/EventLogDataTable.js:213
+#: settings/src/Settings/GeoBlockList/BlockListDatatable.js:326
+#: settings/src/Settings/GeoBlockList/GeoDatatable.js:488
+#: settings/src/Settings/GeoBlockList/WhiteListDatatable.js:385
+#: settings/src/Settings/LearningMode/LearningMode.js:139
+#: settings/src/Settings/LearningMode/LearningMode.js:285
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:432
+#: settings/src/Settings/LimitLoginAttempts/IpAddressDatatable.js:298
+msgid "All"
+msgstr "すべて"
+
+#: settings/config/fields/firewall.php:199
+#: settings/config/fields/limit-login-attempts.php:143
+#: settings/config/fields/limit-login-attempts.php:189
+#: settings/config/fields/limit-login-attempts.php:249
+#: settings/config/fields/two-fa.php:101
+#: settings/build/43.7284bbc570a57053a399.js:1
+#: settings/src/Dashboard/SslLabs/SslLabsHeader.js:5
+msgid "Status"
+msgstr "状態"
+
+#: settings/config/fields/security-headers.php:400
+msgid "Source"
+msgstr "入力元 (Source)"
+
+#: settings/config/fields/security-headers.php:393
+msgid "Directive"
+msgstr "指示"
+
+#: settings/config/fields/security-headers.php:347
+msgid "Add additional domains which can embed your website, if needed. Comma seperated."
+msgstr "必要に応じて、このサイトを埋め込みできるドメインを追加してください。カンマ区切りにします。"
+
+#: settings/config/fields/security-headers.php:338
+msgid "Allow your domain to be embedded"
+msgstr "このドメインの埋め込みを許可"
+
+#: settings/config/fields/security-headers.php:319
+msgid "The content security policy has many options, so we always recommend starting in ‘learning mode’ to see what files and scripts are loaded."
+msgstr "コンテンツセキュリティポリシーには多くのオプションがあるため、どのファイルとスクリプトが読み込まれるかを見るために、常に「学習モード」で開始することを推奨します。"
+
+#: settings/config/fields/security-headers.php:318
+msgid "About the Content Security Policy"
+msgstr "コンテンツセキュリティポリシーについて"
+
+#: settings/config/fields/security-headers.php:312
+msgid "Serve encrypted and authenticated responses"
+msgstr "暗号化また認証されたレスポンスを提供"
+
+#: settings/config/fields/security-headers.php:303
+msgid "Enable Permissions Policy"
+msgstr "アクセス許可のポリシーを有効化"
+
+#: settings/config/fields/security-headers.php:225
+msgid "Feature"
+msgstr "機能"
+
+#: settings/config/fields/access-control.php:20
+#: settings/config/fields/security-headers.php:221
+msgid "They might be misused if you don’t actively tell the browser to disable these features."
+msgstr "これらの機能を無効にするようブラウザに積極的に指示しないと、誤用されることがあります。"
+
+#: settings/config/fields/security-headers.php:221
+msgid "Browser features are plentiful, but most are not needed on your website."
+msgstr "ブラウザの機能は豊富ですが、ほとんどはこのサイトに不要です。"
+
+#: settings/config/fields/security-headers.php:220
+msgid "About the Permission Policy"
+msgstr "アクセス許可のポリシーについて"
+
+#: settings/config/fields/security-headers.php:214
+#: settings/config/fields/security-headers.php:336
+msgid "Self (Default)"
+msgstr "自己参照 (標準)"
+
+#: settings/config/fields/security-headers.php:214
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/src/Settings/LearningMode/LearningMode.js:298
+#: settings/src/Settings/LearningMode/LearningMode.js:304
+#: settings/src/Settings/PermissionsPolicy.js:200
+msgid "Disable"
+msgstr "無効"
+
+#: settings/config/fields/security-headers.php:214
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/src/Settings/GeoBlockList/GeoDatatable.js:266
+#: settings/src/Settings/GeoBlockList/GeoDatatable.js:283
+#: settings/src/Settings/GeoBlockList/GeoDatatable.js:460
+#: settings/src/Settings/GeoBlockList/GeoDatatable.js:471
+#: settings/src/Settings/LearningMode/ChangeStatus.js:7
+#: settings/src/Settings/LearningMode/LearningMode.js:241
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:307
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:318
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:327
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:398
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:409
+msgid "Allow"
+msgstr "許可"
+
+#: settings/config/fields/encryption.php:113
+#: settings/config/fields/security-headers.php:386
+msgid "Location"
+msgstr "場所"
+
+#: settings/config/fields/encryption.php:107
+#: settings/config/fields/vulnerability-detection.php:223
+msgid "Description"
+msgstr "説明"
+
+#: settings/config/fields/encryption.php:100
+msgid "Type"
+msgstr "種類"
+
+#: settings/config/fields/encryption.php:96 settings/config/menu.php:91
+msgid "The extensive mixed content scan will list all current and future issues and provide a fix, or instructions to fix manually."
+msgstr "混合コンテンツの存在を広く検査し、現在また将来起こりそうな問題をすべて把握して、修正法や手動で修正する手順を提供します。"
+
+#: settings/config/fields/encryption.php:95
+msgid "About the Mixed Content Scan"
+msgstr "混在コンテンツの検出について"
+
+#: settings/config/fields/encryption.php:91
+#: modal/build/index.f0747a4e3a76f14cbb01.js:1
+msgid "Mixed content scan"
+msgstr "混在コンテンツの検出"
+
+#: settings/config/fields/security-headers.php:171
+msgid "One of the most powerful features, and therefore the most complex are the Cross-Origin headers that can isolate your website so any data leaks are minimized."
+msgstr "最も強力な機能の1つであるため最も複雑なのが Cross Origin ヘッダーで、サイトを分離してデータ漏えいを最小限にできます。"
+
+#: settings/config/fields/security-headers.php:170
+msgid "About Cross Origin Policies"
+msgstr "Cross Origin Policy について"
+
+#: settings/config/fields/security-headers.php:146
+msgid "Choose the max-age for HSTS"
+msgstr "HSTS の最長期間を選択"
+
+#: settings/config/fields/security-headers.php:144
+msgid "Two years (required for preload)"
+msgstr "2年 (プリロードが必要)"
+
+#: settings/config/fields/security-headers.php:143
+msgid "One year"
+msgstr "1年"
+
+#: settings/config/fields/security-headers.php:142
+msgid "One day (for testing only)"
+msgstr "1年 (テスト目的用)"
+
+#: settings/config/fields/security-headers.php:126
+msgid "Include subdomains"
+msgstr "サブドメインを含める"
+
+#: settings/config/fields/security-headers.php:102
+msgid "After enabling this feature, you can submit your site to %shstspreload.org%s"
+msgstr "この機能の有効化後、%shstspreload.org%s にこのサイトを送信できます"
+
+#: settings/config/fields/security-headers.php:101
+msgid "Include preload"
+msgstr "プリロードに含める"
+
+#: settings/config/fields/security-headers.php:86
+msgid "Leveraging your SSL certificate with HSTS is a staple for every website. Force your website over SSL, mitigating risks of malicious counterfeit websites in your name."
+msgstr "HSTS による SSL 証明書の活用は、すべてのウェブサイトに必需です。強制的にウェブサイトに SSL を経由させることで、悪意のある、あなた名義の偽サイトのリスクを軽減します。"
+
+#: settings/config/fields/security-headers.php:85
+msgid "About HTTP Strict Transport Security"
+msgstr "HTTP Strict Transport Security について"
+
+#: settings/config/fields/security-headers.php:60
+msgid "recommended"
+msgstr "推奨"
+
+#: settings/config/fields/security-headers.php:44
+#: settings/config/fields/security-headers.php:59
+#: settings/config/fields/security-headers.php:162
+#: settings/config/fields/security-headers.php:184
+#: settings/config/fields/security-headers.php:199
+msgid "Off"
+msgstr "オフ"
+
+#: settings/config/fields/security-headers.php:25
+msgid "These security headers are the fundamental security measures to protect your website visitors while visiting your website."
+msgstr "これらのセキュリティヘッダーは、サイトの訪問者を保護する基本的なセキュリティ対策です。"
+
+#: settings/config/fields/security-headers.php:24
+msgid "About Recommended Security Headers"
+msgstr "推奨するセキュリティヘッダー について"
+
+#: settings/config/fields/vulnerability-detection.php:211
+msgid "Action"
+msgstr "操作"
+
+#: settings/config/fields/hardening-xml.php:61
+msgid "Count"
+msgstr "数"
+
+#: settings/config/fields/hardening-xml.php:55
+msgid "Login status"
+msgstr "ログイン状態"
+
+#: settings/config/fields/hardening-xml.php:48
+msgid "Method"
+msgstr "方法"
+
+#: security/notices.php:31 settings/config/fields/hardening-extended.php:29
+msgid "Disable application passwords"
+msgstr "アプリケーションパスワードを無効化"
+
+#: settings/config/fields/hardening-extended.php:20
+msgid "Change debug.log file location"
+msgstr "debug.log ファイルの場所を変更"
+
+#: settings/config/fields/hardening-extended.php:72
+msgid "Rename and randomize your database prefix"
+msgstr "データベース接頭辞のランダム化"
+
+#: settings/config/fields/hardening-extended.php:56
+msgid "Disable HTTP methods"
+msgstr "HTTP メソッドを無効化"
+
+#: settings/config/fields/hardening-basic.php:151
+msgid "Block user registrations when login and display name are the same"
+msgstr "ログインと表示名が同じユーザーの登録を禁止"
+
+#: settings/config/fields/hardening-basic.php:142
+msgid "Disable XML-RPC"
+msgstr "XML-RPC を無効化"
+
+#: settings/config/fields/hardening-basic.php:80
+msgid "Disable user enumeration"
+msgstr "ユーザー列挙を無効化"
+
+#: settings/config/fields/hardening-basic.php:70
+msgid "Disable directory browsing"
+msgstr "ディレクトリ参照を無効化"
+
+#: settings/config/fields/hardening-basic.php:49
+msgid "Hide your WordPress version"
+msgstr "WordPress のバージョンを隠す"
+
+#: settings/config/fields/hardening-basic.php:39
+msgid "Prevent code execution in the public 'Uploads' folder"
+msgstr "共用の uploads フォルダー内でのコード実行を防止"
+
+#: settings/config/fields/hardening-basic.php:29
+msgid "Disable the built-in file editors"
+msgstr "組み込みのファイルエディターを無効化"
+
+#: settings/config/fields/hardening-basic.php:20
+msgid "Hardening features limit the possibility of potential weaknesses and vulnerabilities which can be misused."
+msgstr "堅牢化の機能は、悪用可能な潜在的な弱点や脆弱性を制限します。"
+
+#: settings/config/fields/hardening-basic.php:19
+msgid "About Hardening"
+msgstr "堅牢化について"
+
+#: settings/config/fields/hardening-basic.php:13
+msgid "Disable \"anyone can register\""
+msgstr "「誰でも登録可能」を無効化"
+
+#: settings/config/fields/general.php:70
+msgid "Delete all data on plugin deletion"
+msgstr "プラグイン削除時にすべてのデータを削除"
+
+#: lets-encrypt/config/fields.php:8 settings/config/fields/general.php:61
+#: settings/config/menu.php:700
+msgid "System status"
+msgstr "システムの状態"
+
+#: settings/config/fields/encryption.php:79
+msgid "Mixed content fixer - back-end"
+msgstr "混在コンテンツ修正機能 - バックエンド"
+
+#: settings/config/fields/encryption.php:55
+#: settings/config/fields/encryption.php:58
+msgid "Mixed content fixer - init hook"
+msgstr "混在コンテンツ修正機能 - init のフック"
+
+#: class-admin.php:2159 class-admin.php:2165
+msgid "301 .htaccess redirect"
+msgstr "301 .htaccess 転送"
+
+#: settings/config/fields/encryption.php:18
+msgid "301 PHP redirect"
+msgstr "301 PHP 転送"
+
+#: settings/config/fields/encryption.php:17
+msgid "No redirect"
+msgstr "転送なし"
+
+#: settings/config/disable-fields-filter.php:18
+#: settings/config/fields/encryption.php:14
+#: settings/config/fields/encryption.php:23
+msgid "Redirect method"
+msgstr "転送方法"
+
+#: lets-encrypt/config/fields.php:21 settings/config/menu.php:723
+msgid "DNS verification"
+msgstr "DNS 認証"
+
+#: lets-encrypt/config/fields.php:12 settings/config/menu.php:708
+msgid "General Settings"
+msgstr "全般設定"
+
+#: settings/config/menu.php:68 settings/build/index.1afbe80747ffa9b218c6.js:1
+#: settings/src/Header.js:32
+msgid "Let's Encrypt"
+msgstr "Let's Encrypt"
+
+#: settings/config/menu.php:132
+msgid "Content Security Policy"
+msgstr "コンテンツセキュリティポリシー"
+
+#: settings/config/fields/security-headers.php:215
+msgid "Permissions Policy"
+msgstr "アクセス許可のポリシー"
+
+#: settings/config/fields/security-headers.php:79
+msgid "HTTP Strict Transport Security"
+msgstr "HTTP Strict Transport Security"
+
+#: settings/config/menu.php:88 settings/config/menu.php:90
+msgid "Mixed Content Scan"
+msgstr "混在コンテンツの検出"
+
+#: settings/config/menu.php:264
+msgid "XML-RPC"
+msgstr "XML-RPC"
+
+#: onboarding/class-onboarding.php:422 settings/config/menu.php:254
+#: modal/build/index.dfb590895b2465568630.js:1
+#: modal/src/components/DeactivationModal/DeactivationModal.js:82
+msgid "Advanced Hardening"
+msgstr "高度な堅牢化"
+
+#: settings/config/menu.php:233 settings/build/43.7284bbc570a57053a399.js:1
+#: settings/src/Dashboard/Vulnerabilities/VulnerabilitiesHeader.js:15
+msgid "Hardening"
+msgstr "堅牢化"
+
+#: settings/config/menu.php:57
+msgid "Debugging with Really Simple SSL"
+msgstr "Really Simple SSL でデバッグ"
+
+#: settings/config/menu.php:52
+msgid "The following information is attached when you send this form: license key, scan results, your domain, .htaccess file, debug log and a list of active plugins."
+msgstr "このフォームを送信すると以下の情報が添付されます: ライセンスキー、検査結果、このサイトのドメイン、.htaccess ファイル、デバッグ記録、また有効状態のプラグイン一覧."
+
+#: settings/config/menu.php:11
+msgid "Dashboard"
+msgstr "ダッシュボード"
+
+#: security/wordpress/user-enumeration.php:10
+msgid "forbidden - number in author name not allowed = %s"
+msgstr "禁止 - 投稿者名に数字は許可されていません = %s"
+
+#: security/wordpress/rename-admin-user.php:15
+msgid "Username 'admin' has been changed to %s"
+msgstr "ユーザー名 admin は「%s」に変更されました"
+
+#: security/wordpress/prevent-login-info-leakage.php:9
+msgid "Invalid login details."
+msgstr "ログイン情報が正しくありません。"
+
+#: security/wordpress/block-code-execution-uploads.php:37
+msgid "The code to block code execution in the uploads folder cannot be added automatically on nginx. Add the following code to your nginx.conf file:"
+msgstr "uploads フォルダ内でのコードの実行を禁止するコードは、nginx に自動で追加できません。ファイル nginx.conf に以下のコードを追加してください:"
+
+#: security/wordpress/block-code-execution-uploads.php:24
+msgid "Could not copy code execution test file."
+msgstr "コード実行用テストファイルをコピーできませんでした。"
+
+#: security/wordpress/block-code-execution-uploads.php:19
+msgid "Uploads folder not writable."
+msgstr "uploads は書き込み不可です。"
+
+#: security/wordpress/block-code-execution-uploads.php:14
+msgid "Could not find code execution test file."
+msgstr "コード実行用テストファイルが見つかりませんでした"
+
+#: security/sync-settings.php:35
+msgid "Changed debug.log location to:"
+msgstr "debug.log の場所を以下に変更しました:"
+
+#: security/notices.php:281
+msgid "Your WordPress version is visible to others."
+msgstr "使用中の WordPress のバージョンが第三者に表示されています。"
+
+#: security/notices.php:267
+msgid "Anyone can register an account on your site. Consider disabling this option in the WordPress general settings."
+msgstr "このサイトに誰でもアカウントを登録できます。WordPress の一般設定内のオプションから無効にできます。検討してください。"
+
+#: security/notices.php:253
+msgid "The built-in file editors are accessible to others."
+msgstr "組み込みのファイルエディターに第三者がアクセス可能です。"
+
+#: security/notices.php:207
+msgid "Your database prefix is set to the default 'wp_'."
+msgstr "このデータベースの接頭辞は、標準状態の wp_ です。"
+
+#: security/notices.php:202
+msgid "Your database prefix is renamed and randomized. Awesome!"
+msgstr "データベースの接頭辞はランダムに変更されています。素晴らしい !"
+
+#: security/notices.php:191
+msgid "Code execution is allowed in the public 'Uploads' folder."
+msgstr "共用の uploads フォルダー内でのコード実行が許可されています。"
+
+#: security/notices.php:159
+msgid "Your site registered a user with the name 'admin'."
+msgstr "このサイトに admin (管理者) という名のユーザーが登録されています。"
+
+#: security/notices.php:158 security/notices.php:175
+#: settings/config/fields/limit-login-attempts.php:136
+#: settings/config/fields/two-fa.php:93
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/src/Settings/LimitLoginAttempts/AddUserModal.js:60
+msgid "Username"
+msgstr "ユーザー名"
+
+#: security/notices.php:140
+msgid "Prevent user enumeration"
+msgstr "ユーザー列挙を禁止"
+
+#: security/notices.php:138
+msgid "Your site is vulnerable to user enumeration attacks."
+msgstr "このサイトはユーザー列挙攻撃に対して脆弱です。"
+
+#: security/notices.php:121
+msgid "Your site logs information to a public debugging file."
+msgstr "このサイトでは、公開状態のデバッグ用ファイルに情報を記録しています。"
+
+#: security/notices.php:120
+msgid "Debugging"
+msgstr "デバッグの状態"
+
+#: security/notices.php:106
+msgid "We have detected administrator roles where the login and display names are the same."
+msgstr "ログイン名と表示名が同じになっている管理者権限のアカウントを検出しました。"
+
+#: security/notices.php:92
+msgid "It is currently possible to create an administrator user with the same login and display name."
+msgstr "ログイン名と表示名が同一の管理者ユーザーを作成可能です。"
+
+#: security/notices.php:73
+msgid "An option that requires the .htaccess file in the uploads directory is enabled, but the file is not writable."
+msgstr "uploads フォルダに .htaccess ファイルが必要なオプションが有効化されましたが、ファイルが書き込み可能ではありません。"
+
+#: security/notices.php:72
+msgid ".htaccess in uploads not writable"
+msgstr "uploads の .htaccess に書き込み不可"
+
+#: security/notices.php:54
+msgid "An option that requires the .htaccess file is enabled, but the file does not exist."
+msgstr ".htaccess ファイルの有効化が必要なオプションですが、ファイルが存在しません。"
+
+#: security/notices.php:53
+msgid ".htaccess does not exist"
+msgstr ".htaccess が存在しません"
+
+#: security/notices.php:46 security/notices.php:54 security/notices.php:73
+msgid "Please add the following lines to your .htaccess, or set it to writable:"
+msgstr "以下の行を .htaccess に追加するか、書き込み可能に設定してください:"
+
+#: security/notices.php:46
+msgid "An option that requires the .htaccess file is enabled, but the file is not writable."
+msgstr ".htaccess ファイルの有効化が必要なオプションですが、ファイルが書き込み可能ではありません。"
+
+#: security/notices.php:45
+msgid ".htaccess not writable"
+msgstr ".htaccess 書き込み不可"
+
+#: security/firewall-manager.php:600
+msgid "Please set the wp-content folder to writable:"
+msgstr "wp-content フォルダーを書き込み可能に設定してください:"
+
+#: security/firewall-manager.php:600
+msgid "A firewall rule was enabled, but /the wp-content/ folder is not writable."
+msgstr "ファイアウォールの規則が有効化されましたが、wp-content フォルダーが書き込み可能ではありません。"
+
+#: security/firewall-manager.php:594
+msgid "Please set the wp-config.php to writable until the rule has been written."
+msgstr "規則が書き込まれるまで wp-config.php を書き込み可能にしてください。"
+
+#: security/firewall-manager.php:594
+msgid "A firewall rule was enabled, but the wp-config.php is not writable."
+msgstr "ファイアウォールの規則が有効化されましたが、wp-config.php が書き込み可能ではありません。"
+
+#: security/firewall-manager.php:593 security/firewall-manager.php:599
+#: security/firewall-manager.php:615 settings/config/menu.php:535
+#: settings/config/menu.php:553
+msgid "Firewall"
+msgstr "ファイアウォール"
+
+#: rlrsssl-really-simple-ssl.php:178
+msgid "Visit the plugins overview or %srenew your license%s."
+msgstr "プラグインの概要にアクセス、または%sあなたのライセンスを更新%sする。"
+
+#: rlrsssl-really-simple-ssl.php:176
+msgid "Update Really Simple SSL Pro: the plugin needs to be updated to the latest version to be compatible."
+msgstr "Really Simple SSL Pro の更新: 互換性を保つため、本プラグインを最新版に更新する必要があります。"
+
+#: placeholders/class-placeholder.php:436
+msgid "Widget with mixed content"
+msgstr "ウィジット中の混在コンテンツ"
+
+#: placeholders/class-placeholder.php:431
+msgid "Widget area"
+msgstr "ウィジット領域"
+
+#: placeholders/class-placeholder.php:410
+msgid "Mixed content in the postmeta table"
+msgstr "postmeta テーブル中の混在コンテンツ"
+
+#: placeholders/class-placeholder.php:385
+msgid "Mixed content in post: %s"
+msgstr "投稿中の混在コンテンツ: %s"
+
+#: placeholders/class-placeholder.php:368
+msgid "Mixed content in CSS/JS file from other domain"
+msgstr "ほかのドメインの CSS/JS ファイル中の混在コンテンツ"
+
+#: placeholders/class-placeholder.php:357
+#: placeholders/class-placeholder.php:398
+#: placeholders/class-placeholder.php:424
+#: placeholders/class-placeholder.php:449
+msgid "Copyright warning!"
+msgstr "著作権に注意 !"
+
+#: placeholders/class-placeholder.php:356
+#: placeholders/class-placeholder.php:397
+#: placeholders/class-placeholder.php:423
+#: placeholders/class-placeholder.php:448
+msgid "Import and insert file"
+msgstr "ファイルのインポートと挿入"
+
+#: placeholders/class-placeholder.php:343
+msgid "Mixed content in %s"
+msgstr "%s 中の混在コンテンツ"
+
+#: placeholders/class-placeholder.php:331
+#: placeholders/class-placeholder.php:348
+#: placeholders/class-placeholder.php:372
+#: placeholders/class-placeholder.php:389
+#: placeholders/class-placeholder.php:415
+#: placeholders/class-placeholder.php:440
+#: settings/build/43.7284bbc570a57053a399.js:1
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/build/814.eeaa575fc49ec4cd3d36.js:1
+#: settings/src/Settings/MixedContentScan/MixedContentScan.js:90
+#: settings/src/Settings/RiskConfiguration/RiskData.js:115
+msgid "Details"
+msgstr "詳細"
+
+#: placeholders/class-placeholder.php:327
+msgid "Mixed content in PHP file in %s"
+msgstr "%s の PHP ファイル内にある混在コンテンツ"
+
+#: settings/config/menu.php:738 settings/build/43.7284bbc570a57053a399.js:1
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/src/Dashboard/OtherPlugins/OtherPluginsData.js:74
+#: settings/src/Settings/License/License.js:71
+msgid "Activate"
+msgstr "有効化"
+
+#: settings/settings.php:555
+msgid "Complianz - Consent Management as it should be"
+msgstr "Complianz - 理想的なクッキーの同意管理"
+
+#: onboarding/class-onboarding.php:188
+msgid "Congratulations!"
+msgstr "おめでとう !"
+
+#: onboarding/class-onboarding.php:188
+msgid "Thanks for updating!"
+msgstr "更新ありがとうございます !"
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:108
+#: lets-encrypt/integrations/cpanel/cpanel.php:192
+msgid "Your website's ip address is blocked. Please add your domain's ip address to the security policy in CPanel"
+msgstr "このサイトの IP アドレスはブロックされました。CPanel (サーバー管理画面) のセキュリティ ポリシーに、お使いのドメインの IP アドレスを追加してください"
+
+#: lets-encrypt/config/notices.php:169 lets-encrypt/config/notices.php:172
+msgid "Renew certificate"
+msgstr "証明書を更新"
+
+#: lets-encrypt/config/notices.php:166
+msgid "Renew installation"
+msgstr "インストールを更新"
+
+#: lets-encrypt/config/fields.php:396
+msgid "Do you want to store these credentials for renewal purposes?"
+msgstr "更新目的でこれら証明書を保存しますか ?"
+
+#: lets-encrypt/config/fields.php:356
+msgid "Plesk username and password"
+msgstr "Plesk のユーザー名とパスワード"
+
+#: lets-encrypt/config/fields.php:332
+msgid "Plesk admin URL"
+msgstr "Plesk 管理 URL"
+
+#: lets-encrypt/config/fields.php:307 lets-encrypt/config/fields.php:312
+msgid "CloudWays API key"
+msgstr "CloudWays API キー"
+
+#: lets-encrypt/config/fields.php:231
+msgid "Direct Admin URL"
+msgstr "DirectAdmin URL"
+
+#: lets-encrypt/config/fields.php:145 lets-encrypt/config/fields.php:148
+msgid "Include alias"
+msgstr "エイリアスを含める"
+
+#: lets-encrypt/config/fields.php:123 lets-encrypt/config/fields.php:126
+msgid "Disable OCSP stapling"
+msgstr "OCSP ステープリングの無効化"
+
+#: lets-encrypt/config/fields.php:110
+msgid "I agree to the Terms & Conditions from Let's Encrypt."
+msgstr "Let's Encrypt の利用規約に同意する"
+
+#: lets-encrypt/class-le-restapi.php:234
+msgid "Test not found."
+msgstr "テストが見つかりません。"
+
+#: lets-encrypt/class-le-restapi.php:165 lets-encrypt/class-le-restapi.php:226
+msgid "Permission denied."
+msgstr "アクセスが拒否されました。"
+
+#: class-site-health.php:112
+msgid "Read more about security concerns with debug display enabled"
+msgstr "デバッグ表示を有効にしている場合のセキュリティ上の懸念の詳細を読む"
+
+#: class-site-health.php:106
+msgid "The value, WP_DEBUG_DISPLAY, has either been enabled by WP_DEBUG or added to your configuration file. This will make errors display on the front end of your site."
+msgstr "値 WP_DEBUG_DISPLAY が、サイトの構成ファイルに追加されたか、WP_DEBUG により有効化されています。これにより、エラーがサイトの画面上に表示されます。"
+
+#: class-site-health.php:98
+msgid "Your site is set to display errors on your website"
+msgstr "このサイトは、エラー表示を行う設定になっています"
+
+#. translators: Accessibility text.
+#: class-site-health.php:84 class-site-health.php:114
+msgid "(opens in a new tab)"
+msgstr "(新しいタブで開く)"
+
+#: class-site-health.php:82
+msgid "Remove from public location with Really Simple SSL"
+msgstr "Really Simple SSL を使い公開された場所から除去"
+
+#: class-site-health.php:76
+msgid "The value, WP_DEBUG_LOG, has been added to this website’s configuration file. This means any errors on the site will be written to a file which is potentially available to all users."
+msgstr "値 WP_DEBUG_LOG が、サイトの構成ファイルに追加されています。サイト上のエラーは、すべてのユーザーがアクセスできるファイルに書き込まれます。"
+
+#: class-site-health.php:68
+msgid "Your site is set to log errors to a potentially public file"
+msgstr "このサイトは、誰もがアクセスできるファイルにエラー記録しています"
+
+#: class-multisite.php:143
+msgid "A networkwide SSL activation process has been started, but has not been completed. Please go to the SSL settings page to complete the process."
+msgstr "ネットワーク全体の SSL 有効化の処理が開始されました。まだ完了していません。SSL 設定ページからこの処理を完了してください。"
+
+#: class-multisite.php:142
+msgid "SSL activation in progress"
+msgstr "SSL 有効化を進行中"
+
+#: class-multisite.php:115
+msgid "SSL is not enabled on your network"
+msgstr "SSL はこのネットワーク上で有効になっていません。"
+
+#: class-admin.php:160
+msgid "Improve security - Upgrade"
+msgstr "セキュリティ改善 - アップグレード"
+
+#: class-admin.php:2259
+msgid "See which recommended security headers are not present on your website."
+msgstr "推奨されるセキュリティヘッダーの欠如を検査。"
+
+#: class-admin.php:1961
+msgid "To safely enable SSL on your server configuration, you should add the following line of code to your wp-config.php."
+msgstr "サーバー設定上で、安全に SSL を有効化するには、次のコード行を wp-config.php に追加する必要があります。"
+
+#: class-admin.php:1894 settings/build/43.7284bbc570a57053a399.js:1
+#: settings/src/Dashboard/OtherPlugins/OtherPlugins.js:21
+msgid "Upgrade"
+msgstr "アップグレード"
+
+#. Description of the plugin
+#: rlrsssl-really-simple-ssl.php
+msgid "Lightweight SSL & Hardening Plugin"
+msgstr "軽快 SSL & 堅牢化プラグイン"
+
+#: upgrade/upgrade-to-pro.php:579
+msgid "Your license key has reached its activation limit."
+msgstr "このライセンスキーは有効化の上限に達しています。"
+
+#: upgrade/upgrade-to-pro.php:576
+msgid "This appears to be an invalid license key for this plugin."
+msgstr "本プラグイン用の無効なライセンスキーのようです。"
+
+#: upgrade/upgrade-to-pro.php:573
+msgid "Your license is not active for this URL."
+msgstr "このライセンスは、この URL に対して有効ではありません。"
+
+#: upgrade/upgrade-to-pro.php:570
+msgid "Invalid license."
+msgstr "ライセンスが無効です。"
+
+#: upgrade/upgrade-to-pro.php:567
+msgid "Missing license."
+msgstr "ライセンスがありません。"
+
+#: upgrade/upgrade-to-pro.php:564
+msgid "Your license key has been disabled."
+msgstr "このライセンスキーは無効になっています。"
+
+#: upgrade/upgrade-to-pro.php:558
+msgid "Your license key expired on %s."
+msgstr "このライセンスキーの有効期限は、%s です。"
+
+#: upgrade/upgrade-to-pro.php:550 upgrade/upgrade-to-pro.php:582
+msgid "An error occurred, please try again."
+msgstr "エラーが発生。再度お試しください。"
+
+#: upgrade/upgrade-to-pro.php:373
+msgid "Check your %slicense%s."
+msgstr "%sライセンス%sを確認。"
+
+#: upgrade/upgrade-to-pro.php:372
+msgid "Install %sManually%s."
+msgstr "%s手動で%sインストール。"
+
+#: upgrade/upgrade-to-pro.php:367
+msgid "Visit Dashboard"
+msgstr "ダッシュボードを表示"
+
+#: upgrade/upgrade-to-pro.php:356
+msgid "Installing"
+msgstr "インストール中"
+
+#: upgrade/upgrade-to-pro.php:331
+msgid "Recommended by Really Simple Plugins"
+msgstr "Really Simple Plugins からのおすすめ"
+
+#: upgrade/upgrade-to-pro.php:233
+msgid "Installation finished"
+msgstr "インストール完了"
+
+#: upgrade/upgrade-to-pro.php:178
+msgid "Really Simple SSL automatically detects your settings and configures your website to run over HTTPS. To keep it lightweight, we kept the options to a minimum. Your website will move to SSL with one click."
+msgstr "Really Simple SSL は、HTTPS で動作するよう、サイトの構成と設定を自動で検出します。軽快にするためオプションは最小限に抑えています。ワンクリックであなたのサイトが SSL に移行します。"
+
+#: upgrade/upgrade-to-pro.php:174
+msgid "One click SSL optimization"
+msgstr "ワンクリックで SSL 最適化"
+
+#: upgrade/upgrade-to-pro.php:161
+msgid "Configure your Cookie Notice, Consent Management and Cookie Policy with our Wizard and Cookie Scan. Supports GDPR, DSGVO, TTDSG, LGPD, POPIA, RGPD, CCPA and PIPEDA."
+msgstr "私たちによるウィザードとクッキー検査は、クッキーの通知、クッキーへの同意とクッキーの方針を設定します。GDPR、DSGVO、TTDSG、LGPD、POPIA、RGPD、CCPA また PIPEDAに対応します。"
+
+#: upgrade/upgrade-to-pro.php:157
+msgid "GDPR/CCPA Privacy Suite"
+msgstr "GDPR/CCPA 個人情報スイート"
+
+#: upgrade/upgrade-to-pro.php:148
+msgid "Get detailed insights into visitors' behaviour with Burst Statistics, the privacy-friendly analytics dashboard from Really Simple Plugins."
+msgstr "Really Simple プラグインの個人情報に配慮した解析用の管理画面、Burst Statistics で訪問者の行動を詳細に把握しましょう。"
+
+#: settings/settings.php:547 upgrade/upgrade-to-pro.php:144
+msgid "Self-hosted and privacy-friendly analytics tool."
+msgstr "セルフホスティングされ個人情報に配慮した解析ツールです。"
+
+#: upgrade/upgrade-to-pro.php:111
+msgid "Failed to activate plugin"
+msgstr "プラグインの有効化に失敗"
+
+#: upgrade/upgrade-to-pro.php:110
+msgid "Plugin activated"
+msgstr "プラグインを有効化しました"
+
+#: upgrade/upgrade-to-pro.php:109
+msgid "Activating plugin..."
+msgstr "プラグインの有効化中..."
+
+#: upgrade/upgrade-to-pro.php:104
+msgid "Failed to install plugin"
+msgstr "プラグインのインストールに失敗"
+
+#: upgrade/upgrade-to-pro.php:103
+msgid "Plugin installed"
+msgstr "プラグインをインストールしました"
+
+#: upgrade/upgrade-to-pro.php:102
+msgid "Installing plugin..."
+msgstr "プラグインのインストール中..."
+
+#: upgrade/upgrade-to-pro.php:97
+msgid "Failed to gather package information"
+msgstr "パッケージ情報の取得に失敗"
+
+#: upgrade/upgrade-to-pro.php:96
+msgid "Package information retrieved"
+msgstr "パッケージ情報を取得しました"
+
+#: upgrade/upgrade-to-pro.php:95
+msgid "Retrieving package information..."
+msgstr "パッケージ情報の取得中..."
+
+#: upgrade/upgrade-to-pro.php:90
+msgid "License invalid"
+msgstr "ライセンス無効"
+
+#: upgrade/upgrade-to-pro.php:89
+msgid "License valid"
+msgstr "ライセンス有効"
+
+#: upgrade/upgrade-to-pro.php:88
+msgid "Validating license..."
+msgstr "ライセンス認証中..."
+
+#: upgrade/upgrade-to-pro.php:83
+msgid "Destination folder already exists"
+msgstr "保存フォルダは既に存在します"
+
+#: upgrade/upgrade-to-pro.php:82
+msgid "Able to create destination folder"
+msgstr "保存フォルダを作成できます"
+
+#: upgrade/upgrade-to-pro.php:81
+msgid "Checking if plugin folder exists..."
+msgstr "プラグインフォルダが存在するか確認中..."
+
+#: class-admin.php:2277
+msgid "Improve security with Really Simple SSL Pro."
+msgstr "Really Simple SSL Pro でセキュリティを改善しましょう。"
+
+#: class-admin.php:2065
+msgid "Check manually"
+msgstr "手動で確認"
+
+#: class-admin.php:2060 onboarding/class-onboarding.php:255
+msgid "Could not test certificate"
+msgstr "証明書を検査できません"
+
+#: class-admin.php:2061 onboarding/class-onboarding.php:255
+msgid "Automatic certificate detection is not possible on your server."
+msgstr "お使いのサーバーでは、証明書の自動検出はできません。"
+
+#: lets-encrypt/config/fields.php:422
+msgid "Checking host..."
+msgstr "ホストを確認中..."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1209
+msgid "After completing the installation, you can let Really Simple SSL automatically configure your site for SSL by using the 'Activate SSL' button."
+msgstr "インストールの完了後、 「SSLの有効化」 ボタンで Really Simple SSL にこのサイトの SSL 化を自動的に行わせることができます。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1194
+msgid "We have not detected any known hosting limitations."
+msgstr "ホスティング会社による既知の制限は検出されていません。"
+
+#: class-admin.php:2046
+msgid "The wp-config.php file is not writable, and needs to be edited. Please set this file to writable."
+msgstr "ファイル wp-config.php が書き込み可能でなく、また編集が必要です。このファイルを書き込み可能に設定してください。"
+
+#: class-site-health.php:150
+msgid "Your website does not send all recommended security headers."
+msgstr "このウェブサイトは、すべての推奨するセキュリティヘッダーを送信していません。"
+
+#: class-site-health.php:71 class-site-health.php:101 class-site-health.php:132
+#: class-site-health.php:172 security/wordpress/vulnerabilities.php:273
+#: security/wordpress/vulnerabilities.php:293
+msgid "Security"
+msgstr "セキュリティ"
+
+#: class-admin.php:2265
+msgid "Recommended security headers enabled."
+msgstr "推奨するセキュリティヘッダーは有効です。"
+
+#: lets-encrypt/config/fields.php:124
+msgid "OCSP stapling is configured as enabled by default. You can disable this option if this is not supported by your hosting provider."
+msgstr "OCSP ステープリングは標準で有効になっています。お使いのホスティング会社によって対応していない場合、無効にできます。"
+
+#: lets-encrypt/functions.php:12
+msgid "For more information, please read this %sarticle%s"
+msgstr "詳細は%sこの記事%sをご覧ください。"
+
+#: class-admin.php:2330
+msgid "Black Friday sale! Get 40% Off Really Simple SSL Pro"
+msgstr "ブラックフライデーセール ! Really Simple SSL Pro が40％オフ"
+
+#: lets-encrypt/config/fields.php:506
+msgid "Checking if Terms & Conditions are accepted..."
+msgstr "利用規約に同意しているか確認中..."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1051
+msgid "The Terms & Conditions were not accepted. Please accept in the general settings."
+msgstr "利用規約に同意していません。一般設定から同意してください。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1047
+msgid "Terms & Conditions are accepted."
+msgstr "利用規約に同意されました。"
+
+#: class-admin.php:2225
+msgid "HttpOnly Secure cookies have been set automatically!"
+msgstr "HttpOnly の secure cookie が自動的に設定されました !"
+
+#. translators: %s is replaced with the plugin name.
+#: class-admin.php:2316
+msgid "As Really Simple SSL handles all the functionality this plugin provides, we recommend to disable this plugin to prevent unexpected behavior."
+msgstr "Really Simple SSL は、プラグインが提供するすべての機能を処理できるよう、予期せぬ動作を防ぐために、このプラグインを無効化することを推奨します。"
+
+#. translators: %s is replaced with the plugin name.
+#: class-admin.php:2316
+msgid "We have detected the %s plugin on your website."
+msgstr "このサイトで %s プラグインが検出されました。"
+
+#: onboarding/class-onboarding.php:261
+msgid "Please refresh the SSL status if a certificate has been installed recently."
+msgstr "証明書が最近インストールされているなら、SSL の状態を更新してください。"
+
+#: onboarding/class-onboarding.php:261
+msgid "No SSL certificate has been detected."
+msgstr "SSL 証明書が検出されませんでした。"
+
+#: lets-encrypt/config/notices.php:128
+msgid "Your server provides shell functionality, which offers additional methods to install SSL. If installing SSL using the default methods is not possible, you can install the shell add on."
+msgstr "お使いのサーバーにはシェル機能があるため、 SSL をインストールするための追加の方法があります。標準の方法で SSL をインストールできない場合、シェル拡張機能をインストールできます。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:477
+msgid "If you entered your DNS records before, they need to be changed."
+msgstr "以前に DNS レコードを入力している場合、変更する必要があります。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:474
+msgid "Order ID mismatch, regenerate order."
+msgstr "発注 ID が一致しません。発注を再生成します。"
+
+#: settings/config/fields/general.php:60
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/src/LetsEncrypt/Installation.js:95
+#: settings/src/LetsEncrypt/Installation.js:100
+#: settings/src/LetsEncrypt/Installation.js:104
+msgid "Download"
+msgstr "ダウンロード"
+
+#: settings/config/menu.php:213 settings/build/778.1cc24e8aa09719269ad5.js:1
+#: settings/src/Settings/Settings.js:164
+msgid "Notifications"
+msgstr "通知"
+
+#: lets-encrypt/config/notices.php:28
+msgid "Your Key and Certificate directories are not properly protected."
+msgstr "キーと証明書用のフォルダが適切に保護されていません。"
+
+#: lets-encrypt/config/notices.php:111
+msgid "Your certificate will be renewed and installed automatically."
+msgstr "証明書は自動で更新されインストールされます。"
+
+#: lets-encrypt/config/notices.php:104
+msgid "Automatic renewal of your certificate was not possible. The SSL certificate should be %srenewed%s manually."
+msgstr "証明書の自動更新はできませんでした。SSL 証明書は手動で%s更新%sしてください。"
+
+#: lets-encrypt/config/notices.php:97
+msgid "The SSL certificate has been renewed, and requires manual %sinstallation%s in your hosting dashboard."
+msgstr "SSL 証明書は更新され、ホスティング管理画面から手動で%sインストール%sが必要です。"
+
+#: lets-encrypt/config/notices.php:90
+msgid "The automatic installation of your certificate has failed. Please check your credentials, and retry the %sinstallation%s."
+msgstr "お使いの証明書の自動インストールに失敗しました。認証情報を確認し%sインストール%sを再度お試しください。"
+
+#: lets-encrypt/config/notices.php:75
+msgid "Your certificate will expire on %s. You can renew it %shere%s."
+msgstr "お使いの証明書の有効期限は %s です。%sこちら%sから更新できます。"
+
+#: lets-encrypt/config/notices.php:71
+msgid "Your certificate is valid until: %s"
+msgstr "証明書の有効期限: %s"
+
+#: lets-encrypt/config/notices.php:43
+msgid "The www version of your site does not point to this website. This is recommended, as it will allow you to add it to the certificate as well."
+msgstr "このサイトの www 版は、このサイトを指していません。これは推奨されます。証明書にも追加できるようになるためです。"
+
+#: lets-encrypt/config/notices.php:41
+msgid "The non-www version of your site does not point to this website. This is recommended, as it will allow you to add it to the certificate as well."
+msgstr "このサイトの非 www 版は、このサイトを指していません。これは推奨されます。証明書にも追加できるようになるためです。"
+
+#: lets-encrypt/config/fields.php:532
+msgid "Searching for link to SSL installation page on your server..."
+msgstr "お使いのサーバー用の SSL インストールページへのリンクを検索中..."
+
+#: lets-encrypt/config/fields.php:29 settings/config/menu.php:733
+msgid "Installation"
+msgstr "インストール"
+
+#: lets-encrypt/config/fields.php:25 settings/config/menu.php:728
+msgid "Generation"
+msgstr "生成"
+
+#: lets-encrypt/config/fields.php:480
+msgid "Retrieving DNS verification token..."
+msgstr "DNS 認証用トークンを再取得中..."
+
+#: lets-encrypt/config/fields.php:474 lets-encrypt/config/fields.php:512
+msgid "Creating account..."
+msgstr "アカウントを作成中..."
+
+#: lets-encrypt/config/fields.php:453
+msgid "Checking challenge directory reachable over http..."
+msgstr "http を介して challenge フォルダに到達できるか確認中..."
+
+#: lets-encrypt/config/fields.php:446
+msgid "Checking permissions..."
+msgstr "パーミッションを確認中..."
+
+#: lets-encrypt/config/fields.php:440
+msgid "Checking certs directory..."
+msgstr "certs フォルダを確認中..."
+
+#: lets-encrypt/config/fields.php:434
+msgid "Checking key directory..."
+msgstr " key フォルダを確認中..."
+
+#: lets-encrypt/config/fields.php:428
+msgid "Checking challenge directory..."
+msgstr "challenge フォルダを確認中..."
+
+#: lets-encrypt/config/fields.php:17 settings/config/menu.php:718
+msgid "Directories"
+msgstr "フォルダ"
+
+#: settings/config/menu.php:712
+msgid "Hosting"
+msgstr "ホスティング"
+
+#: settings/config/menu.php:701
+msgid "Letʼs Encrypt is a free, automated and open certificate authority brought to you by the nonprofit Internet Security Research Group (ISRG)."
+msgstr "Let's Encrypt は無料です。非営利の Internet Security Research Group (ISRG) が提供する、自動かつオープンな認証局です。"
+
+#: settings/config/menu.php:693
+msgid " Please note that you can always save and finish the wizard later, use our %sdocumentation%s for additional information or log a %ssupport ticket%s if you need our assistance."
+msgstr "いつでも保存して、後でウィザードを完了できます。追加の情報は%s私たちによる解説文書%sや、手助けが必要なら%sサポートチケット%sを発行してください。"
+
+#: settings/config/menu.php:691
+msgid "We have tried to make our Wizard as simple and fast as possible. Although these questions are all necessary, if there’s any way you think we can improve the plugin, please let us %sknow%s!"
+msgstr "ウィザードを、シンプルかつ高速に保っています。すべて必要な質問かと思いますが、本プラグインをさらに改善できるなら%sお知らせください%s !"
+
+#: lets-encrypt/config/fields.php:76
+msgid "Checking for website configuration..."
+msgstr "サイトの設定を確認中..."
+
+#: lets-encrypt/config/fields.php:70
+msgid "Checking alias domain..."
+msgstr "ドメインのエイリアスを確認中..."
+
+#: lets-encrypt/config/fields.php:64
+msgid "Checking server software..."
+msgstr "サーバソフトウェアを確認中..."
+
+#: lets-encrypt/config/fields.php:58
+msgid "Checking if CURL is available..."
+msgstr "cURL が利用可能か確認中..."
+
+#: lets-encrypt/config/fields.php:52
+msgid "Checking SSL certificate..."
+msgstr "SSL 証明書を確認中..."
+
+#: lets-encrypt/config/fields.php:47
+msgid "Detected status of your setup."
+msgstr "検出されたセットアップの状態"
+
+#: lets-encrypt/config/fields.php:400
+msgid "Store for renewal purposes. If not stored, renewal may need to be done manually."
+msgstr "更新のための保存です。保存されていなければ、更新を手動で行う必要があることがあります。"
+
+#: lets-encrypt/config/fields.php:377
+msgid "Plesk password"
+msgstr "Plesk パスワード"
+
+#: lets-encrypt/config/fields.php:357
+msgid "You can find your Plesk username and password in %s"
+msgstr "Plesk のユーザー名とパスワードは、%sにあります。"
+
+#: lets-encrypt/config/fields.php:353
+msgid "Plesk username"
+msgstr "Plesk ユーザー名"
+
+#: lets-encrypt/config/fields.php:333
+msgid "The URL you use to access your Plesk dashboard. Ends on :8443."
+msgstr "Plesk の管理画面へのアクセスに使用する URL です。末尾は :8443です。"
+
+#: lets-encrypt/config/fields.php:329
+msgid "Plesk host"
+msgstr "Plesk ホスト"
+
+#: lets-encrypt/config/fields.php:313
+msgid "You can find your api key %shere%s (make sure you're logged in with your main account)."
+msgstr "API キーは、%sこちら%sにあります (メインアカウントでのログインを確かにしてください)。"
+
+#: lets-encrypt/config/fields.php:291
+msgid "CloudWays user email"
+msgstr "CloudWays メールアドレス"
+
+#: lets-encrypt/config/fields.php:271
+msgid "DirectAdmin password"
+msgstr "DirectAdmin パスワード"
+
+#: lets-encrypt/config/fields.php:252
+msgid "DirectAdmin username"
+msgstr "DirectAdmin ユーザー名"
+
+#: lets-encrypt/config/fields.php:232
+msgid "The URL you use to access your DirectAdmin dashboard. Ends on :2222."
+msgstr "DirectAdmin の管理画面へのアクセスに使用する URL です。末尾は :2222です。"
+
+#: lets-encrypt/config/fields.php:228
+msgid "DirectAdmin host"
+msgstr "DirectAdmin ホスト"
+
+#: lets-encrypt/config/fields.php:209
+msgid "CPanel password"
+msgstr "CPanel パスワード"
+
+#: lets-encrypt/config/fields.php:190
+msgid "CPanel username"
+msgstr "CPanel ユーザー名"
+
+#: lets-encrypt/config/fields.php:170
+msgid "The URL you use to access your cPanel dashboard. Ends on :2083."
+msgstr "cPanel の管理画面へのアクセスに使用する URL です。末尾は :2083です。"
+
+#: lets-encrypt/config/fields.php:166 lets-encrypt/config/fields.php:169
+msgid "CPanel host"
+msgstr "CPanel ホスト"
+
+#: settings/config/fields/general.php:32
+msgid "Hosting provider"
+msgstr "ホスティング会社"
+
+#: lets-encrypt/config/fields.php:150
+msgid "You should have the www domain pointed to the same website as the non-www domain."
+msgstr "www のドメインは、非 www のドメインと同じサイトを指すようにする必要があります。"
+
+#: lets-encrypt/config/fields.php:149
+msgid "This will include both the www. and non-www. version of your domain."
+msgstr "これはお使いのドメインの www. および 非 www. 版の両方を含みます。"
+
+#: lets-encrypt/config/fields.php:134 lets-encrypt/config/notices.php:51
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/src/LetsEncrypt/DnsVerification.js:62
+msgid "Domain"
+msgstr "ドメイン"
+
+#: settings/settings.php:562
+msgid "Terms and Conditions"
+msgstr "利用規約"
+
+#: lets-encrypt/config/fields.php:94 lets-encrypt/config/fields.php:97
+#: settings/config/fields/general.php:79
+msgid "Email address"
+msgstr "メールアドレス"
+
+#: lets-encrypt/config/fields.php:98
+msgid "This email address is used to create a Let's Encrypt account. This is also where you will receive renewal notifications."
+msgstr "このメールアドレスは、Let's Encrypt のアカウント作成に用います。また更新のお知らせも届きます。"
+
+#: lets-encrypt/config/class-hosts.php:603
+msgid "I don't know, or not listed, proceed with installation"
+msgstr "知らない、一覧にない、インストールを続行"
+
+#: lets-encrypt/config/fields.php:550
+msgid "Checking for subdomain setup..."
+msgstr "サブドメイン設定を確認中..."
+
+#: lets-encrypt/config/fields.php:518
+msgid "Generating SSL certificate..."
+msgstr "SSL 証明書の生成中..."
+
+#: lets-encrypt/integrations/plesk/plesk.php:90
+msgid "Successfully installed SSL"
+msgstr "SSL を正常にインストール"
+
+#: lets-encrypt/integrations/plesk/functions.php:33
+msgid "Installing SSL certificate using PLESK API..."
+msgstr "PLESK API を介して SSL 証明書をインストール中..."
+
+#: lets-encrypt/integrations/cpanel/functions.php:107
+#: lets-encrypt/integrations/directadmin/functions.php:35
+msgid "Attempting to install certificate..."
+msgstr "証明書のインストールを試行中..."
+
+#: lets-encrypt/integrations/cpanel/functions.php:100
+msgid "Attempting to set DNS txt record..."
+msgstr "DNS txt レコードの設定を施行中..."
+
+#: lets-encrypt/integrations/cpanel/functions.php:91
+msgid "Attempting to install certificate using AutoSSL..."
+msgstr "AutoSSL を介して SSL 証明書のインストールを試行中..."
+
+#: lets-encrypt/integrations/cpanel/functions.php:63
+msgid "The system is not ready for the DNS verification yet. Please run the wizard again."
+msgstr "システムは、まだ DNS 認証の準備ができていません。ウィザードを再度実行してください。"
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:310
+#: lets-encrypt/integrations/cpanel/cpanel.php:329
+msgid "Could not automatically add TXT record. Please proceed manually, following the steps below."
+msgstr "TXT レコードを自動で追加できませんでした。以下の手順で、手動で続行してください。"
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:306
+#: lets-encrypt/integrations/cpanel/cpanel.php:325
+msgid "Successfully added TXT record."
+msgstr "TXT レコードを正常に追加しました。"
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:298
+msgid "Login credentials incorrect"
+msgstr "ログイン認証情報が正しくありません"
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:294
+msgid "Unable to connect to cPanel"
+msgstr "cPanel に接続できません"
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:128
+#: lets-encrypt/integrations/cpanel/cpanel.php:207
+msgid "Errors were reported during installation."
+msgstr "インストール中にエラーが報告されました。"
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:123
+#: lets-encrypt/integrations/directadmin/directadmin.php:124
+msgid "SSL successfully installed on %s"
+msgstr "%s への SSL のインストールが成功"
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:66
+#: lets-encrypt/integrations/directadmin/directadmin.php:66
+msgid "No valid list of domains."
+msgstr "ドメイン一覧が正しくありません。"
+
+#: lets-encrypt/integrations/cloudways/functions.php:49
+msgid "Enabling auto renew..."
+msgstr "自動更新を有効化中..."
+
+#: lets-encrypt/integrations/cloudways/functions.php:43
+msgid "Installing SSL certificate..."
+msgstr "SSL 証明書をインストール中..."
+
+#: lets-encrypt/integrations/cloudways/functions.php:37
+msgid "Retrieving Cloudways server data..."
+msgstr "Cloudways のサーバーデータを取得中..."
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:252
+msgid "Could not retrieve server list"
+msgstr "サーバー一覧を取得できません"
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:212
+#: lets-encrypt/integrations/cloudways/cloudways.php:245
+msgid "Successfully retrieved server id and app id"
+msgstr "サーバー ID と アプリ ID の取得に成功"
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:196
+msgid "Error enabling auto renew for Let's Encrypt"
+msgstr "Let's Encrypt 自動更新の有効時のエラー"
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:181
+#: lets-encrypt/integrations/cloudways/cloudways.php:187
+msgid "Successfully installed Let's Encrypt"
+msgstr "Let's Encrypt のインストールに成功"
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:161
+msgid "Failed retrieving access token"
+msgstr "アクセストークンの取得に失敗"
+
+#: lets-encrypt/functions.php:412
+msgid "You can follow these %sinstructions%s."
+msgstr "%sこの手順%sに従ってください。"
+
+#: lets-encrypt/functions.php:410
+msgid "Your hosting environment does not allow automatic SSL installation."
+msgstr "お使いのホスト環境では、自動的な SSL のインストールが許可されていません。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1201
+#: lets-encrypt/functions.php:407
+msgid "According to our information, your hosting provider does not allow any kind of SSL installation, other then their own paid certificate. For an alternative hosting provider with SSL, see this %sarticle%s."
+msgstr "我々の情報では、お使いのホスティング会社は、その会社の有料の証明書以外の SSL 証明書を許可していません。SSL の使える別のホスティング会社については、この%s記事%sをご覧ください。"
+
+#: lets-encrypt/functions.php:401
+msgid "You already have free SSL on your hosting environment."
+msgstr "お使いのホスト環境には既に無料の SSL があります。"
+
+#: lets-encrypt/functions.php:399 lets-encrypt/functions.php:403
+#: lets-encrypt/functions.php:413
+msgid "After completing the installation, you can continue to the next step to complete your configuration."
+msgstr "インストール完了後、設定を完了するための次の手順に進むことができます。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1208
+#: lets-encrypt/functions.php:397
+msgid "According to our information, your hosting provider supplies your account with an SSL certificate by default. Please contact your %shosting support%s if this is not the case."
+msgstr "我々の情報では、お使いのホスティング会社は、標準で SSL 証明書を提供しています。そうなっていない場合、お使いの%sホスティング会社のサポート%sにお問い合わせください。"
+
+#: lets-encrypt/functions.php:392
+msgid "Go to installation"
+msgstr "インストールへ"
+
+#: lets-encrypt/functions.php:391
+msgid "Go to activation"
+msgstr "有効化へ"
+
+#: lets-encrypt/functions.php:390
+msgid "Please activate it on your dashboard %smanually%s"
+msgstr "管理画面から%s手動で%s有効化してください"
+
+#: lets-encrypt/functions.php:389
+msgid "Please complete %smanually%s"
+msgstr "%s手動で%s完了してください"
+
+#: lets-encrypt/functions.php:387
+msgid "Please activate it manually on your hosting dashboard."
+msgstr "お使いのホスティング会社の管理画面で、手動で有効化してください。"
+
+#: lets-encrypt/functions.php:386
+msgid "Please complete manually in your hosting dashboard."
+msgstr "お使いのホスティング会社の管理画面で、手動で完了してください。"
+
+#: lets-encrypt/download.php:49
+msgid "File missing. Please retry the previous steps."
+msgstr "ファイルがありません。前の段階を再度お試しください。"
+
+#: security/cron.php:90
+msgid "Once every 5 minutes"
+msgstr "5分ごと"
+
+#: security/cron.php:94
+msgid "Once every day"
+msgstr "1日ごと"
+
+#: security/cron.php:102
+msgid "Once every week"
+msgstr "1週間ごと"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1824
+#: lets-encrypt/integrations/cloudways/functions.php:22
+#: lets-encrypt/integrations/cpanel/functions.php:17
+#: lets-encrypt/integrations/cpanel/functions.php:35
+#: lets-encrypt/integrations/directadmin/functions.php:16
+#: lets-encrypt/integrations/plesk/functions.php:16
+msgid "The system is not ready for the installation yet. Please run the wizard again."
+msgstr "システムは、まだインストールの準備ができていません。ウィザードを再度実行してください。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1819
+msgid "Installation failed."
+msgstr "インストールに失敗。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1814
+msgid "Not recognized server."
+msgstr "サーバーを認識できません。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1784
+msgid "The certificate installation was rate limited. Please try again later."
+msgstr "短時間での証明書のインストールの限度です。後で再度お試しください。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1356
+#: lets-encrypt/class-letsencrypt-handler.php:1360
+#: lets-encrypt/class-letsencrypt-handler.php:1705
+msgid "Error code %s"
+msgstr "エラーコード %s"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1688
+msgid "Please create a folder 'rsssl' in the uploads directory, with 644 permissions."
+msgstr "uploads フォルダ内に、644のパーミッションで rsssl フォルダを作成してください。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1687
+msgid "Could not create test folder and file."
+msgstr "テスト用のフォルダとファイルが作成できませんでした。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1658
+msgid "If this is not the case, don't add this alias to your certificate."
+msgstr "そうでない場合、このエイリアスを証明書に追加しないでください。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1658
+msgid "Could not verify alias domain."
+msgstr "ドメインのエイリアスを検証できませんでした。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1656
+msgid "Please check if the www version of your site also points to this website."
+msgstr "このサイトの www 版も、このサイトを指しているか確認してください。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1654
+msgid "Please check if the non www version of your site also points to this website."
+msgstr "このサイトの非 www 版も、このサイトを指しているか確認してください。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1635
+msgid "Alias domain check is not relevant for a subdomain"
+msgstr "ドメインのエイリアスの確認は、サブドメインとは関係ありません"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1605
+msgid "No subdomain setup detected."
+msgstr "サブドメイン設定の検出なし。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1367
+#: lets-encrypt/class-letsencrypt-handler.php:1665
+#: lets-encrypt/class-letsencrypt-handler.php:1716
+msgid "Successfully verified alias domain."
+msgstr "ドメインのエイリアスの検証に成功。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1342
+msgid "Challenge directory not writable."
+msgstr "Challenge フォルダが書き込み可能ではありません。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1336
+msgid "Could not reach challenge directory over %s."
+msgstr "%s の challenge フォルダと応答できません。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1332
+#: lets-encrypt/class-letsencrypt-handler.php:1642
+msgid "no response"
+msgstr "反応なし"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1273
+msgid "The certs directory was successfully created."
+msgstr "certs フォルダは正常に作成されました。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1269
+msgid "The certs directory is not created yet."
+msgstr "certs フォルダはまだ作成されていません。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1254
+msgid "The key directory was successfully created."
+msgstr "key フォルダは正常に作成されました。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1246
+msgid "Trying to create directory in root of website."
+msgstr "サイトのルート上にフォルダの作成を試行中です。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1242
+msgid "The key directory is not created yet."
+msgstr "key フォルダはまだ作成されていません。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1229
+msgid "The challenge directory was successfully created."
+msgstr "challenge フォルダは正常に作成されました。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1225
+msgid "The challenge directory is not created yet."
+msgstr "challenge フォルダはまだ作成されていません。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1182
+msgid "The required directories have the necessary writing permissions."
+msgstr "必要なフォルダは、必要とされる書き込み権限を持っています。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1175
+msgid "Set permissions to 644 to enable SSL generation."
+msgstr "SSL 生成を有効にするには、パーミッションを644に設定します。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1175
+msgid "The following directories do not have the necessary writing permissions."
+msgstr "以下のフォルダには、必要な書き込み権限がありません。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1159
+msgid "Please complete the following step(s) first: %s"
+msgstr "まず以下の手順を完了してください: %s"
+
+#: lets-encrypt/class-letsencrypt-handler.php:895
+msgid "Order successfully retrieved."
+msgstr "発注は正常に取得されました。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:879
+msgid "Order successfully created."
+msgstr "発注は正常に作成されました。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:786
+msgid "Bundle not available yet..."
+msgstr "バンドルはまだ利用できません..."
+
+#: lets-encrypt/class-letsencrypt-handler.php:702
+#: lets-encrypt/class-letsencrypt-handler.php:778
+msgid "Files not created yet..."
+msgstr "ファイルはまだ作成されていません..."
+
+#: lets-encrypt/class-letsencrypt-handler.php:772
+msgid "Successfully generated certificate."
+msgstr "証明書は正常に精製されました。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:758
+msgid "OCSP not supported, the certificate will be generated without OCSP."
+msgstr "OCSP に未対応です。証明書は OCSP なしで生成されます。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:750
+msgid "As your order will be regenerated, you'll need to update your DNS text records."
+msgstr "発注が再生成されたため、DNS txt レコードを更新する必要があります。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:470
+#: lets-encrypt/class-letsencrypt-handler.php:747
+msgid "The order is invalid, possibly due to too many failed authorization attempts. Please start at the previous step."
+msgstr "この発注は正しくありません、おそらく承認の試行に何度も失敗しているためです。前の段階からお試しください。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:726
+msgid "Authorization not completed yet."
+msgstr "承認はまだ完了していません。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:696
+msgid "Certificate already generated. It was renewed if required."
+msgstr "証明書は既に生成されています。必要な場合、更新もされました。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:657
+msgid "DNS records were not verified yet. Please complete the previous step."
+msgstr "DNS レコードはまだ検証されていません。次の手順を完了してください。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:643
+msgid "Please double check your DNS txt record."
+msgstr "念のため DNS txt レコードを確認してください。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:581
+msgid "Could not verify TXT record for domain %s"
+msgstr "ドメイン %s 用の TXT レコードを検証できませんでした"
+
+#: lets-encrypt/class-letsencrypt-handler.php:571
+msgid "The DNS response for %s was %s, while it should be %s."
+msgstr "%s への DNS レスポンスは %s でしたが %s である必要がります。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:561
+msgid "Successfully verified DNS records"
+msgstr "DNS レコードの検証に成功"
+
+#: lets-encrypt/class-letsencrypt-handler.php:547
+#: lets-encrypt/integrations/cpanel/functions.php:47
+msgid "Token not generated. Please complete the previous step."
+msgstr "トークンが生成されていません。前の手順を完了してください。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:505
+msgid "Configured for HTTP challenge"
+msgstr "HTTP チャレンジの設定"
+
+#: lets-encrypt/class-letsencrypt-handler.php:455
+msgid "Token not received yet."
+msgstr "まだトークンを受信していません。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:403
+msgid "The email address was not set. Please set the email address"
+msgstr "メールアドレスが設定されていません。設定してください"
+
+#: lets-encrypt/class-letsencrypt-handler.php:395
+msgid "Please change your email address %shere%s and try again."
+msgstr "メールアドレスを%sここから%s変更し、再度お試しください。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:394
+msgid "The used domain for your email address is not allowed."
+msgstr "このメールアドレスに使用されたドメインは許可されていません。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:387
+msgid "Successfully retrieved account"
+msgstr "アカウントの取得に成功"
+
+#: lets-encrypt/class-letsencrypt-handler.php:367
+msgid "The PHP function CURL has successfully been detected."
+msgstr "PHP 関数の cURL は正常に検出されました。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:363
+msgid "The PHP function CURL is not available on your server, which is required. Please contact your hosting provider."
+msgstr "必要とされる PHP 関数の cURL は、このサーバーでは利用できません。お使いのホスティング会社にお問い合わせください。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:347
+msgid "DirectAdmin recognized. Possibly the certificate can be installed automatically."
+msgstr "DirectAdmin を認識しました。証明書を自動でインストールできる可能性があります。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:344
+msgid "Plesk recognized. Possibly the certificate can be installed automatically."
+msgstr "Plesk を認識しました。証明書を自動でインストールできる可能性があります。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:341
+msgid "CPanel recognized. Possibly the certificate can be installed automatically."
+msgstr "CPanel を認識しました。証明書を自動でインストールできる可能性があります。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:337
+msgid "The Hosting Panel software was not recognized. Depending on your hosting provider, the generated certificate may need to be installed manually."
+msgstr "サーバー管理ツールを認識できませんでした。お使いのホスティング会社によっては、生成された証明書を手動でインストールする必要があります。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:306
+msgid "SSL certificate should be generated and installed."
+msgstr "SSL 証明書を生成し、インストールする必要があります。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:300
+msgid "You already have a valid SSL certificate."
+msgstr "すでに有効な SSL 証明書があります。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:296
+msgid "Continue to renew."
+msgstr "更新を続行。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:296
+msgid "Your certificate will expire on %s."
+msgstr "この証明書の有効期限は、%s です。"
+
+#: class-admin.php:1950 lets-encrypt/class-letsencrypt-handler.php:290
+msgid "(unknown)"
+msgstr "(不明)"
+
+#: lets-encrypt/class-letsencrypt-handler.php:226
+msgid "Your domain meets the requirements for Let's Encrypt."
+msgstr "このドメインは、Let's Encrypt の要件を満たしています。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:208
+msgid "It is not possible to install Let's Encrypt on a localhost environment."
+msgstr "Let's Encrypt は、ローカルホストの環境にはインストールできません。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:218
+msgid "It is not possible to install Let's Encrypt on a subfolder configuration."
+msgstr "サブフォルダ構成では Let's Encrypt をインストールできません。"
+
+#: lets-encrypt/class-letsencrypt-handler.php:213
+msgid "It is not possible to install Let's Encrypt on a subsite. Please go to the main site of your website."
+msgstr "サブサイトには Let's Encrypt をインストールできません。このサイトのメインサイトから行ってください。"
+
+#: class-admin.php:2304
+msgid "You have the Really Simple SSL Let's Encrypt beta add-on activated. This functionality has now been integrated in core, so you can deactivate the add-on."
+msgstr "Really Simple SSL Let's Encrypt ベータ版拡張機能が有効になっています。今ではこの機能はコアに統合されているので、拡張機能を無効化できます。"
+
+#: class-admin.php:2085 settings/build/43.7284bbc570a57053a399.js:1
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/src/Dashboard/TaskElement.js:52
+msgid "Re-check"
+msgstr "再確認"
+
+#. translators: %s is replaced with date.
+#: class-admin.php:2078
+msgid "If your hosting provider auto-renews your certificate, no action is required. Alternatively, you have the option to generate an SSL certificate with Really Simple SSL."
+msgstr "お使いのホスティング会社が証明書を自動更新していれば、何もする必要はありません。あるいは、Really Simple SSL で SSL 証明書を生成するオプションもあります。"
+
+#. translators: %s is replaced with date.
+#: class-admin.php:2078
+msgid "SSL certificate will expire on %s."
+msgstr "SSL 証明書の有効期限は、%s です。"
+
+#: class-admin.php:2075
+msgid "Your SSL certificate will expire soon."
+msgstr "SSL 証明書の有効期限が近づいています。"
+
+#: class-admin.php:2051
+msgid "No SSL detected. Use the retry button to check again."
+msgstr "SSL が検出されませんでした。再確認には取得ボタンを使ってください。"
+
+#: class-admin.php:2054 class-admin.php:2064 class-admin.php:2084
+msgid "Install SSL certificate"
+msgstr "SSL 証明書をインストール"
+
+#: class-admin.php:2055
+msgid "Retry"
+msgstr "再試行"
+
+#: onboarding/class-onboarding.php:249
+msgid "An SSL certificate has been detected"
+msgstr "SSL 証明書が検出されました"
+
+#: class-admin.php:2245
+msgid "Or set your wp-config.php to writable and reload this page."
+msgstr "または、wp-config.php を書き込み可能に設定し、このページを再読み込みしてください。"
+
+#: class-admin.php:2237
+msgid "Add the following lines of code to your wp-config.php."
+msgstr "以下のコードを wp-config.php に追加してください。"
+
+#: class-admin.php:2237
+msgid "To set the httponly secure cookie settings, your wp-config.php has to be edited, but the file is not writable."
+msgstr "HttpOnly の secure cookie を設定するには、wp-config.php を編集する必要がありますが、このファイルは書き込み可能になっていません。"
+
+#: class-admin.php:2230
+msgid "HttpOnly Secure cookies not set."
+msgstr "HttpOnly の secure cookie が未設定です。"
+
+#: class-admin.php:2291
+msgid "Due to a recent update by WP Engine, we have changed your settings automatically to adapt."
+msgstr "最近の WP エンジンの更新に基づいて、自動で設定を変更し適応させました。"
+
+#: class-site-health.php:149
+msgid "Not all recommended security headers are installed"
+msgstr "推奨するセキュリティヘッダーがインストール済みではありません"
+
+#: class-site-health.php:137
+msgid "The recommended security headers are detected on your site."
+msgstr "推奨するセキュリティヘッダーが検出されています。"
+
+#: class-site-health.php:129
+msgid "Recommended security headers installed"
+msgstr "推奨するセキュリティヘッダーはインストール済み"
+
+#: class-site-health.php:34
+msgid "Security Headers Test"
+msgstr "セキュリティー用ヘッダーのテスト"
+
+#: class-site-health.php:29
+msgid "SSL Status Test"
+msgstr "SSL 状態のテスト"
+
+#: class-admin.php:2050 class-site-health.php:201
+msgid "No SSL detected"
+msgstr "SSL 検出無し"
+
+#: class-site-health.php:154
+msgid "Learn more about security headers"
+msgstr "セキュリティヘッダーについての詳細"
+
+#: class-site-health.php:218
+msgid "Enable 301 redirect"
+msgstr "301転送を有効化"
+
+#: class-site-health.php:213
+msgid "To ensure all traffic passes through SSL, please enable a 301 redirect."
+msgstr "すべてのアクセスを SSL に渡すには、301転送を有効にしてください。"
+
+#: class-site-health.php:210
+msgid "No 301 redirect to SSL enabled."
+msgstr "SSL への301転送が有効ではありません"
+
+#: class-site-health.php:204
+msgid "Really Simple SSL is installed, but no valid SSL certificate is detected."
+msgstr "Really Simple SSL はインストール済みですが、有効な SSL 証明書が検出できません。"
+
+#: class-site-health.php:189
+msgid "Really Simple SSL detected an SSL certificate, but has not been configured to enforce SSL."
+msgstr "Really Simple SSL は SSL 証明書を検出しましたが、SSL 利用を強化するように設定されていません。"
+
+#: class-site-health.php:186
+msgid "SSL is not enabled."
+msgstr "SSL は有効化されていません。"
+
+#: class-admin.php:1893 settings/config/menu.php:351
+msgid "Open"
+msgstr "作業待ち"
+
+#: class-admin.php:1892 settings/build/381.9b8465294454b49768a3.js:1
+#: settings/src/Settings/MixedContentScan/MixedContentScan.js:58
+msgid "Warning"
+msgstr "警告"
+
+#: class-admin.php:1891
+msgid "Completed"
+msgstr "完了"
+
+#: upgrade/upgrade-to-pro.php:190 settings/build/43.7284bbc570a57053a399.js:1
+#: settings/src/Dashboard/OtherPlugins/OtherPlugins.js:24
+msgid "Installed"
+msgstr "インストール済み"
+
+#: onboarding/class-onboarding.php:205 onboarding/class-onboarding.php:212
+#: upgrade/upgrade-to-pro.php:146 upgrade/upgrade-to-pro.php:159
+#: upgrade/upgrade-to-pro.php:176 settings/build/43.7284bbc570a57053a399.js:1
+#: settings/src/Dashboard/OtherPlugins/OtherPluginsData.js:73
+msgid "Install"
+msgstr "インストール"
+
+#: class-admin.php:2209
+msgid "Your site uses Divi. This can require some additional steps before getting the secure lock."
+msgstr "このサイトは Divi を使用中です。そのため安全性を示す鍵マークを取得するには、少し追加の手順が必要です。"
+
+#: class-admin.php:2195
+msgid "Your site uses Elementor. This can require some additional steps before getting the secure lock."
+msgstr "このサイトは Elementor を使用中です。そのため安全性を示す鍵マークを取得するには、少し追加の手順が必要です。"
+
+#: class-admin.php:2180
+msgid "The .htaccess redirect rules selected by this plugin failed in the test. Set manually or dismiss to leave on PHP redirect."
+msgstr "本プラグインに選択された .htaccess による転送ルールはテストに失敗しました。手動で設定するか、PHP による転送にするため非表示にしてください。"
+
+#: class-admin.php:2166
+msgid "WordPress 301 redirect enabled. We recommend to enable a 301 .htaccess redirect."
+msgstr "WordPress による301転送が有効です。.htaccess による.301転送を推奨します。"
+
+#: class-admin.php:2120
+msgid "Mixed content fixer not enabled. Enable the option to fix mixed content on your site."
+msgstr "混合コンテンツ修正機能が有効になっていません。このサイトの混合コンテンツを修正するオプションを有効にします。"
+
+#: class-admin.php:2109
+msgid "The mixed content fixer is active, but was not detected on the frontpage."
+msgstr "混在コンテンツ修正機能は有効化されていますが、フロントページからは検出されませんでした。"
+
+#: class-admin.php:2102
+msgid "Really Simple SSL has received no response from the webpage."
+msgstr "このウェブページからの応答がありませんでした。"
+
+#: class-admin.php:2029
+msgid "SSL is not enabled yet."
+msgstr "SSL はまだ有効化されていません。"
+
+#: class-admin.php:1935
+msgid "No recommended redirect rules detected."
+msgstr "推奨する転送ルールが検出されません。"
+
+#: settings/config/menu.php:23 settings/config/menu.php:29
+#: settings/config/menu.php:392
+msgid "General"
+msgstr "全般"
+
+#: class-admin.php:155 settings/build/index.1afbe80747ffa9b218c6.js:1
+#: settings/src/Header.js:45
+msgid "Support"
+msgstr "サポート掲示板"
+
+#: class-multisite.php:111
+msgid "SSL is enabled networkwide."
+msgstr "SSL はネットワーク全体で有効化済みです。"
+
+#: class-site-health.php:197 settings/build/43.7284bbc570a57053a399.js:1
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/build/814.eeaa575fc49ec4cd3d36.js:1
+#: settings/src/Dashboard/Progress/ProgressFooter.js:24
+#: settings/src/Onboarding/OnboardingControls.js:151
+msgid "Activate SSL"
+msgstr "SSL を有効化"
+
+#: progress/class-progress.php:96
+msgid "SSL is not yet enabled on this site."
+msgstr "このサイトでまだ SSL が有効化されていません。"
+
+#: progress/class-progress.php:90
+msgid "Basic SSL configuration finished! Improve your score with %sReally Simple SSL Pro%s."
+msgstr "基本的な SSL 設定は完了です ! %sReally Simple SSL Pro%sでさらに評価を改善できます。"
+
+#: progress/class-progress.php:85
+msgid "SSL configuration finished!"
+msgstr "SSL の設定は完了です !"
+
+#: progress/class-progress.php:83
+msgid "You still have %s task open."
+msgid_plural "You still have %s tasks open."
+msgstr[0] "まだ%s件の作業があります。"
+
+#: progress/class-progress.php:83
+msgid "SSL is activated on your site."
+msgstr "SSL はサイト上で有効化済みです。"
+
+#: settings/config/menu.php:82 settings/build/43.7284bbc570a57053a399.js:1
+#: settings/src/Dashboard/Progress/ProgressFooter.js:34
+msgid "Mixed content"
+msgstr "混在コンテンツ"
+
+#: settings/config/fields/vulnerability-detection.php:238
+#: settings/build/43.7284bbc570a57053a399.js:1
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/src/Dashboard/SslLabs/SslLabs.js:320
+#: settings/src/LetsEncrypt/DnsVerification.js:57
+msgid "Read more"
+msgstr "詳細"
+
+#. Author of the plugin
+#: rlrsssl-really-simple-ssl.php
+msgid "Really Simple Plugins"
+msgstr "Really Simple プラグイン"
+
+#: onboarding/class-onboarding.php:176
+msgid "Check out Really Simple SSL Pro"
+msgstr "Really Simple SSL Pro を検討"
+
+#: class-admin.php:1716
+msgid "Don't show again"
+msgstr "今後表示しない"
+
+#. translators: %s is replaced with the error description.
+#: class-admin.php:2127
+msgid "The mixed content fixer could not be detected due to a cURL error: %s. cURL errors are often caused by an outdated version of PHP or cURL and don't affect the front-end of your site. Contact your hosting provider for a fix."
+msgstr "cURL エラーが原因で混在コンテンツ修正機能が検出できませんでした: %s。cURL エラーは多くの場合、古いバージョンの PHP や cURL が原因で発生し、このサイトのフロントエンドには影響しません。修正するにはホスティング業者にお問い合わせください。"
+
+#: class-admin.php:2114
+msgid "Error occurred when retrieving the webpage."
+msgstr "ページの取得中にエラーが発生しました。"
+
+#: class-site-health.php:225
+msgid "The 301 .htaccess redirect is the fastest and most reliable redirect option."
+msgstr "301 .htaccess 転送は、最速で最も信頼性の高い転送の選択肢です。"
+
+#: class-site-health.php:222
+msgid "301 .htaccess redirect is not enabled."
+msgstr "301 .htaccess 転送が無効です。"
+
+#: class-site-health.php:177
+msgid "You have set a 301 redirect to SSL. This is important for SEO purposes"
+msgstr "SSL へと301転送するよう設定しました。これは SEO 対策として重要です"
+
+#: class-site-health.php:169
+msgid "301 SSL redirect enabled"
+msgstr "301 SSL 転送は有効です"
+
+#: class-admin.php:592
+msgid "Dismiss"
+msgstr "非表示"
+
+#: onboarding/class-onboarding.php:192
+#: settings/build/43.7284bbc570a57053a399.js:1
+#: settings/src/Dashboard/Vulnerabilities/Vulnerabilities.js:116
+msgid "Enable"
+msgstr "有効化"
+
+#: class-admin.php:1996
+msgid "The 'force-deactivate.php' file has to be renamed to .txt. Otherwise your ssl can be deactivated by anyone on the internet."
+msgstr "ファイル force-deactivate.php の名前を .txt に変更する必要があります。そうしなければ、インターネット上の誰でもが SSL を無効化できてしまいます。"
+
+#: class-admin.php:1713
+msgid "Maybe later"
+msgstr "後で"
+
+#: class-admin.php:1708
+msgid "Leave a review"
+msgstr "レビューを書く"
+
+#: class-multisite.php:160
+msgid "Activate SSL per site or install a wildcard certificate to fix this."
+msgstr "サイトごとに SSL を有効にするか、ワイルドカード証明書をインストールしこれを修正します。"
+
+#: class-multisite.php:159
+msgid "This leads to issues when activating SSL networkwide since subdomains will be forced over SSL as well while they don't have a valid certificate."
+msgstr "有効な証明書がなければ、サブドメインでも強制的に SSL を通すことになるため、ネットワーク全体で SSL を有効化する際の問題につながります。"
+
+#: class-multisite.php:158
+msgid "You run a Multisite installation with subdomains, but your site doesn't have a wildcard certificate."
+msgstr "サブドメインのあるマルチサイトのインストールを実行していますが、このサイトにはワイルドカード証明書がありません。"
+
+#: upgrade/upgrade-to-pro.php:370 modal/build/433.c979d76891c58ebf0fd9.js:1
+#: modal/src/components/Modal/RssslModal.js:46
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/build/814.eeaa575fc49ec4cd3d36.js:1
+#: settings/src/Settings/GeoBlockList/TrustIpAddressModal.js:137
+#: settings/src/Settings/LimitLoginAttempts/AddIpAddressModal.js:110
+#: settings/src/Settings/LimitLoginAttempts/AddUserModal.js:90
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: class-admin.php:595 settings/build/43.7284bbc570a57053a399.js:1
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/build/778.1cc24e8aa09719269ad5.js:1
+#: settings/src/Dashboard/TaskElement.js:51 settings/src/Settings/Help.js:24
+msgid "More info"
+msgstr "詳細"
+
+#. Author URI of the plugin
+#: rlrsssl-really-simple-ssl.php
+msgid "https://really-simple-plugins.com"
+msgstr "https://really-simple-plugins.com"
+
+#: mailer/class-mail.php:33 mailer/class-mail.php:37
+#: settings/build/43.7284bbc570a57053a399.js:1
+#: settings/src/Dashboard/Vulnerabilities/Vulnerabilities.js:192
+msgid "Learn more"
+msgstr "さらに詳しく"
+
+#: settings/config/fields/encryption.php:59
+msgid "If this option is set to true, the mixed content fixer will fire on the init hook instead of the template_redirect hook. Only use this option when you experience problems with the mixed content fixer."
+msgstr "このオプションを有効にすると、混合コンテンツ修正機能は、template_redirect のフックではなく init のフックで実行されます。このオプションは、混合コンテンツ修正に問題がある場合にのみ使用してください。"
+
+#: onboarding/class-onboarding.php:176
+msgid "You can also let the automatic scan of the pro version handle this for you, and get premium support, increased security with HSTS and more!"
+msgstr "また、プロ版の自動スキャンにこれを処理させ、プレミアムサポートと HSTS などによりセキュリティを強化できます。"
+
+#: class-site-health.php:230
+msgid "Enable 301 .htaccess redirect"
+msgstr "301 .htaccess 転送を有効化"
+
+#: class-admin.php:2144
+msgid "No 301 redirect is set. Enable the WordPress 301 redirect in the settings to get a 301 permanent redirect."
+msgstr "301転送が設定されていません。301による恒久的転送を行うには、設定から WordPress の301転送を有効にしてください。"
+
+#: class-admin.php:2173
+msgid "Enable a .htaccess redirect or PHP redirect in the settings to create a 301 redirect."
+msgstr "301転送を作成するには、設定から .htaccess による転送か、PHP による転送を有効にします。"
+
+#: class-admin.php:2178
+msgid ".htaccess redirect."
+msgstr ".htaccess リダイレクト。"
+
+#: class-admin.php:2140
+msgid "301 redirect to https set."
+msgstr "HTTPS への301転送を設定: "
+
+#: class-multisite.php:144
+msgid "View settings page"
+msgstr "設定ページを表示"
+
+#: settings/config/fields/general.php:211 settings/config/menu.php:51
+msgid "Premium Support"
+msgstr "プレミアムサポート"
+
+#: lets-encrypt/functions.php:382 lets-encrypt/functions.php:383
+#: settings/build/778.1cc24e8aa09719269ad5.js:1
+#: settings/src/Settings/SettingsGroup.js:99
+msgid "Instructions"
+msgstr "注意事項"
+
+#: class-admin.php:2025
+msgid "SSL is enabled on your site."
+msgstr "SSL はこのサイト上で有効化されています。"
+
+#: class-admin.php:1959
+msgid "Your wp-config.php has to be edited, but is not writable."
+msgstr "wp-config.php を編集する必要がありますが、書き込み可能ではありません。"
+
+#: class-admin.php:1960 class-admin.php:1981
+msgid "Set your wp-config.php to writable and reload this page."
+msgstr "wp-config.php を書き込み可能に設定し、このページを再読み込みしてください。"
+
+#: class-admin.php:1981
+msgid "A definition of a site url or home url was detected in your wp-config.php, but the file is not writable."
+msgstr "site url または home url が wp-config.php で定義されていることが検出されましたが、ファイルが書き込み可能ではありません。"
+
+#: onboarding/class-onboarding.php:15 security/hardening.php:9
+msgid "%s is a singleton class and you cannot create a second instance."
+msgstr "%s は singleton クラスであり、2つ目のインスタンスを作成することはできません。"
+
+#: class-admin.php:2097
+msgid "Mixed content fixer was successfully detected on the front-end."
+msgstr "フロントエンドの混在コンテンツ修正機能が正常に検出されました。"
+
+#. Plugin URI of the plugin
+#: rlrsssl-really-simple-ssl.php
+msgid "https://really-simple-ssl.com"
+msgstr "https://really-simple-ssl.com"
+
+#. Plugin Name of the plugin
+#: rlrsssl-really-simple-ssl.php
+msgid "Really Simple SSL"
+msgstr "Really Simple SSL"
+
+#: settings/config/fields/general.php:221
+msgid "Stop editing the .htaccess file"
+msgstr ".htaccess ファイルの編集を中止"
+
+#: class-admin.php:2070
+msgid "An SSL certificate was detected on your site."
+msgstr "このサイトの SSL 証明書を検出しました。"
+
+#: class-admin.php:148 class-admin.php:150 class-admin.php:1833
+#: class-multisite.php:84 settings/config/menu.php:17
+#: settings/config/menu.php:400 settings/build/43.7284bbc570a57053a399.js:1
+#: settings/src/Dashboard/Vulnerabilities/Vulnerabilities.js:237
+#: settings/src/Dashboard/Vulnerabilities/VulnerabilitiesFooter.js:24
+msgid "Settings"
+msgstr "設定"
+
+#: settings/config/menu.php:208
+msgid "Configuration"
+msgstr "構成"
+
+#: settings/config/fields/encryption.php:46
+#: modal/build/index.f0747a4e3a76f14cbb01.js:1
+msgid "Mixed content fixer"
+msgstr "混合コンテンツ修正機能"
+
+#: class-multisite.php:130
+msgid "Activate networkwide to fix this."
+msgstr "これを修正するにはネットワーク全体で有効化してください。"
+
+#: class-multisite.php:129
+msgid "Because the $_SERVER[\"HTTPS\"] variable is not set, your website may experience redirect loops."
+msgstr "$_SERVER[\"HTTPS\"] 変数が設定されていないため、サイトに転送ループが発生する可能性があります。"
+
+#: class-multisite.php:128
+msgid "You run a Multisite installation with subfolders, which prevents this plugin from fixing your missing server variable in the wp-config.php."
+msgstr "マルチサイトをサブフォルダで運用しています。このため、プラグインは wp-config.php 内に不足しているサーバー変数を修正できません。"
+
+#: class-admin.php:1997 settings/build/381.9b8465294454b49768a3.js:1
+#: settings/build/814.eeaa575fc49ec4cd3d36.js:1
+#: settings/src/Onboarding/Items/ListItem.js:46
+msgid "Check again"
+msgstr "再び確認"

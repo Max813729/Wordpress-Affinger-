@@ -1,0 +1,69 @@
+/**
+ * Registers a new block provided a unique name and an object defining its behavior.
+ *
+ * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-registration/
+ */
+import { registerBlockType } from '@wordpress/blocks';
+
+/**
+ * Lets webpack process CSS, SASS or SCSS files referenced in JavaScript files.
+ * All files containing `style` keyword are bundled together. The code used
+ * gets applied both to the front of your site and to the editor.
+ *
+ * @see https://www.npmjs.com/package/@wordpress/scripts#using-css
+ */
+import './style.scss';
+
+/**
+ * Internal dependencies
+ */
+import Edit from './edit';
+import Save from './save';
+import metadata from './block.json';
+const { SVG, Path } = wp.components;
+
+/**
+ * Every block starts by registering a new block type definition.
+ *
+ * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-registration/
+ */
+registerBlockType( metadata.name, {
+	icon: {
+		src: <SVG
+				viewBox="0 0 24 24"
+				width="24"
+				height="24"
+				>
+				<Path
+				className="cls-1"
+				d="M5.52,9C5.52,5.87,4,7.16,4,5.91S5.56,4.66,6.36,4.66c.43,0,.83,0,1.25.06s.83.08,1.23.08c.65,0,1.29,0,2-.08s1.31-.06,2-.06c2.28,0,4.92,1,4.92,3.69A3.16,3.16,0,0,1,16,11.27c-.18.1-.32.16-.32.41s.26.38.5.48c1.42.53,2,1.46,2.32,3.63.25,1.88,1.56.75,1.56,2,0,.77-.93,1.57-3.21,1.57-3.23,0-3.63-1.85-4.26-4.51C12.33,13.9,12,13,10.88,13c-.45,0-.61.06-.61,1.33a12.74,12.74,0,0,0,.15,2c.16.93,1.19.64,1.19,1.61,0,.73-.51,1.27-3.78,1.27-1,0-3.83,0-3.83-1.47,0-1.05,1.51-.32,1.51-3Zm4.68.89c0,.53-.15,1,.52,1,1.31,0,1.74-.73,1.74-2,0-1-.25-2-1.42-2-.74,0-.72.46-.76,1.08Z"
+				/>
+			</SVG>
+	},
+     /**
+	 * @see ./edit.js
+	 */
+	edit: Edit,
+
+	/**
+	 * @see ./save.js
+	 */
+	save: Save,
+	transforms: {
+		from: [
+			{
+				type: 'shortcode',
+				tag: 'itemlink',
+				attributes: {
+					content: {
+						type: 'array',
+						shortcode: ( attributes, content ) => {
+							const itemlink = content.content || '';
+							return [itemlink];
+						},
+					},
+				},
+			},
+		]
+	},
+} );

@@ -1,0 +1,4 @@
+[06-Jul-2025 08:12:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/xsojm61973/public_html/ijyu.life/wp-content/themes/affinger/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/xsojm61973/public_html/ijyu.life/wp-content/themes/affinger/index.php on line 1

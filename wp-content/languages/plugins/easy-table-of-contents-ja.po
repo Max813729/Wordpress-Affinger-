@@ -1,0 +1,571 @@
+# Translation of Plugins - Easy Table of Contents - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - Easy Table of Contents - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-01-16 08:55:25+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Easy Table of Contents - Stable (latest release)\n"
+
+#: includes/class-eztoc-widget.php:497
+#: includes/class-eztoc-widgetsticky.php:614
+msgid "Text Font Size"
+msgstr "文字のサイズ"
+
+#: includes/class-eztoc-widget.php:509
+#: includes/class-eztoc-widgetsticky.php:626
+msgid "Text Font Weight"
+msgstr "文字の太さ"
+
+#: includes/inc.admin-options-page.php:220
+msgid "Migrating. Please wait..."
+msgstr "移行中です。お待ちください..."
+
+#: includes/deactivate-feedback.php:25
+msgid "Name of the plugin"
+msgstr "プラグインの名前"
+
+#: includes/deactivate-feedback.php:21
+msgid "Please describe the feature"
+msgstr "その機能を説明してください"
+
+#. translators: %s: URL to the documentation
+#: includes/class-eztoc-option.php:1047
+msgid "Learn More."
+msgstr "さらに詳しく。"
+
+#: includes/class-eztoc-admin.php:495 includes/class-eztoc-admin.php:531
+#: includes/class-eztoc-option.php:720
+msgid "Note:"
+msgstr "注:"
+
+#: includes/class-eztoc-admin.php:527 includes/class-eztoc-option.php:720
+msgid "Fruit*"
+msgstr "Fruit*"
+
+#: includes/class-eztoc-admin.php:528 includes/class-eztoc-option.php:720
+msgid "*Fruit Diet*"
+msgstr "*Fruit Diet*"
+
+#: includes/class-eztoc-admin.php:528 includes/class-eztoc-option.php:720
+msgid "Ignore headings with \"Fruit Diet\" somewhere in the heading."
+msgstr "と入力すると、「Fruit Diet」が含まれる見出しを除外します。"
+
+#: includes/class-eztoc-admin.php:529 includes/class-eztoc-option.php:720
+msgid "Ignore headings that are exactly \"Apple Tree\", \"Oranges\" or \"Yellow Bananas\"."
+msgstr "と入力すると、「Apple Tree」「Oranges」「Yellow Bananas」のいずれかに完全一致する見出しを除外します。"
+
+#: includes/class-eztoc-admin.php:527
+msgid "Ignore headings starting with \"Fruit\"."
+msgstr "と入力すると、「Fruit」で始まる見出しを除外します。"
+
+#: includes/class-eztoc-admin.php:531
+msgid " This is not case sensitive."
+msgstr "大文字と小文字は区別されません。"
+
+#: includes/class-eztoc-option.php:720
+msgid "This is not case sensitive"
+msgstr "大文字と小文字は区別されません"
+
+#: includes/class-eztoc-option.php:742
+msgid "This provides the same function as the Smooth Scroll Offset option above but applied when the user is visiting your site on a mobile device."
+msgstr "上のスムーズスクロールオフセットと同じ働きをしますが、ユーザーがモバイル端末を利用しているときのみ適用されます。"
+
+#: includes/class-eztoc-option.php:741
+msgid "Mobile Smooth Scroll Offset"
+msgstr "モバイルのスムーズスクロールのオフセット"
+
+#: includes/class-eztoc-option.php:495 includes/class-eztoc-option.php:518
+msgid "Heavy"
+msgstr "Heavy"
+
+#: includes/class-eztoc-option.php:494 includes/class-eztoc-option.php:517
+msgid "Extra Bold"
+msgstr "Extra Bold"
+
+#: includes/class-eztoc-option.php:493 includes/class-eztoc-option.php:516
+msgid "Bold"
+msgstr "Bold"
+
+#: includes/class-eztoc-option.php:492 includes/class-eztoc-option.php:515
+msgid "Semi Bold"
+msgstr "Semi Bold"
+
+#: includes/class-eztoc-option.php:491 includes/class-eztoc-option.php:514
+msgid "Medium"
+msgstr "Medium"
+
+#: includes/class-eztoc-option.php:490 includes/class-eztoc-option.php:513
+msgid "Normal"
+msgstr "Normal"
+
+#: includes/class-eztoc-option.php:489 includes/class-eztoc-option.php:512
+msgid "Light"
+msgstr "Light"
+
+#: includes/class-eztoc-option.php:488 includes/class-eztoc-option.php:511
+msgid "Extra Light"
+msgstr "Extra Light"
+
+#: includes/class-eztoc-option.php:487 includes/class-eztoc-option.php:510
+msgid "Thin"
+msgstr "Thin"
+
+#: includes/class-eztoc-option.php:484 includes/class-eztoc-widget.php:476
+#: includes/class-eztoc-widgetsticky.php:593
+msgid "Title Font Weight"
+msgstr "タイトル文字の太さ"
+
+#: includes/class-eztoc-option.php:478 includes/class-eztoc-widget.php:464
+#: includes/class-eztoc-widgetsticky.php:581
+msgid "Title Font Size"
+msgstr "タイトル文字サイズ"
+
+#. Description of the plugin
+#: easy-table-of-contents.php
+msgid "Adds a user friendly and fully automatic way to create and display a table of contents generated from the page content."
+msgstr "使いやすい目次を、ページの内容に基づき完全自動で生成し表示します。"
+
+#. Plugin Name of the plugin
+#: easy-table-of-contents.php includes/inc.functions.php:143
+msgid "Easy Table of Contents"
+msgstr "Easy Table of Contents"
+
+#: includes/inc.admin-options-page.php:253
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: includes/inc.admin-options-page.php:82
+#: includes/inc.admin-options-page.php:127
+msgid "Advanced"
+msgstr "高度"
+
+#: includes/class-eztoc-widget.php:454
+#: includes/class-eztoc-widgetsticky.php:578
+#: includes/inc.admin-options-page.php:82
+#: includes/inc.admin-options-page.php:108
+msgid "Appearance"
+msgstr "外観"
+
+#: includes/inc.admin-options-page.php:82
+#: includes/inc.admin-options-page.php:90
+msgid "General"
+msgstr "一般"
+
+#: includes/class-eztoc-widget.php:542
+msgid "If you choose to affix the widget, do not add any other widgets on the sidebar. Also, make sure you have only one instance Table of Contents widget on the page."
+msgstr "ウィジェットを固定する場合、サイドバーに他のウィジェットを追加しないでください。1つのページ内で利用できる目次ウィジェットは1つのみです。"
+
+#: includes/class-eztoc-widget.php:538
+msgid "Affix or pin the widget."
+msgstr "ウィジェットを上部固定する。"
+
+#: includes/class-eztoc-widget.php:526
+#: includes/class-eztoc-widgetsticky.php:647
+msgid "Active Section Highlight Color:"
+msgstr "閲覧中セクションのハイライト色:"
+
+#: includes/class-eztoc-widget.php:444
+#: includes/class-eztoc-widgetsticky.php:571
+msgid "Title"
+msgstr "タイトル"
+
+#: includes/class-eztoc-widget.php:22 includes/class-eztoc-widgetsticky.php:26
+msgid "Display the table of contents."
+msgstr "目次を表示します。"
+
+#. translators: %s: Setting ID
+#: includes/class-eztoc-option.php:1625
+msgid "The callback function used for the <strong>%s</strong> setting is missing."
+msgstr "<strong>%s</strong>設定に適用されるコールバック関数が見つかりません。"
+
+#: includes/class-eztoc-option.php:785
+msgid "Eg: .widget-area or #sidebar"
+msgstr "例: .widget-area or #sidebar"
+
+#: includes/class-eztoc-option.php:784
+msgid "Since every theme is different, this can not be determined automatically. If you are unsure how to find the sidebar's class or id, please ask the theme's support persons."
+msgstr "テーマはそれぞれ異なるため、自動的に検知することができません。サイドバーのクラスや ID が不明な場合、テーマのサポートに問い合わせてください。"
+
+#: includes/class-eztoc-option.php:783
+msgid "To enable the option to affix or pin the Table of Contents widget enter the theme's sidebar class or id."
+msgstr "目次ウィジェットの固定オプションを選択可能にするには、テーマが定義したサイドバーのクラスまたは ID を入力してください。"
+
+#: includes/class-eztoc-option.php:782
+msgid "Widget Affix Selector"
+msgstr "ウィジェットの固定セレクタ"
+
+#: includes/class-eztoc-option.php:769
+msgid "Eg: i, toc_index, index, _"
+msgstr "例: i, toc_index, index, _"
+
+#: includes/class-eztoc-option.php:768
+msgid "This option normally applies to content written in character sets other than ASCII."
+msgstr "この設定は通常、ASCII 以外の文字セットで書かれたコンテンツに適用されます。"
+
+#: includes/class-eztoc-option.php:767
+msgid "Anchor targets are restricted to alphanumeric characters as per HTML specification (see readme for more detail). The default anchor prefix will be used when no characters qualify. When left blank, a number will be used instead."
+msgstr "HTML の仕様上、アンカーターゲットには英数字のみ利用できます (詳しくは readme を参照)。利用できる文字がない場合、デフォルトのアンカー接頭辞を利用します。空欄にすると数字を指定します。"
+
+#: includes/class-eztoc-option.php:766
+msgid "Default Anchor Prefix"
+msgstr "デフォルトのアンカー接頭辞"
+
+#: includes/class-eztoc-option.php:751
+msgid "Eg: /wiki/, /corporate/annual-reports/"
+msgstr "例: /wiki/, /corporate/annual-reports/"
+
+#: includes/class-eztoc-option.php:750
+msgid "Restrict generation of the table of contents to pages that match the required path. This path is from the root of your site and always begins with a forward slash."
+msgstr "パスに一致するページ内で、目次の生成を制限します。このパスはサイトルートから指定し、スラッシュで開始してください。"
+
+#: includes/class-eztoc-option.php:749
+msgid "Limit Path"
+msgstr "パス制限"
+
+#: includes/class-eztoc-option.php:734
+msgid "If you have a consistent menu across the top of your site, you can adjust the top offset to stop the headings from appearing underneath the top menu. A setting of 30 accommodates the WordPress admin bar. This setting only has an effect after you have enabled Smooth Scroll option."
+msgstr "サイト上部に常にメニューがある場合、上部オフセットを調整して見出しがトップメニューの下に表示されないようにすることができます。 WordPressの管理バーは30に設定されています。 この設定は、スムーズスクロールを上から有効にした後に表示されます。"
+
+#: includes/class-eztoc-option.php:733
+msgid "Smooth Scroll Offset"
+msgstr "スムーズスクロールのオフセット"
+
+#: includes/class-eztoc-option.php:682
+msgid "Prevent the loading the core CSS styles. When selected, the appearance options from above will be ignored."
+msgstr "プラグインの CSS スタイルの読み込みを禁止します。チェックすると、上記の外観のオプションは無視されます。"
+
+#: includes/class-eztoc-option.php:681
+msgid "CSS"
+msgstr "CSS"
+
+#. translators: %s: URL to the documentation
+#: includes/class-eztoc-option.php:623
+msgid "Show the table of contents for qualifying items on the homepage."
+msgstr "ホームページに掲載されている項目で目次を表示します。"
+
+#: includes/class-eztoc-option.php:621 includes/class-eztoc-option.php:1063
+msgid "Homepage"
+msgstr "ホームページ"
+
+#: includes/class-eztoc-option.php:615
+msgid "Use - rather than _ in anchors."
+msgstr "英単語の改行時のアンカーに _ ではなく - を使用します。"
+
+#: includes/class-eztoc-option.php:614
+msgid "Hyphenate"
+msgstr "ハイフネーション"
+
+#: includes/class-eztoc-option.php:608
+msgid "Ensure anchors are in lowercase."
+msgstr "アンカーには必ず小文字を使用します。"
+
+#: includes/class-eztoc-option.php:607
+msgid "Lowercase"
+msgstr "小文字"
+
+#: includes/class-eztoc-option.php:586
+msgid "Link Visited Color"
+msgstr "訪問済みリンク色"
+
+#: includes/class-eztoc-option.php:580
+msgid "Link Hover Color"
+msgstr "ホバー時のリンク色"
+
+#: includes/class-eztoc-option.php:574
+msgid "Link Color"
+msgstr "リンク色"
+
+#: includes/class-eztoc-option.php:568
+msgid "Title Color"
+msgstr "タイトル色"
+
+#: includes/class-eztoc-option.php:562
+msgid "Border Color"
+msgstr "枠線色"
+
+#: includes/class-eztoc-option.php:556
+msgid "Background Color"
+msgstr "背景色"
+
+#: includes/class-eztoc-option.php:551
+msgid "For the following settings to apply, select the Custom Theme option."
+msgstr "以下の設定を適用するには、テーマ設定でカスタムを選択してください。"
+
+#: includes/class-eztoc-option.php:550
+msgid "Custom Theme"
+msgstr "カスタムテーマ"
+
+#: includes/class-eztoc-option.php:543
+msgid "Transparent"
+msgstr "透過"
+
+#: includes/class-eztoc-option.php:542
+msgid "Black"
+msgstr "黒"
+
+#: includes/class-eztoc-option.php:541
+msgid "White"
+msgstr "白"
+
+#: includes/class-eztoc-option.php:540
+msgid "Light Blue"
+msgstr "ライトブルー"
+
+#: includes/class-eztoc-option.php:539
+msgid "Grey"
+msgstr "グレー"
+
+#: includes/class-eztoc-option.php:536
+msgid "The theme is only applied to the table of contents which is auto inserted into the post. The Table of Contents widget will inherit the theme widget styles."
+msgstr "テーマは投稿内で自動挿入された目次にのみ適用されます。ウィジェットの目次はテーマのウィジェットスタイルを継承します。"
+
+#: includes/class-eztoc-option.php:535
+msgid "Theme"
+msgstr "テーマ"
+
+#: includes/class-eztoc-option.php:501
+msgid "Font Size"
+msgstr "文字サイズ"
+
+#: includes/class-eztoc-admin.php:381 includes/class-eztoc-option.php:430
+msgid "Right"
+msgstr "右"
+
+#: includes/class-eztoc-admin.php:380 includes/class-eztoc-option.php:429
+msgid "Left"
+msgstr "左"
+
+#: includes/class-eztoc-admin.php:379 includes/class-eztoc-option.php:428
+msgid "None (Default)"
+msgstr "なし (デフォルト)"
+
+#: includes/class-eztoc-option.php:419
+msgid "Select the User Defined option from the Width option to utilitze the custom width."
+msgstr "カスタム幅を適用するには、幅設定で「ユーザー定義」を選択します。"
+
+#: includes/class-eztoc-option.php:418 includes/class-eztoc-option.php:1148
+msgid "Custom Width"
+msgstr "カスタム幅"
+
+#: includes/class-eztoc-option.php:410 includes/class-eztoc-option.php:1142
+#: includes/class-eztoc-option.php:1158
+msgid "User Defined"
+msgstr "ユーザー定義"
+
+#: includes/class-eztoc-option.php:408 includes/class-eztoc-option.php:544
+msgid "Custom"
+msgstr "カスタム"
+
+#: includes/class-eztoc-option.php:396
+msgid "Relative"
+msgstr "相対"
+
+#: includes/class-eztoc-option.php:382
+msgid "Fixed"
+msgstr "固定"
+
+#: includes/class-eztoc-option.php:378 includes/class-eztoc-option.php:1138
+msgid "Width"
+msgstr "幅"
+
+#: includes/class-eztoc-option.php:351
+msgid "Smooth Scroll"
+msgstr "スクロールを滑らかにする"
+
+#: includes/class-eztoc-option.php:1268
+msgid "None"
+msgstr "なし"
+
+#: includes/class-eztoc-option.php:1276
+msgid "Numeric"
+msgstr "数字"
+
+#: includes/class-eztoc-option.php:1289
+msgid "Decimal (default)"
+msgstr "小数点表示 (デフォルト)"
+
+#: includes/class-eztoc-option.php:326
+msgid "Counter"
+msgstr "カウンター"
+
+#: includes/class-eztoc-option.php:320
+msgid "Show as Hierarchy"
+msgstr "ツリー表示"
+
+#: includes/class-eztoc-admin.php:440 includes/class-eztoc-option.php:314
+msgid "Initially hide the table of contents."
+msgstr "初期状態で目次を非表示にします。"
+
+#: includes/class-eztoc-admin.php:433 includes/class-eztoc-admin.php:439
+#: includes/class-eztoc-option.php:313
+msgid "Initial View"
+msgstr "初期状態"
+
+#: includes/class-eztoc-option.php:307
+msgid "Allow the user to toggle the visibility of the table of contents."
+msgstr "目次表示の折りたたみを許可します。"
+
+#: includes/class-eztoc-option.php:306
+msgid "Toggle View"
+msgstr "折りたたみ表示"
+
+#: includes/class-eztoc-option.php:290
+msgid "Contents"
+msgstr "コンテンツ"
+
+#: includes/class-eztoc-admin.php:268 includes/class-eztoc-option.php:288
+msgid "Eg: Contents, Table of Contents, Page Contents"
+msgstr "例: コンテンツ、目次、もくじ"
+
+#: includes/class-eztoc-admin.php:262 includes/class-eztoc-option.php:287
+msgid "Header Label"
+msgstr "見出しラベル"
+
+#: includes/class-eztoc-option.php:274
+msgid "Show header text above the table of contents."
+msgstr "目次の上に見出しテキストを表示します。"
+
+#: includes/class-eztoc-option.php:273
+msgid "Display Header Label"
+msgstr "見出しラベルを表示"
+
+#: includes/class-eztoc-option.php:266
+msgid "or more headings are present"
+msgstr "件以上の見出しがある場合"
+
+#: includes/class-eztoc-option.php:265
+msgid "Show when"
+msgstr "表示条件"
+
+#: includes/class-eztoc-admin.php:293 includes/class-eztoc-option.php:236
+msgid "Bottom"
+msgstr "下部"
+
+#: includes/class-eztoc-admin.php:292 includes/class-eztoc-option.php:235
+msgid "Top"
+msgstr "上部"
+
+#: includes/class-eztoc-admin.php:288 includes/class-eztoc-option.php:231
+msgid "After first heading"
+msgstr "最初の見出しの後"
+
+#: includes/class-eztoc-admin.php:287 includes/class-eztoc-option.php:230
+msgid "Before first heading (default)"
+msgstr "最初の見出しの前 (デフォルト)"
+
+#: includes/class-eztoc-admin.php:284 includes/class-eztoc-option.php:227
+msgid "Choose where where you want to display the table of contents."
+msgstr "目次の表示位置を選択してください。"
+
+#: includes/class-eztoc-admin.php:278 includes/class-eztoc-option.php:226
+#: includes/class-eztoc-option.php:1110
+msgid "Position"
+msgstr "位置"
+
+#: includes/class-eztoc-option.php:219 includes/inc.admin-options-page.php:347
+msgid "NOTE: The table of contents will only be automatically inserted on post types for which it has been enabled."
+msgstr "注: 有効化済みの投稿タイプにのみ自動挿入します。"
+
+#: includes/class-eztoc-option.php:218 includes/inc.admin-options-page.php:346
+msgid "Select the post types which will have the table of contents automatically inserted."
+msgstr "目次を自動挿入する投稿タイプを選択してください。"
+
+#: includes/class-eztoc-option.php:217 includes/class-eztoc-option.php:1034
+msgid "Auto Insert"
+msgstr "自動挿入"
+
+#: includes/class-eztoc-option.php:210
+msgid "Select the post types to enable the support for table of contents."
+msgstr "目次の対応をする投稿タイプを選択してください。"
+
+#: includes/class-eztoc-option.php:209 includes/class-eztoc-option.php:1054
+msgid "Enable Support"
+msgstr "サポートを有効化"
+
+#: includes/class-eztoc-admin.php:508
+msgid "Specify headings to be excluded from appearing in the table of contents. Separate multiple headings with a pipe <code>|</code>. Use an asterisk <code>*</code> as a wildcard to match other text."
+msgstr "目次での表示を除外する見出しを指定します。見出しが複数ある場合は <code>|</code> で区切ってください。ワイルドカード指定はアスタリスク <code>*</code> を使用してください。"
+
+#: includes/class-eztoc-admin.php:502 includes/class-eztoc-option.php:711
+msgid "Exclude Headings"
+msgstr "除外する見出し"
+
+#: includes/class-eztoc-admin.php:491 includes/class-eztoc-admin.php:525
+#: includes/class-eztoc-option.php:720
+msgid "Examples:"
+msgstr "例:"
+
+#: includes/class-eztoc-admin.php:474
+msgid "Specify alternate table of contents header string. Add the header to be replaced and the alternate header on a single line separated with a pipe <code>|</code>. Put each additional original and alternate header on its own line."
+msgstr "差し替える目次ヘッダー文字列を指定します。差し替えるヘッダーと代わりのヘッダーを <code>|</code> 区切りで1行ごとに追加します。元のヘッダーと差し替え後のヘッダーをそれぞれの行に配置します。"
+
+#: includes/class-eztoc-admin.php:468
+msgid "Alternate Headings"
+msgstr "見出しの差し替え"
+
+#: includes/class-eztoc-admin.php:423 includes/class-eztoc-option.php:704
+msgid "Heading 6 (h6)"
+msgstr "見出し6 (h6)"
+
+#: includes/class-eztoc-admin.php:422 includes/class-eztoc-option.php:703
+msgid "Heading 5 (h5)"
+msgstr "見出し5 (h5)"
+
+#: includes/class-eztoc-admin.php:421 includes/class-eztoc-option.php:702
+msgid "Heading 4 (h4)"
+msgstr "見出し4 (h4)"
+
+#: includes/class-eztoc-admin.php:420 includes/class-eztoc-option.php:701
+msgid "Heading 3 (h3)"
+msgstr "見出し3 (h3)"
+
+#: includes/class-eztoc-admin.php:419 includes/class-eztoc-option.php:700
+msgid "Heading 2 (h2)"
+msgstr "見出し2 (h2)"
+
+#: includes/class-eztoc-admin.php:418 includes/class-eztoc-option.php:699
+msgid "Heading 1 (h1)"
+msgstr "見出し1 (h1)"
+
+#: includes/class-eztoc-admin.php:416 includes/class-eztoc-option.php:696
+msgid "Select the heading to consider when generating the table of contents. Deselecting a heading will exclude it."
+msgstr "目次の生成時に含める見出しを選択します。見出しの選択を解除すると除外します。"
+
+#: includes/class-eztoc-admin.php:410 includes/class-eztoc-option.php:695
+msgid "Headings:"
+msgstr "見出し:"
+
+#: includes/class-eztoc-admin.php:401
+msgid "Using the advanced options below will override the global advanced settings."
+msgstr "以下の設定は、一般設定の高度な設定を上書きします。"
+
+#: includes/class-eztoc-admin.php:361 includes/class-eztoc-admin.php:399
+msgid "NOTE:"
+msgstr "注:"
+
+#: includes/class-eztoc-admin.php:392
+msgid "Advanced:"
+msgstr "高度な設定:"
+
+#: includes/class-eztoc-admin.php:250
+msgid "Insert table of contents."
+msgstr "目次を挿入します。"
+
+#: includes/class-eztoc-admin.php:239
+msgid "Disable the automatic insertion of the table of contents."
+msgstr "目次の自動挿入を無効にします。"
+
+#: includes/class-eztoc-admin.php:130 includes/class-eztoc-admin.php:131
+#: includes/class-eztoc-admin.php:184 includes/class-eztoc-widget.php:27
+#: includes/class-eztoc-widget.php:424
+msgid "Table of Contents"
+msgstr "目次"
+
+#: includes/class-eztoc-admin.php:78 includes/inc.admin-options-page.php:15
+msgid "Settings"
+msgstr "設定"

@@ -1,0 +1,101 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "rinkerg/gutenberg-rinker",
+  "version": "0.1.0",
+  "title": "Rinker",
+  "category": "layout",
+  "icon": "smiley",
+  "description": "Rinker用ブロックです",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:../../css/style.css",
+  "style": "file:./style-index.css",
+  "attributes": {
+    "content": {
+      "type": "string",
+      "source": "html",
+      "selector": "p"
+    },
+    "content_text": {
+      "type": "string",
+      "default": ""
+    },
+    "alignment": {
+      "type": "string",
+      "default": "none"
+    },
+    "post_id": {
+      "type": "string",
+      "default": ""
+    },
+    "design": {
+      "type": "string",
+      "default": ""
+    },
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "size": {
+      "type": "string",
+      "default": ""
+    },
+    "alabel": {
+      "type": "string",
+      "default": ""
+    },
+    "rlabel": {
+      "type": "string",
+      "default": ""
+    },
+    "ylabel": {
+      "type": "string",
+      "default": ""
+    },
+    "klabel": {
+      "type": "string",
+      "default": ""
+    },
+    "mlabel": {
+      "type": "string",
+      "default": ""
+    },
+    "tag": {
+      "type": "string",
+      "default": ""
+    },
+    "className": {
+      "type": "string",
+      "default": ""
+    },
+    "blockMarginBottom": {
+      "type": "string",
+      "default": ""
+    },
+    "hiddenSwitch": {
+      "type": "string",
+      "default": ""
+    },
+    "attention_text": {
+      "type": "string",
+      "default": ""
+    },
+    "attention_design": {
+      "type": "string",
+      "default": ""
+    },
+    "attention_color": {
+      "type": "string",
+      "default": ""
+    },
+    "templete_names": {
+      "type": "array",
+      "default": [],
+      "selector": "div"
+    }
+  }
+}

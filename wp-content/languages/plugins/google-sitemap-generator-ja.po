@@ -1,0 +1,796 @@
+# Translation of Plugins - XML Sitemap Generator for Google - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - XML Sitemap Generator for Google - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-08-19 13:46:01+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - XML Sitemap Generator for Google - Stable (latest release)\n"
+
+#: class-googlesitemapgeneratorui.php:1569
+msgid "Include products"
+msgstr "製品を含める"
+
+#: class-googlesitemapgeneratorui.php:1340
+msgid "Microsoft Bing API Key: %s"
+msgstr "Microsoft Bing API キー: %s"
+
+#: class-googlesitemapgeneratorui.php:816
+msgid "More external pages cannot be added: The max_input_vars value in the PHP configuration has been exceeded, please increase the value and try again."
+msgstr "外部ページを追加できません: PHP 構成の max_input_vars 値を超えています。値を増やしてもう一度お試しください。"
+
+#: class-googlesitemapgeneratorui.php:1156
+msgid "“Search engines have not been notified yet. Publish or update a post to update your sitemap modification dates and notify IndexNow-compatible search engines.”"
+msgstr "「検索エンジンにはまだ通知されていません。投稿を公開または更新してサイトマップの変更日を更新し、IndexNow 対応の検索エンジンに通知してください。」"
+
+#. translators: %s: search term
+#: class-googlesitemapgeneratorui.php:1344
+msgid "No registration required, however, you can join the <a href='%s' target='_blank'>Microsoft Bing Webmaster Tools</a> for more crawling details."
+msgstr "登録は必要ありませんが、<a href='%s' target='_blank'>Microsoft Bing マスターツール</a>に参加することで、クロールの詳細を確認することができます。"
+
+#: class-googlesitemapgeneratorui.php:1326
+msgid "Use IndexNow Protocol to notify Microsoft Bing, Seznam.cz, Naver, and Yandex search engines about updates to your site"
+msgstr "IndexNow プロトコルを使用して、Microsoft Bing、Seznam.cz、Naver、Yandex 検索エンジンにサイトの更新を通知"
+
+#: class-googlesitemapgeneratorui.php:1303
+msgid "Search Engine Updates:"
+msgstr "検索エンジンの更新:"
+
+#: class-googlesitemapgeneratorui.php:1124
+msgid "IndexNow Protocol"
+msgstr "IndexNow プロトコル"
+
+#. translators: %s: search term
+#: sitemap-core.php:2892
+msgid "Thank you for using Google XML Sitemaps! <a href='%s' target='_blank'>Please help us improve by taking this short survey!</a>"
+msgstr "Google XML Sitemaps をご利用いただきありがとうございます。<a href='%s' target='_blank'>この簡単なアンケートにご回答いただき、改善にご協力ください。</a>"
+
+#: class-googlesitemapgeneratorui.php:1963
+msgid "Help improve the software by sharing anonymous usage data with the developers."
+msgstr "匿名の使用状況データを開発者と共有することで、ソフトウェアの改善に協力してください。"
+
+#: class-googlesitemapgeneratorui.php:1816
+#: class-googlesitemapgeneratorui.php:1908
+msgid "Product Categories"
+msgstr "製品カテゴリー"
+
+#: class-googlesitemapgeneratorui.php:1701
+msgid "Links per page"
+msgstr "ページごとのリンク数"
+
+#: class-googlesitemapgeneratorui.php:1563
+msgid "Include product tags"
+msgstr "製品タグを含める"
+
+#: class-googlesitemapgeneratorui.php:1557
+msgid "Include product categories"
+msgstr "製品カテゴリーを含める"
+
+#: class-googlesitemapgeneratorui.php:1391
+msgid "Use this if you want to change the sitemap file name"
+msgstr "サイトマップのファイル名を変更したい場合に使用します。"
+
+#: class-googlesitemapgeneratorui.php:1390
+msgid "Override the file name of the sitemap:"
+msgstr "サイトマップのファイル名を上書き:"
+
+#: class-googlesitemapgeneratorui.php:1364
+msgid "e.g. '4M', '16M'"
+msgstr "例: 「4M」「16M」"
+
+#. translators: %s: search term
+#: class-googlesitemapgeneratorui.php:1319
+msgid "No registration required, but you can join the <a href='%s' target='_blank'>Google Search Console</a> to check crawling statistics."
+msgstr "登録は必要ありませんが、<a href='%s' target='_blank'>Google Search Console</a>に参加することで、クロールの統計情報を確認することができます。"
+
+#. translators: %s: search term
+#: class-googlesitemapgeneratorui.php:1276
+msgid "If you like the plugin, please <a target=\"_blank\" href=\"%s\">rate it 5 stars</a>! :)"
+msgstr "プラグインが気に入ったら、<a target=\"_blank\" href=\"%s\">5つ星の評価</a>をお願いします。"
+
+#: class-googlesitemapgeneratorui.php:1121
+msgid "Microsoft Bing Blog"
+msgstr "Microsoft Bing Blog"
+
+#: class-googlesitemapgeneratorui.php:1120
+msgid "Bing Webmaster Tools"
+msgstr "Bing Web マスターツール"
+
+#: class-googlesitemapgeneratorui.php:1119
+msgid "Google Search Blog"
+msgstr "Google 検索セントラルブログ"
+
+#: class-googlesitemapgeneratorui.php:1118
+msgid "Google Search Console"
+msgstr "Google Search Console"
+
+#: class-googlesitemapgeneratorui.php:1109
+msgid "Visit Support Forum"
+msgstr "サポートフォーラムを表示"
+
+#: class-googlesitemapgeneratorui.php:1108
+msgid "Follow the Forum"
+msgstr "フォーラムをフォローする"
+
+#: class-googlesitemapgeneratorui.php:1107
+msgid "View Frequently Asked Questions"
+msgstr "よくある質問を表示"
+
+#. translators: %s: search term
+#: class-googlesitemapgeneratorui.php:1085
+msgid "Your <a href='%s'>Reading Settings</a> signal to search engines not to index your website. While your sitemap will still be generated, the \"Search engine visibility\" setting should de-selected for optimal indexation."
+msgstr "<a href='%s'>表示設定</a>は、サイトをインデックスしないよう検索エンジンに通知します。サイトマップは引き続き生成されますが、最適なインデックス作成のために「検索エンジンでの表示」のチェックを外す必要があります。"
+
+#: class-googlesitemapgeneratorui.php:804
+msgid "Don't show this me anymore"
+msgstr "今後このメッセージを表示しない"
+
+#: class-googlesitemapgeneratorui.php:769
+msgid "Thanks for using this plugin! You've installed this plugin over a month ago. If it works and you are satisfied with the results, isn't it worth at least a few dollar? <a href=\"https://8rkh4sskhh.execute-api.us-east-1.amazonaws.com/gsg/v1/sitemap-donate-note\">Donations</a> help me to continue support and development of this <i>free</i> software! <a href=\"https://8rkh4sskhh.execute-api.us-east-1.amazonaws.com/gsg/v1/sitemap-donate-note\">Sure, no problem!</a>"
+msgstr "このプラグインをご利用いただきありがとうございます。このプラグインは1か月以上前にインストールされています。プラグインが機能し、結果に満足しているのであれば、少なくとも数ドルの価値はないでしょうか ? <a href=\"https://8rkh4sskhh.execute-api.us-east-1.amazonaws.com/gsg/v1/sitemap-donate-note\">寄付</a>は、この <i>無料</i> ソフトウェアのサポートと開発を継続する上で役立ちます。<a href=\"https://8rkh4sskhh.execute-api.us-east-1.amazonaws.com/gsg/v1/sitemap-donate-note\">もちろん、問題ありません。</a>"
+
+#: class-googlesitemapgeneratorui.php:690
+msgid "Thanks for for supporting the project. We will reach out by email shortly."
+msgstr "プロジェクトをサポートしていただきありがとうございます。近日中にメールでご連絡いたします。"
+
+#: class-googlesitemapgeneratorloader.php:1230
+msgid ""
+"<div>\n"
+"\t\t\t\t\t\t\t<form method=\"post\" id=\"disable-plugins-form\">\n"
+"\t\t\t\t\t\t\t<input type=\"hidden\" id=\"disable_plugin\" name=\"disable_plugin\" value=\"false\" />\n"
+"\t\t\t\t\t\t\t<input type=\"hidden\" id=\"plugin_list\" name=\"plugin_list\" value=\""
+msgstr ""
+"<div>\n"
+"\t\t\t\t\t\t\t<form method=\"post\" id=\"disable-plugins-form\">\n"
+"\t\t\t\t\t\t\t<input type=\"hidden\" id=\"disable_plugin\" name=\"disable_plugin\" value=\"false\" />\n"
+"\t\t\t\t\t\t\t<input type=\"hidden\" id=\"plugin_list\" name=\"plugin_list\" value=\""
+
+#: class-googlesitemapgeneratorloader.php:1215
+msgid ""
+"<h4>One or more plugins conflict with proper indexation of your website. Use the deactivate button below to disable the extra sitemaps:</h4>\n"
+"\t\t\t\t\t\t\t"
+msgstr ""
+"<h4>1つまたは複数のプラグインが、ウェブサイトの適切なインデックス作成と競合しています。下の無効化ボタンを使用して、余分なサイトマップを無効にしてください:</h4>\n"
+"\t\t\t\t\t\t\t"
+
+#: class-googlesitemapgeneratorloader.php:691
+msgid ""
+"<h4>Auto-updates aren not enabled for Sitemap Generator. Would you like to enable auto-updates to always have the best indexation features?\n"
+"\t\t\t\t\t</h4>\n"
+"\t\t\t\t\t<form method=\"post\" id=\"enable-updates-form\">\n"
+"\t\t\t\t\t<input type=\"hidden\" id=\"enable_updates\" name=\"enable_updates\" value=\"false\" />"
+msgstr ""
+"<h4>サイトマップジェネレーターの自動更新が有効になっていません。常に最適なインデックス作成機能を使用するために自動更新を有効にしますか ?\n"
+"\t\t\t\t\t</h4>\n"
+"\t\t\t\t\t<form method=\"post\" id=\"enable-updates-form\">\n"
+"\t\t\t\t\t<input type=\"hidden\" id=\"enable_updates\" name=\"enable_updates\" value=\"false\" />"
+
+#: class-googlesitemapgeneratorloader.php:627
+msgid ""
+"<div class=\"cookie-info-banner-wrapper\" id=\"cookie-info-banner-wrapper\">\n"
+"\t\t\t\t\t\t<div class=\"modal-container\">\n"
+"\t\t\t\t\t\t<h3>Help Us Improve!</h3>\n"
+"\t\t\t\t\t\t\t<button class=\"close_popup\" id=\"close_popup\">\n"
+"\t\t\t\t\t\t\t<img height=\"25\" width=\"20\" class=\"close_cookie_information\" src=\""
+msgstr ""
+"<div class=\"cookie-info-banner-wrapper\" id=\"cookie-info-banner-wrapper\">\n"
+"\t\t\t\t\t\t<div class=\"modal-container\">\n"
+"\t\t\t\t\t\t<h3>改善にご協力ください。</h3>\n"
+"\t\t\t\t\t\t\t<button class=\"close_popup\" id=\"close_popup\">\n"
+"\t\t\t\t\t\t\t<img height=\"25\" width=\"20\" class=\"close_cookie_information\" src=\""
+
+#: class-googlesitemapgeneratorloader.php:604
+msgid ""
+"<div class=\"modal-wrapper\" id=\"modal-wrapper\">\n"
+"\t\t\t\t\t\t<div class=\"modal-container\">\n"
+"\t\t\t\t\t\t<h3>Help Us Improve!</h3>\n"
+"\t\t\t\t\t\t<p>Would you help us improve Google XML Sitemaps by sharing anonymous usage data?</p>\n"
+"\t\t\t\t\t\t<p>Understanding feature usage and use cases better means we can provide you with the best indexation and indexing performance.</p>\n"
+"\t\t\t\t\t\t<p><a href=\"https://auctollo.com/policies/privacy/\" target=\"_blank\">We respect your privacy!</a></p>\n"
+"\t\t\t\t\t\t<p>&nbsp;</p>\n"
+"\t\t\t\t\t\t<form method=\"POST\">\n"
+"\t\t\t\t\t\t\t<input type=\"submit\" name=\"user_consent_yes\" class=\"allow_consent\" value=\"I want the best!\" />\n"
+"\t\t\t\t\t\t\t<input type=\"submit\" name=\"user_consent_no\" class \"decline_consent\" value=\"I don't know what I want\" />"
+msgstr ""
+"<div class=\"modal-wrapper\" id=\"modal-wrapper\">\n"
+"\t\t\t\t\t\t<div class=\"modal-container\">\n"
+"\t\t\t\t\t\t<h3>改善にご協力ください。</h3>\n"
+"\t\t\t\t\t\t<p>匿名の使用状況データを共有して、Google XML Sitemaps の改善にご協力いただけませんか?</p>\n"
+"\t\t\t\t\t\t<p>機能の使用法と使用例をよりよく理解することは、最高のインデックス作成とインデックス作成のパフォーマンスを提供できることを意味します。</p>\n"
+"\t\t\t\t\t\t<p><a href=\"https://auctollo.com/policies/privacy/\" target=\"_blank\">私たちはお客様のプライバシーを尊重します。</a></p>\n"
+"\t\t\t\t\t\t<p>&nbsp;</p>\n"
+"\t\t\t\t\t\t<form method=\"POST\">\n"
+"\t\t\t\t\t\t\t<input type=\"submit\" name=\"user_consent_yes\" class=\"allow_consent\" value=\"I want the best!\" />\n"
+"\t\t\t\t\t\t\t<input type=\"submit\" name=\"user_consent_no\" class \"decline_consent\" value=\"I don't know what I want\" />"
+
+#: class-googlesitemapgeneratorloader.php:582
+msgid ""
+"<h4>Do you want the best SEO indexation technology for your website? Join the Google XML Sitemaps Beta Program now!</h4>\n"
+"\t\t\t\t\t\t<input type=\"hidden\" id=\"action\" name=\"action\" value=\"my_action\" >\n"
+"\t\t\t\t\t\t<div class=\"justify-content\">\n"
+"\t\t\t\t\t\t<a href=\""
+msgstr ""
+"<h4>あなたのウェブサイトに最適な SEO インデックス作成テクノロジーをお望みですか? 今すぐ Google XML Sitemaps ベータ プログラムにご参加ください。</h4>\n"
+"\t\t\t\t\t\t<input type=\"hidden\" id=\"action\" name=\"action\" value=\"my_action\" >\n"
+"\t\t\t\t\t\t<div class=\"justify-content\">\n"
+"\t\t\t\t\t\t<a href=\""
+
+#. Author of the plugin
+#: sitemap.php
+msgid "Auctollo"
+msgstr "Auctollo"
+
+#. Description of the plugin
+#: sitemap.php
+msgid "This plugin improves SEO using sitemaps for best indexation by search engines like Google, Bing, Yahoo and others."
+msgstr "このプラグインは、サイトマップを使用して SEO を改善し、Google、Bing、Yahoo などの検索エンジンによる最適なインデックス作成を実現します。"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: sitemap.php
+msgid "https://auctollo.com/"
+msgstr "https://auctollo.com/"
+
+#: sitemap.php:345
+msgid "Unfortunately this release of Google XML Sitemaps requires at least PHP %4$s. You are using PHP %2$s, which is out-dated and insecure. Please ask your web host to update your PHP installation or go to <a href='%1$s'>active plugins</a> and deactivate the Google XML Sitemaps plugin to hide this message. You can download an older version of this plugin from the <a href='%3$s'>plugin website</a>."
+msgstr "残念がら Google XML Sitemaps のこのリリースは最低でも PHP %4$sが必要です。現在使用している PHP %2$sは、古く安全ではありません。このメッセージを消すにはホスティング会社に PHP の更新を依頼するか、<a href='%1$s'>使用中のプラグイン</a>で Google XML Sitemaps プラグインを無効化してください。このプラグインの古いバージョンは、<a href='%3$s'>プラグインのウェブサイト</a>からダウンロードできます。"
+
+#: sitemap.php:345
+msgid "Your PHP version is too old for XML Sitemaps."
+msgstr "PHP のバージョンが XML Sitemaps には古すぎます。"
+
+#: sitemap.php:333
+msgid "Unfortunately this release of Google XML Sitemaps requires at least WordPress %4$s. You are using WordPress %2$s, which is out-dated and insecure. Please upgrade or go to <a href='%1$s'>active plugins</a> and deactivate the Google XML Sitemaps plugin to hide this message. You can download an older version of this plugin from the <a href='%3$s'>plugin website</a>."
+msgstr "残念がら Google XML Sitemaps のこのリリースは最低でも WordPress %4$sが必要です。現在使用している WordPress %2$sは、古く安全ではありません。このメッセージを消すにはアップグレードするか、<a href='%1$s'>使用中のプラグイン</a>で Google XML Sitemaps プラグインを無効化してください。このプラグインの古いバージョンは、<a href='%3$s'>プラグインのウェブサイト</a>からダウンロードできます。"
+
+#: sitemap.php:333
+msgid "Your WordPress version is too old for XML Sitemaps."
+msgstr "WordPress のバージョンが XML Sitemaps には古すぎます。"
+
+#: class-googlesitemapgeneratorui.php:1974
+msgid "Reset options"
+msgstr "設定をリセット"
+
+#: class-googlesitemapgeneratorui.php:1973
+msgid "Update options"
+msgstr "設定を更新"
+
+#: class-googlesitemapgeneratorui.php:1934
+msgid "Archives"
+msgstr "アーカイブ別"
+
+#: class-googlesitemapgeneratorui.php:1889
+msgid "Minimum post priority (Even if auto calculation is enabled)"
+msgstr "最小投稿優先度 (自動計算が有効な場合も含む)"
+
+#: class-googlesitemapgeneratorui.php:1882
+msgid "Posts (If auto calculation is disabled)"
+msgstr "投稿 (自動計算が無効の場合)"
+
+#: class-googlesitemapgeneratorui.php:1870
+msgid "Priorities"
+msgstr "優先順位の設定"
+
+#: class-googlesitemapgeneratorui.php:1862
+#: class-googlesitemapgeneratorui.php:1949
+msgid "Author pages"
+msgstr "投稿者ページ"
+
+#: class-googlesitemapgeneratorui.php:1855
+#: class-googlesitemapgeneratorui.php:1941
+msgid "Tag pages"
+msgstr "タグページ"
+
+#: class-googlesitemapgeneratorui.php:1848
+msgid "Older archives (Changes only if you edit an old post)"
+msgstr "古いアーカイブ (古い投稿を編集したときにのみ変更)"
+
+#: class-googlesitemapgeneratorui.php:1842
+msgid "The current archive of this month (Should be the same like your homepage)"
+msgstr "今月の最新アーカイブ (ホームページと同じはずです)"
+
+#: class-googlesitemapgeneratorui.php:1810
+#: class-googlesitemapgeneratorui.php:1902
+msgid "Categories"
+msgstr "カテゴリー別"
+
+#: class-googlesitemapgeneratorui.php:1804
+#: class-googlesitemapgeneratorui.php:1896
+msgid "Static pages"
+msgstr "固定ページ"
+
+#: class-googlesitemapgeneratorui.php:1798
+msgid "Posts"
+msgstr "投稿"
+
+#: class-googlesitemapgeneratorui.php:1792
+#: class-googlesitemapgeneratorui.php:1875
+msgid "Homepage"
+msgstr "ホームページ"
+
+#: class-googlesitemapgeneratorui.php:1786
+msgid "Please note that the value of this tag is considered a hint and not a command. Even though search engine crawlers consider this information when making decisions, they may crawl pages marked 'hourly' less frequently than that, and they may crawl pages marked 'yearly' more frequently than that. It is also likely that crawlers will periodically crawl pages marked 'never' so that they can handle unexpected changes to those pages."
+msgstr "このタグの値はヒントであり、指示ではないことに注意してください。検索エンジンのクローラーはこの情報を考慮して判断しますが、「1時間ごと」と表示されたページをクロールする頻度はそれよりも低く、「1年ごと」と表示されたページをクロールする頻度はそれよりも高いかもしれません。また、「更新なし」と表示されたページの予期せぬ変更に対応できるよう、クローラーが定期的にクロールする可能性もあります。"
+
+#: class-googlesitemapgeneratorui.php:1782
+msgid "Change Frequencies"
+msgstr "更新頻度の設定"
+
+#: class-googlesitemapgeneratorui.php:1776
+msgid "Child posts won't be excluded automatically!"
+msgstr "子カテゴリーは自動的に除外しません。"
+
+#: class-googlesitemapgeneratorui.php:1774
+msgid "List of IDs, separated by comma"
+msgstr "カンマ区切りの ID 一覧"
+
+#: class-googlesitemapgeneratorui.php:1774
+msgid "Exclude the following posts or pages:"
+msgstr "以下の投稿または固定ページを含めない:"
+
+#: class-googlesitemapgeneratorui.php:1772
+msgid "Exclude posts"
+msgstr "投稿を除外"
+
+#: class-googlesitemapgeneratorui.php:1712
+msgid "Excluded categories"
+msgstr "含めないカテゴリー"
+
+#: class-googlesitemapgeneratorui.php:1710
+msgid "Excluded Items"
+msgstr "除外する項目"
+
+#: class-googlesitemapgeneratorui.php:1693
+msgid "This is highly recommended and helps the search engines to know when your content has changed. This option affects <i>all</i> sitemap entries."
+msgstr "これは強く推奨されており、検索エンジンがコンテンツの変更を認識するのに役立ちます。このオプションは、<i>すべて</i>のサイトマップエントリーに影響します。"
+
+#: class-googlesitemapgeneratorui.php:1686
+msgid "Include the last modification time."
+msgstr "最終更新時刻を含める。"
+
+#: class-googlesitemapgeneratorui.php:1681
+msgid "Further options"
+msgstr "詳細なオプション"
+
+#. translators: %s: search term
+#: class-googlesitemapgeneratorui.php:1667
+msgid "Include custom post type %s"
+msgstr "カスタム投稿タイプ %s を含める"
+
+#: class-googlesitemapgeneratorui.php:1652
+msgid "Custom post types"
+msgstr "カスタム投稿タイプ"
+
+#. translators: %s: search term
+#: class-googlesitemapgeneratorui.php:1632
+msgid "Include taxonomy pages for %s"
+msgstr "%sのタクソノミーページを含める"
+
+#: class-googlesitemapgeneratorui.php:1617
+msgid "Custom taxonomies"
+msgstr "カスタムタクソノミー"
+
+#: class-googlesitemapgeneratorui.php:1600
+msgid "Include tag pages"
+msgstr "タグページを含める"
+
+#: class-googlesitemapgeneratorui.php:1593
+msgid "Include author pages"
+msgstr "投稿者ページを含める"
+
+#: class-googlesitemapgeneratorui.php:1587
+msgid "Include archives"
+msgstr "アーカイブページを含める"
+
+#: class-googlesitemapgeneratorui.php:1581
+msgid "Include categories"
+msgstr "カテゴリーページを含める"
+
+#: class-googlesitemapgeneratorui.php:1575
+msgid "Include static pages"
+msgstr "固定ページを含める"
+
+#: class-googlesitemapgeneratorui.php:1551
+msgid "Include posts"
+msgstr "投稿を含める"
+
+#: class-googlesitemapgeneratorui.php:1545
+msgid "Include homepage"
+msgstr "ホームページを含める"
+
+#: class-googlesitemapgeneratorui.php:1540
+msgid "WordPress standard content"
+msgstr "WordPress 標準コンテンツ"
+
+#: class-googlesitemapgeneratorui.php:1539
+msgid "Sitemap Content"
+msgstr "サイトマップコンテンツ"
+
+#: class-googlesitemapgeneratorui.php:1529
+msgid "All posts will have the same priority which is defined in &quot;Priorities&quot;"
+msgstr "「優先順位の設定」による"
+
+#: class-googlesitemapgeneratorui.php:1529
+msgid "Do not use automatic priority calculation"
+msgstr "優先順位を自動的に計算しない"
+
+#: class-googlesitemapgeneratorui.php:1521
+msgid "Please select how the priority of each post should be calculated:"
+msgstr "各投稿の優先度を計算する方法を選択してください:"
+
+#: class-googlesitemapgeneratorui.php:1519
+msgid "Post Priority"
+msgstr "投稿の優先順位"
+
+#: class-googlesitemapgeneratorui.php:1513
+msgid "Add new page"
+msgstr "新しいページの追加"
+
+#: class-googlesitemapgeneratorui.php:1507
+msgid "No pages defined."
+msgstr "追加ページを定義していません。"
+
+#: class-googlesitemapgeneratorui.php:1501
+msgid "#"
+msgstr "#"
+
+#: class-googlesitemapgeneratorui.php:1499
+msgid "Change Frequency"
+msgstr "更新頻度"
+
+#: class-googlesitemapgeneratorui.php:1437
+msgid "Enter the date of the last change as YYYY-MM-DD (2005-12-31 for example) (optional)."
+msgstr "最終変更の日付を YYYY-MM-DD (例: 2005-12-31) の形式で入力します (オプション)。"
+
+#: class-googlesitemapgeneratorui.php:1436
+#: class-googlesitemapgeneratorui.php:1500
+msgid "Last Changed"
+msgstr "最終更新日"
+
+#: class-googlesitemapgeneratorui.php:1434
+msgid "Choose the priority of the page relative to the other pages. For example, your homepage might have a higher priority than your imprint."
+msgstr "他のページに対し、相対的な優先順位を選んでください。 例えば、ホームページの優先順位を他のページより高くできます。"
+
+#: class-googlesitemapgeneratorui.php:1433
+#: class-googlesitemapgeneratorui.php:1498
+msgid "Priority"
+msgstr "優先順位"
+
+#: class-googlesitemapgeneratorui.php:1431
+msgid "Enter the URL to the page. Examples: http://www.foo.com/index.html or www.foo.com/home "
+msgstr "ページの URL を入力します。例: http://www.foo.com/index.html または www.foo.com/home "
+
+#: class-googlesitemapgeneratorui.php:1430
+#: class-googlesitemapgeneratorui.php:1497
+msgid "URL to the page"
+msgstr "ページの URL"
+
+#: class-googlesitemapgeneratorui.php:1428
+msgid "If your site is in a subdirectory and you want to add pages which are NOT in the site directory or beneath, you MUST place your sitemap file in the root directory (Look at the &quot;Location of your sitemap file&quot; section on this page)!"
+msgstr "サイトがサブディレクトリにあり、サイトディレクトリまたはその下にないページを追加する場合は、サイトマップファイルをルートディレクトリに配置する必要があります (このページの「サイトマップファイルの場所」セクションを参照してください)。"
+
+#: class-googlesitemapgeneratorui.php:1427
+#: class-googlesitemapgeneratorui.php:1776
+#: class-googlesitemapgeneratorui.php:1785
+msgid "Note"
+msgstr "注意"
+
+#: class-googlesitemapgeneratorui.php:1416
+msgid "Additional Pages"
+msgstr "追加ページ"
+
+#: class-googlesitemapgeneratorui.php:1405
+msgid "(The required PHP XSL Module is not installed)"
+msgstr "(必要な PHP XSL モジュールがインストールされていません)"
+
+#: class-googlesitemapgeneratorui.php:1402
+msgid "Include sitemap in HTML format"
+msgstr "HTML 形式のサイトマップを含める"
+
+#: class-googlesitemapgeneratorui.php:1387
+msgid "Use this if your site is in a sub-directory, but you want the sitemap be located in the root. Requires .htaccess modification."
+msgstr "サイトがサブディレクトリにあり、サイトマップをルートに置きたい場合に使用します。.htaccess の修正が必要です。"
+
+#: class-googlesitemapgeneratorui.php:1386
+msgid "Override the base URL of the sitemap:"
+msgstr "サイトマップのベース URL を上書き:"
+
+#: class-googlesitemapgeneratorui.php:1383
+msgid "Use default"
+msgstr "デフォルト設定を使用"
+
+#: class-googlesitemapgeneratorui.php:1379
+msgid "Full or relative URL to your .xsl file"
+msgstr ".xsl ファイルへの完全 URL または相対 URL"
+
+#: class-googlesitemapgeneratorui.php:1378
+msgid "Include a XSLT stylesheet:"
+msgstr "XSLT スタイルシートを含める:"
+
+#: class-googlesitemapgeneratorui.php:1374
+msgid "Disable this option if you get garbled content or encoding errors in your sitemap."
+msgstr "サイトマップのコンテンツが文字化けしたりエンコードエラーが発生する場合は、このオプションを無効化してください。 "
+
+#: class-googlesitemapgeneratorui.php:1372
+msgid "Try to automatically compress the sitemap if the requesting client supports it."
+msgstr "要求元クライアントがサポートしている場合に、自動的にサイトマップの圧縮を試みる"
+
+#: class-googlesitemapgeneratorui.php:1367
+msgid "in seconds, e.g. '60' or '0' for unlimited"
+msgstr "秒単位、例えば無制限の場合は「60」または「0」"
+
+#: class-googlesitemapgeneratorui.php:1367
+msgid "Try to increase the execution time limit to:"
+msgstr "実行時間の上限を増やしてみる:"
+
+#: class-googlesitemapgeneratorui.php:1364
+msgid "Try to increase the memory limit to:"
+msgstr "メモリの上限を増やしてみる:"
+
+#: class-googlesitemapgeneratorui.php:1361
+msgid "Advanced options:"
+msgstr "高度な設定:"
+
+#: class-googlesitemapgeneratorui.php:1355
+msgid "The virtual robots.txt generated by WordPress is used. A real robots.txt file must NOT exist in the site directory!"
+msgstr "WordPress が生成した仮想の robots.txt を使用しています。実際の robots.txt ファイルはサイトディレクトリに存在してはいけません。"
+
+#: class-googlesitemapgeneratorui.php:1351
+msgid "Add sitemap URL to the virtual robots.txt file."
+msgstr "サイトマップの URL を仮想 robots.txt ファイルに追加"
+
+#: class-googlesitemapgeneratorui.php:1307
+msgid "Notify Google about updates of your site"
+msgstr "Google にサイトの更新を通知"
+
+#: class-googlesitemapgeneratorui.php:1303
+#: class-googlesitemapgeneratorui.php:1361
+#: class-googlesitemapgeneratorui.php:1387
+#: class-googlesitemapgeneratorui.php:1391
+msgid "Learn more"
+msgstr "さらに詳しく"
+
+#: class-googlesitemapgeneratorui.php:1301
+msgid "Basic Options"
+msgstr "基本的な設定"
+
+#: class-googlesitemapgeneratorui.php:1285
+msgid "Since you are using Nginx as your web-server, please configure the following rewrite rules in case you get 404 Not Found errors for your sitemap:"
+msgstr "ウェブサーバーとして Nginx を使用している場合、サイトマップに対して404 Not Found エラーが発生した場合に備えて、次の書き換えルールを設定してください:"
+
+#: class-googlesitemapgeneratorui.php:1284
+msgid "Webserver Configuration"
+msgstr "ウェブサーバの設定"
+
+#. translators: %s: search term
+#: class-googlesitemapgeneratorui.php:1260
+msgid "If you encounter any problems with your sitemap you can use the <a href=\"%d\">debug function</a> to get more information."
+msgstr "サイトマップに問題が発生した場合は、<a href=\"%d\">デバッグ機能</a>を使用して詳細情報を取得できます。"
+
+#: class-googlesitemapgeneratorui.php:1234
+msgid "It took %time% seconds to notify %name%, maybe you want to disable this feature to reduce the building time."
+msgstr "%name% への通知に%time%秒かかりました。ビルド時間を短縮するためにこの機能を無効にしてください。"
+
+#: class-googlesitemapgeneratorui.php:1231
+msgid "%s was <b>successfully notified</b> about changes."
+msgstr "%sに変更を<b>正常に通知</b>しました。"
+
+#. translators: %s: search term
+#: class-googlesitemapgeneratorui.php:1212
+msgid "The URL to your sitemap index file is: <a href='%1$s'>%2$s</a>."
+msgstr "サイトマップインデックスファイルの URL: <a href='%1$s'>%2$s</a>。"
+
+#. translators: %s: search term
+#: class-googlesitemapgeneratorui.php:1201
+msgid "There is still a sitemap.xml or sitemap.xml.gz file in your site directory. Please delete them as no static files are used anymore or <a href='%s'>try to delete them automatically</a>."
+msgstr "サイトディレクトリに sitemap.xml または sitemap.xml.gz ファイルがまだ残っています。静的ファイルは使用されなくなったため、これらを削除するか、<a href='%s'>自動削除を試みてください</a>。"
+
+#: class-googlesitemapgeneratorui.php:1189
+msgid "Enable"
+msgstr "有効化"
+
+#: class-googlesitemapgeneratorui.php:1189
+msgid "Support Topics have been disabled. Enable them to see useful information regarding this plugin. No Ads or Spam!"
+msgstr "サポートトピックは無効になっています。このプラグインに関する有用な情報を表示するには、サポートトピックを有効にしてください。広告やスパムはありません。"
+
+#: class-googlesitemapgeneratorui.php:1186
+msgid "No support topics available or an error occurred while fetching them."
+msgstr "サポートトピックがないか、取得中にエラーが発生しました。"
+
+#: class-googlesitemapgeneratorui.php:1167
+msgid "Disable"
+msgstr "無効化"
+
+#: class-googlesitemapgeneratorui.php:1163
+msgid "Recent Support Topics / News"
+msgstr "最近のサポートトピック / ニュース"
+
+#. translators: %s: search term
+#: class-googlesitemapgeneratorui.php:1154
+msgid "Result of the last ping, started on %date%."
+msgstr "%date%に実行したpingの結果。"
+
+#: class-googlesitemapgeneratorui.php:1148
+msgid "Search engines haven't been notified yet"
+msgstr "検索エンジンにまだ通知していません"
+
+#: class-googlesitemapgeneratorui.php:1125
+msgid "Official Sitemaps FAQ"
+msgstr "Sitemaps プラグイン公式 FAQ"
+
+#: class-googlesitemapgeneratorui.php:1123
+msgid "Sitemaps Protocol"
+msgstr "サイトマッププロトコル"
+
+#: class-googlesitemapgeneratorui.php:1117
+msgid "Sitemap Resources:"
+msgstr "サイトマップリソース:"
+
+#: class-googlesitemapgeneratorui.php:1114
+msgid "translator_url"
+msgstr "translator_url"
+
+#: class-googlesitemapgeneratorui.php:1112
+#: class-googlesitemapgeneratorui.php:1114
+msgid "translator_name"
+msgstr "translator_name"
+
+#: class-googlesitemapgeneratorui.php:1110
+msgid "Report a Bug"
+msgstr "バグを報告"
+
+#: class-googlesitemapgeneratorui.php:1106
+msgid "Suggest a Feature"
+msgstr "機能を提案"
+
+#: class-googlesitemapgeneratorui.php:1105
+msgid "Plugin Homepage"
+msgstr "プラグインのホームページ"
+
+#: class-googlesitemapgeneratorui.php:1104
+msgid "About this Plugin:"
+msgstr "このプラグインについて:"
+
+#: sitemap-core.php:2896
+msgid "Don't show this anymore"
+msgstr "これ以上表示しない"
+
+#. translators: %s: search term
+#: class-googlesitemapgeneratorui.php:800
+msgid "Thanks for using this plugin! You've installed this plugin some time ago. If it works and your are satisfied, why not <a href='%1$s'>rate it</a>. and <a href='%2$s'>recommend it</a> to others? :-)"
+msgstr "このプラグインをご利用いただきありがとうございます。このプラグインはしばらく前にインストールされました。正常に動作し、満足している場合は、このプラグインを<a href='%1$s'>評価</a>して、他の人にも<a href='%2$s'>勧めて</a>みませんか ?"
+
+#: class-googlesitemapgeneratorui.php:778
+msgid "No thanks, please don't bug me anymore!"
+msgstr "結構です。これ以上邪魔しないでください。"
+
+#: class-googlesitemapgeneratorui.php:778
+msgid "Sure, but I already did!"
+msgstr "分かりました。しかし、すでにしました。"
+
+#: class-googlesitemapgeneratorui.php:746
+msgid "Hide this notice"
+msgstr "この通知を非表示化"
+
+#: class-googlesitemapgeneratorui.php:746
+msgid "Thank you very much for your donation. You help me to continue support and development of this plugin and other free software!"
+msgstr "ご寄付ありがとうございます。このプラグインや他のフリーソフトウェアのサポートと開発を継続するために、皆さんのご協力をお願いします!"
+
+#: class-googlesitemapgeneratorui.php:676
+#: class-googlesitemapgeneratorui.php:687
+msgid "Ping was executed, please see below for the result."
+msgstr "PING を実行しました。結果は以下を参照してください。"
+
+#: class-googlesitemapgeneratorui.php:660
+msgid "All done!"
+msgstr "すべて完了しました。"
+
+#: class-googlesitemapgeneratorui.php:638
+msgid "The plugin is notifying the selected search engines about your main sitemap and all sub-sitemaps. This might take a minute or two."
+msgstr "プラグインは、メインサイトマップとすべてのサブサイトマップについて、選択した検索エンジンに通知しています。これには1～2分かかる場合があります。"
+
+#: class-googlesitemapgeneratorui.php:637
+msgid "Notify Search Engines about all sitemaps"
+msgstr "すべてのサイトマップについて検索エンジンに通知する"
+
+#: class-googlesitemapgeneratorui.php:598
+msgid "The old files were successfully deleted."
+msgstr "古いファイルを正しく削除しました。"
+
+#: class-googlesitemapgeneratorui.php:596
+msgid "The old files could NOT be deleted. Please use an FTP program and delete them by yourself."
+msgstr "古いファイルを削除できませんでした。FTP プログラムを使用して、ご自身で削除してください。"
+
+#: class-googlesitemapgeneratorui.php:586
+msgid "The default configuration was restored."
+msgstr "デフォルト設定に戻しました。"
+
+#: class-googlesitemapgeneratorui.php:556
+msgid "Error while saving pages"
+msgstr "追加ページの保存中にエラーが発生しました"
+
+#: class-googlesitemapgeneratorui.php:554
+msgid "Pages saved"
+msgstr "追加ページを保存しました"
+
+#: class-googlesitemapgeneratorui.php:549
+msgid "Error while saving options"
+msgstr "設定の保存中にエラーが発生しました。"
+
+#: class-googlesitemapgeneratorui.php:547
+msgid "Configuration updated"
+msgstr "設定を更新しました"
+
+#. Plugin Name of the plugin
+#: sitemap.php class-googlesitemapgeneratorui.php:271
+#: class-googlesitemapgeneratorui.php:1065
+msgid "XML Sitemap Generator for Google"
+msgstr "XML Sitemap Generator for Google"
+
+#: class-googlesitemapgeneratorloader.php:738
+msgid "Support"
+msgstr "サポート"
+
+#: class-googlesitemapgeneratorloader.php:737
+msgid "FAQ"
+msgstr "FAQ"
+
+#: class-googlesitemapgeneratorloader.php:736
+msgid "Settings"
+msgstr "設定"
+
+#: class-googlesitemapgeneratorloader.php:311
+msgid "XML-Sitemap"
+msgstr "XML-Sitemap"
+
+#: class-googlesitemapgeneratorloader.php:311
+msgid "XML-Sitemap Generator"
+msgstr "XML-Sitemap Generator"
+
+#: sitemap-core.php:923
+msgid "Never"
+msgstr "更新なし"
+
+#: sitemap-core.php:922
+msgid "Yearly"
+msgstr "毎年"
+
+#: sitemap-core.php:921
+msgid "Monthly"
+msgstr "毎月"
+
+#: sitemap-core.php:920
+msgid "Weekly"
+msgstr "毎週"
+
+#: sitemap-core.php:919
+msgid "Daily"
+msgstr "毎日"
+
+#: sitemap-core.php:918
+msgid "Hourly"
+msgstr "毎時"
+
+#: sitemap-core.php:917
+msgid "Always"
+msgstr "常時"
+
+#: sitemap-core.php:729
+msgid "Uses the average comment count to calculate the priority"
+msgstr "平均コメント数を使用して優先度を計算する"
+
+#: sitemap-core.php:719
+msgid "Comment Average"
+msgstr "平均コメント数"
+
+#: sitemap-core.php:661
+msgid "Uses the number of comments of the post to calculate the priority"
+msgstr "投稿のコメント数に基づいて優先度を計算する"
+
+#: sitemap-core.php:651
+msgid "Comment Count"
+msgstr "コメント数"
